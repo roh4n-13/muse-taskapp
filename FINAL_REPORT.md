@@ -30,8 +30,8 @@ Built a complete, production-quality Android task manager from scratch in the `r
 ## 3. Google Sheets
 
 **Spreadsheet created**: "Task Tracker Pro — App Data"
-- **ID**: `***************************`
-- **URL**: **************************************
+- **ID**: `1KvCrSvMhVD2vRiA5bj32pDJq3PyAI617kTjMoVL938o`
+- **URL**: https://docs.google.com/spreadsheets/d/1KvCrSvMhVD2vRiA5bj32pDJq3PyAI617kTjMoVL938o/edit
 - **Tab**: "Tasks" with 21 headers in exact order (frozen + bold):
   ID, Task Name, Type, Progress, Priority, Deadline, Vendor / Craftsman, Contact Number, Estimated Cost (INR), Actual Cost (INR), Next Follow-up, Delivery Date, Payment Status, Link, Task Focus, Value Add, Notes, Task Added, Task Started, Task Completed, Last Updated
 
