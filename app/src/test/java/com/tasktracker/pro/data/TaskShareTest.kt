@@ -1,1 +1,36 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBUYXNrU2hhcmVUZXN0IHsKCiAgICBAVGVzdAogICAgZnVuIGZvcm1hdEluY2x1ZGVzRmlsbGVkRmllbGRzKCkgewogICAgICAgIHZhbCB0ZXh0ID0gVGFza1NoYXJlLmZvcm1hdCgKICAgICAgICAgICAgVGFzaygKICAgICAgICAgICAgICAgIGlkID0gIjEiLAogICAgICAgICAgICAgICAgdGFza05hbWUgPSAiQWxtYXJpIGJhbmFuYSIsCiAgICAgICAgICAgICAgICBwcm9ncmVzcyA9IFRhc2suUFJPR1JFU1NfSU5fUFJPR1JFU1MsCiAgICAgICAgICAgICAgICBkZWFkbGluZSA9ICIyMDI2LTEwLTI1IiwKICAgICAgICAgICAgICAgIHZlbmRvciA9ICJTaGFybWEgRnVybml0dXJlIiwKICAgICAgICAgICAgICAgIGNvbnRhY3ROdW1iZXIgPSAiOTg3NjU0MzIxMCIsCiAgICAgICAgICAgICAgICBlc3RpbWF0ZWRDb3N0SW5yID0gIjEyMDAwIiwKICAgICAgICAgICAgICAgIHBheW1lbnRTdGF0dXMgPSAiUGVuZGluZyIKICAgICAgICAgICAgKQogICAgICAgICkKICAgICAgICBhc3NlcnRUcnVlKHRleHQuY29udGFpbnMoIkFsbWFyaSBiYW5hbmEiKSkKICAgICAgICBhc3NlcnRUcnVlKHRleHQuY29udGFpbnMoIkRlYWRsaW5lOiAyMDI2LTEwLTI1IikpCiAgICAgICAgYXNzZXJ0VHJ1ZSh0ZXh0LmNvbnRhaW5zKCJWZW5kb3I6IFNoYXJtYSBGdXJuaXR1cmUiKSkKICAgICAgICBhc3NlcnRUcnVlKHRleHQuY29udGFpbnMoIuKCuTEyMDAwIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBmb3JtYXRPbWl0c0JsYW5rRmllbGRzKCkgewogICAgICAgIHZhbCB0ZXh0ID0gVGFza1NoYXJlLmZvcm1hdChUYXNrKGlkID0gIjEiLCB0YXNrTmFtZSA9ICJTaW1wbGUiKSkKICAgICAgICBhc3NlcnRGYWxzZSh0ZXh0LmNvbnRhaW5zKCJWZW5kb3I6IikpCiAgICAgICAgYXNzZXJ0RmFsc2UodGV4dC5jb250YWlucygiRGVhZGxpbmU6IikpCiAgICAgICAgYXNzZXJ0RmFsc2UodGV4dC5jb250YWlucygiQWN0dWFsIENvc3QiKSkKICAgIH0KfQo=
+package com.tasktracker.pro.data
+
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class TaskShareTest {
+
+    @Test
+    fun formatIncludesFilledFields() {
+        val text = TaskShare.format(
+            Task(
+                id = "1",
+                taskName = "Almari banana",
+                progress = Task.PROGRESS_IN_PROGRESS,
+                deadline = "2026-10-25",
+                vendor = "Sharma Furniture",
+                contactNumber = "9876543210",
+                estimatedCostInr = "12000",
+                paymentStatus = "Pending"
+            )
+        )
+        assertTrue(text.contains("Almari banana"))
+        assertTrue(text.contains("Deadline: 2026-10-25"))
+        assertTrue(text.contains("Vendor: Sharma Furniture"))
+        assertTrue(text.contains("₹12000"))
+    }
+
+    @Test
+    fun formatOmitsBlankFields() {
+        val text = TaskShare.format(Task(id = "1", taskName = "Simple"))
+        assertFalse(text.contains("Vendor:"))
+        assertFalse(text.contains("Deadline:"))
+        assertFalse(text.contains("Actual Cost"))
+    }
+}
