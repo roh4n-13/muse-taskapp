@@ -1,1 +1,165 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEuc3luYwoKaW1wb3J0IGNvbS50YXNrdHJhY2tlci5wcm8uZGF0YS5UYXNrCmltcG9ydCBva2h0dHAzLk1lZGlhVHlwZS5Db21wYW5pb24udG9NZWRpYVR5cGUKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CmltcG9ydCBva2h0dHAzLlJlcXVlc3QKaW1wb3J0IG9raHR0cDMuUmVxdWVzdEJvZHkuQ29tcGFuaW9uLnRvUmVxdWVzdEJvZHkKaW1wb3J0IG9yZy5qc29uLkpTT05BcnJheQppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuVGltZVVuaXQKCi8qKiBSZXN1bHQgb2Ygb25lIGJhY2tlbmQgY2FsbC4gTmV2ZXIgdGhyb3dzIGZvciB0cmFuc3BvcnQgcHJvYmxlbXMg4oCUIHRoZXkgYmVjb21lIGVycm9ycy4gKi8KZGF0YSBjbGFzcyBBcGlSZXN1bHQ8VD4odmFsIG9rOiBCb29sZWFuLCB2YWwgZGF0YTogVD8sIHZhbCBlcnJvcjogU3RyaW5nKSB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBmdW4gPFQ+IHN1Y2Nlc3MoZGF0YTogVCk6IEFwaVJlc3VsdDxUPiA9IEFwaVJlc3VsdCh0cnVlLCBkYXRhLCAiIikKICAgICAgICBmdW4gPFQ+IGZhaWx1cmUoZXJyb3I6IFN0cmluZyk6IEFwaVJlc3VsdDxUPiA9IEFwaVJlc3VsdChmYWxzZSwgbnVsbCwgZXJyb3IpCiAgICB9Cn0KCmRhdGEgY2xhc3MgUGluZ0luZm8odmFsIHZlcnNpb246IEludCwgdmFsIHNoZWV0VGl0bGU6IFN0cmluZywgdmFsIHRhc2tDb3VudDogSW50KQoKLyoqIFJlc3VsdCBvZiBhIGJhdGNoIHVwc2VydDogaG93IG1hbnkgd3JvdGUsIGFuZCB3aGljaCBJRHMgdGhlIHNlcnZlciBza2lwcGVkLiAqLwpkYXRhIGNsYXNzIEJhdGNoVXBzZXJ0UmVzdWx0KHZhbCB1cHNlcnRlZDogSW50LCB2YWwgc2tpcHBlZElkczogTGlzdDxTdHJpbmc+KQoKLyoqIEFic3RyYWN0aW9uIG92ZXIgdGhlIEFwcHMgU2NyaXB0IGJhY2tlbmQgc28gdGhlIHN5bmMgZW5naW5lIGlzIHVuaXQtdGVzdGFibGUuICovCmludGVyZmFjZSBTaGVldHNBcGkgewogICAgZnVuIGlzVmFsaWRXZWJBcHBVcmwodXJsOiBTdHJpbmcpOiBCb29sZWFuCiAgICBmdW4gcGluZyh1cmw6IFN0cmluZywgdG9rZW46IFN0cmluZyk6IEFwaVJlc3VsdDxQaW5nSW5mbz4KICAgIGZ1biBzbmFwc2hvdCh1cmw6IFN0cmluZywgdG9rZW46IFN0cmluZyk6IEFwaVJlc3VsdDxMaXN0PFRhc2s+PgogICAgZnVuIHVwc2VydCh1cmw6IFN0cmluZywgdG9rZW46IFN0cmluZywgdGFzazogVGFzayk6IEFwaVJlc3VsdDxTdHJpbmc+CiAgICBmdW4gZGVsZXRlKHVybDogU3RyaW5nLCB0b2tlbjogU3RyaW5nLCBpZDogU3RyaW5nKTogQXBpUmVzdWx0PEJvb2xlYW4+CiAgICBmdW4gYmF0Y2hVcHNlcnQodXJsOiBTdHJpbmcsIHRva2VuOiBTdHJpbmcsIHRhc2tzOiBMaXN0PFRhc2s+KTogQXBpUmVzdWx0PEJhdGNoVXBzZXJ0UmVzdWx0Pgp9CgovKioKICogVGhpbiBIVFRQIGNsaWVudCBmb3IgdGhlIEdvb2dsZSBBcHBzIFNjcmlwdCBXZWIgQXBwIGJhY2tlbmQuCiAqIEFsbCBtZXRob2RzIGFyZSBibG9ja2luZyDigJQgY2FsbCBmcm9tIERpc3BhdGNoZXJzLklPLgogKi8KY2xhc3MgQXBwc1NjcmlwdENsaWVudCA6IFNoZWV0c0FwaSB7CiAgICBwcml2YXRlIHZhbCBodHRwID0gT2tIdHRwQ2xpZW50LkJ1aWxkZXIoKQogICAgICAgIC5jb25uZWN0VGltZW91dCgyMCwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAucmVhZFRpbWVvdXQoMzAsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgLndyaXRlVGltZW91dCgzMCwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAuZm9sbG93UmVkaXJlY3RzKHRydWUpCiAgICAgICAgLmJ1aWxkKCkKCiAgICAvKiogQWNjZXB0cyB0aGUgc3RhbmRhcmQgQXBwcyBTY3JpcHQgV2ViIEFwcCBVUkwgc2hhcGVzIGVuZGluZyBpbiAvZXhlYy4gKi8KICAgIG92ZXJyaWRlIGZ1biBpc1ZhbGlkV2ViQXBwVXJsKHVybDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIHQgPSB1cmwudHJpbSgpCiAgICAgICAgaWYgKCF0LnN0YXJ0c1dpdGgoImh0dHBzOi8vIikpIHJldHVybiBmYWxzZQogICAgICAgIGlmICghdC5jb250YWlucygic2NyaXB0Lmdvb2dsZSIpKSByZXR1cm4gZmFsc2UKICAgICAgICB2YWwgcGF0aCA9IHQuc3Vic3RyaW5nQmVmb3JlKCI/IikudHJpbUVuZCgnLycpCiAgICAgICAgcmV0dXJuIHBhdGguZW5kc1dpdGgoIi9leGVjIikKICAgIH0KCiAgICAvKiogUmF3IGFjdGlvbiBjYWxsLiBSZXR1cm5zIHRoZSBwYXJzZWQgcmVzcG9uc2Ugb2JqZWN0LCBvciBudWxsIG9uIHRyYW5zcG9ydCBmYWlsdXJlLiAqLwogICAgcHJpdmF0ZSBmdW4gY2FsbCh1cmw6IFN0cmluZywgdG9rZW46IFN0cmluZywgYWN0aW9uOiBTdHJpbmcsIHBheWxvYWQ6IEpTT05PYmplY3Q/KTogSlNPTk9iamVjdD8gewogICAgICAgIHZhbCBib2R5ID0gSlNPTk9iamVjdCgpCiAgICAgICAgICAgIC5wdXQoInRva2VuIiwgdG9rZW4pCiAgICAgICAgICAgIC5wdXQoImFjdGlvbiIsIGFjdGlvbikKICAgICAgICBpZiAocGF5bG9hZCAhPSBudWxsKSBib2R5LnB1dCgicGF5bG9hZCIsIHBheWxvYWQpCiAgICAgICAgdmFsIHJlcXVlc3QgPSBSZXF1ZXN0LkJ1aWxkZXIoKQogICAgICAgICAgICAudXJsKHVybC50cmltKCkpCiAgICAgICAgICAgIC5wb3N0KGJvZHkudG9TdHJpbmcoKS50b1JlcXVlc3RCb2R5KCJhcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PXV0Zi04Ii50b01lZGlhVHlwZSgpKSkKICAgICAgICAgICAgLmhlYWRlcigiQWNjZXB0IiwgImFwcGxpY2F0aW9uL2pzb24iKQogICAgICAgICAgICAuYnVpbGQoKQogICAgICAgIGh0dHAubmV3Q2FsbChyZXF1ZXN0KS5leGVjdXRlKCkudXNlIHsgcmVzcCAtPgogICAgICAgICAgICBpZiAoIXJlc3AuaXNTdWNjZXNzZnVsKSByZXR1cm4gbnVsbAogICAgICAgICAgICB2YWwgdGV4dCA9IHJlc3AuYm9keT8uc3RyaW5nKCk/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICAgICAgaWYgKHRleHQuaXNFbXB0eSgpKSByZXR1cm4gbnVsbAogICAgICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgICAgIEpTT05PYmplY3QodGV4dCkKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gPFQ+IHdyYXAoCiAgICAgICAgdXJsOiBTdHJpbmcsCiAgICAgICAgdG9rZW46IFN0cmluZywKICAgICAgICBhY3Rpb246IFN0cmluZywKICAgICAgICBwYXlsb2FkOiBKU09OT2JqZWN0PywKICAgICAgICBwYXJzZTogKEpTT05PYmplY3QpIC0+IFQKICAgICk6IEFwaVJlc3VsdDxUPiB7CiAgICAgICAgdmFsIGpzb24gPSB0cnkgewogICAgICAgICAgICBjYWxsKHVybCwgdG9rZW4sIGFjdGlvbiwgcGF5bG9hZCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgcmV0dXJuIEFwaVJlc3VsdC5mYWlsdXJlKCJOZXR3b3JrIGVycm9yOiAke2UubWVzc2FnZSA/OiAiY29ubmVjdGlvbiBmYWlsZWQifSIpCiAgICAgICAgfSA/OiByZXR1cm4gQXBpUmVzdWx0LmZhaWx1cmUoCiAgICAgICAgICAgICJObyB2YWxpZCByZXNwb25zZSBmcm9tIHRoZSBzZXJ2ZXIuIENoZWNrIHRoZSBVUkwgYW5kIHlvdXIgaW50ZXJuZXQgY29ubmVjdGlvbi4iCiAgICAgICAgKQogICAgICAgIGlmICghanNvbi5vcHRCb29sZWFuKCJvayIsIGZhbHNlKSkgewogICAgICAgICAgICByZXR1cm4gQXBpUmVzdWx0LmZhaWx1cmUoanNvbi5vcHRTdHJpbmcoImVycm9yIiwgIlNlcnZlciByZXBvcnRlZCBhbiBlcnJvci4iKS5pZkJsYW5rIHsgIlNlcnZlciByZXBvcnRlZCBhbiBlcnJvci4iIH0pCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBBcGlSZXN1bHQuc3VjY2VzcyhwYXJzZShqc29uKSkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBpUmVzdWx0LmZhaWx1cmUoIlRoZSBzZXJ2ZXIgcmVzcG9uc2Ugd2FzIG1hbGZvcm1lZDogJHtlLm1lc3NhZ2V9IikKICAgICAgICB9CiAgICB9CgogICAgLyoqIFZlcmlmaWVzIFVSTCArIHRva2VuIHdpdGggYSByZWFkLW9ubHkgY2FsbC4gQ2hhbmdlcyBub3RoaW5nIG9uIHRoZSBzaGVldC4gKi8KICAgIG92ZXJyaWRlIGZ1biBwaW5nKHVybDogU3RyaW5nLCB0b2tlbjogU3RyaW5nKTogQXBpUmVzdWx0PFBpbmdJbmZvPiA9CiAgICAgICAgd3JhcCh1cmwsIHRva2VuLCAicGluZyIsIG51bGwpIHsganNvbiAtPgogICAgICAgICAgICB2YWwgZCA9IGpzb24uZ2V0SlNPTk9iamVjdCgiZGF0YSIpCiAgICAgICAgICAgIFBpbmdJbmZvKAogICAgICAgICAgICAgICAgdmVyc2lvbiA9IGQub3B0SW50KCJ2ZXJzaW9uIiwgMCksCiAgICAgICAgICAgICAgICBzaGVldFRpdGxlID0gZC5vcHRTdHJpbmcoInNoZWV0VGl0bGUiLCAiIiksCiAgICAgICAgICAgICAgICB0YXNrQ291bnQgPSBkLm9wdEludCgidGFza0NvdW50IiwgMCkKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAvKiogRnVsbCB2YWxpZGF0ZWQgc25hcHNob3Qgb2YgcmVtb3RlIHRhc2tzLiAqLwogICAgb3ZlcnJpZGUgZnVuIHNuYXBzaG90KHVybDogU3RyaW5nLCB0b2tlbjogU3RyaW5nKTogQXBpUmVzdWx0PExpc3Q8VGFzaz4+ID0KICAgICAgICB3cmFwKHVybCwgdG9rZW4sICJzbmFwc2hvdCIsIG51bGwpIHsganNvbiAtPgogICAgICAgICAgICB2YWwgYXJyID0ganNvbi5nZXRKU09OT2JqZWN0KCJkYXRhIikuZ2V0SlNPTkFycmF5KCJ0YXNrcyIpCiAgICAgICAgICAgIHZhbCBvdXQgPSBBcnJheUxpc3Q8VGFzaz4oYXJyLmxlbmd0aCgpKQogICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBhcnIubGVuZ3RoKCkpIHsKICAgICAgICAgICAgICAgIHZhbCBvYmogPSBhcnIuZ2V0SlNPTk9iamVjdChpKQogICAgICAgICAgICAgICAgdmFsIG1hcCA9IEhhc2hNYXA8U3RyaW5nLCBTdHJpbmc/PihvYmoubGVuZ3RoKCkpCiAgICAgICAgICAgICAgICB2YWwga2V5cyA9IG9iai5rZXlzKCkKICAgICAgICAgICAgICAgIHdoaWxlIChrZXlzLmhhc05leHQoKSkgewogICAgICAgICAgICAgICAgICAgIHZhbCBrID0ga2V5cy5uZXh0KCkKICAgICAgICAgICAgICAgICAgICBtYXBba10gPSBpZiAob2JqLmlzTnVsbChrKSkgbnVsbCBlbHNlIG9iai5vcHRTdHJpbmcoaywgIiIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTaGVldHNTY2hlbWEubWFwVG9UYXNrKG1hcCk/LmxldCB7IG91dC5hZGQoaXQpIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBvdXQKICAgICAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHVwc2VydCh1cmw6IFN0cmluZywgdG9rZW46IFN0cmluZywgdGFzazogVGFzayk6IEFwaVJlc3VsdDxTdHJpbmc+IHsKICAgICAgICB2YWwgcGF5bG9hZCA9IEpTT05PYmplY3QoKS5wdXQoInRhc2siLCBKU09OT2JqZWN0KFNoZWV0c1NjaGVtYS50YXNrVG9NYXAodGFzaykpKQogICAgICAgIHJldHVybiB3cmFwKHVybCwgdG9rZW4sICJ1cHNlcnQiLCBwYXlsb2FkKSB7IGpzb24gLT4KICAgICAgICAgICAganNvbi5nZXRKU09OT2JqZWN0KCJkYXRhIikuZ2V0U3RyaW5nKCJpZCIpCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBkZWxldGUodXJsOiBTdHJpbmcsIHRva2VuOiBTdHJpbmcsIGlkOiBTdHJpbmcpOiBBcGlSZXN1bHQ8Qm9vbGVhbj4gewogICAgICAgIHZhbCBwYXlsb2FkID0gSlNPTk9iamVjdCgpLnB1dCgiaWQiLCBpZCkKICAgICAgICByZXR1cm4gd3JhcCh1cmwsIHRva2VuLCAiZGVsZXRlIiwgcGF5bG9hZCkgeyBqc29uIC0+CiAgICAgICAgICAgIGpzb24uZ2V0SlNPTk9iamVjdCgiZGF0YSIpLm9wdEJvb2xlYW4oImRlbGV0ZWQiLCBmYWxzZSkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGJhdGNoVXBzZXJ0KHVybDogU3RyaW5nLCB0b2tlbjogU3RyaW5nLCB0YXNrczogTGlzdDxUYXNrPik6IEFwaVJlc3VsdDxCYXRjaFVwc2VydFJlc3VsdD4gewogICAgICAgIHZhbCBhcnIgPSBKU09OQXJyYXkoKQogICAgICAgIHRhc2tzLmZvckVhY2ggeyBhcnIucHV0KEpTT05PYmplY3QoU2hlZXRzU2NoZW1hLnRhc2tUb01hcChpdCkpKSB9CiAgICAgICAgdmFsIHBheWxvYWQgPSBKU09OT2JqZWN0KCkucHV0KCJ0YXNrcyIsIGFycikKICAgICAgICByZXR1cm4gd3JhcCh1cmwsIHRva2VuLCAiYmF0Y2hVcHNlcnQiLCBwYXlsb2FkKSB7IGpzb24gLT4KICAgICAgICAgICAgdmFsIGQgPSBqc29uLmdldEpTT05PYmplY3QoImRhdGEiKQogICAgICAgICAgICB2YWwgc2tpcHBlZCA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgICAgIHZhbCBza2lwcGVkQXJyID0gZC5vcHRKU09OQXJyYXkoInNraXBwZWRJZHMiKQogICAgICAgICAgICBpZiAoc2tpcHBlZEFyciAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBza2lwcGVkQXJyLmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICAgICAgc2tpcHBlZC5hZGQoc2tpcHBlZEFyci5vcHRTdHJpbmcoaSwgIiIpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIEJhdGNoVXBzZXJ0UmVzdWx0KAogICAgICAgICAgICAgICAgdXBzZXJ0ZWQgPSBkLm9wdEludCgidXBzZXJ0ZWQiLCAwKSwKICAgICAgICAgICAgICAgIHNraXBwZWRJZHMgPSBza2lwcGVkLmZpbHRlciB7IGl0LmlzTm90RW1wdHkoKSB9CiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.tasktracker.pro.data.sync
+
+import com.tasktracker.pro.data.Task
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
+import org.json.JSONArray
+import org.json.JSONObject
+import java.util.concurrent.TimeUnit
+
+/** Result of one backend call. Never throws for transport problems — they become errors. */
+data class ApiResult<T>(val ok: Boolean, val data: T?, val error: String) {
+    companion object {
+        fun <T> success(data: T): ApiResult<T> = ApiResult(true, data, "")
+        fun <T> failure(error: String): ApiResult<T> = ApiResult(false, null, error)
+    }
+}
+
+data class PingInfo(val version: Int, val sheetTitle: String, val taskCount: Int)
+
+/** Result of a batch upsert: how many wrote, and which IDs the server skipped. */
+data class BatchUpsertResult(val upserted: Int, val skippedIds: List<String>)
+
+/** Abstraction over the Apps Script backend so the sync engine is unit-testable. */
+interface SheetsApi {
+    fun isValidWebAppUrl(url: String): Boolean
+    fun ping(url: String, token: String): ApiResult<PingInfo>
+    fun snapshot(url: String, token: String): ApiResult<List<Task>>
+    fun upsert(url: String, token: String, task: Task): ApiResult<String>
+    fun delete(url: String, token: String, id: String): ApiResult<Boolean>
+    fun batchUpsert(url: String, token: String, tasks: List<Task>): ApiResult<BatchUpsertResult>
+}
+
+/**
+ * Thin HTTP client for the Google Apps Script Web App backend.
+ * All methods are blocking — call from Dispatchers.IO.
+ */
+class AppsScriptClient : SheetsApi {
+    private val http = OkHttpClient.Builder()
+        .connectTimeout(20, TimeUnit.SECONDS)
+        .readTimeout(30, TimeUnit.SECONDS)
+        .writeTimeout(30, TimeUnit.SECONDS)
+        .followRedirects(true)
+        .build()
+
+    /** Accepts the standard Apps Script Web App URL shapes ending in /exec. */
+    override fun isValidWebAppUrl(url: String): Boolean {
+        val t = url.trim()
+        if (!t.startsWith("https://")) return false
+        if (!t.contains("script.google")) return false
+        val path = t.substringBefore("?").trimEnd('/')
+        return path.endsWith("/exec")
+    }
+
+    /** Raw action call. Returns the parsed response object, or null on transport failure. */
+    private fun call(url: String, token: String, action: String, payload: JSONObject?): JSONObject? {
+        val body = JSONObject()
+            .put("token", token)
+            .put("action", action)
+        if (payload != null) body.put("payload", payload)
+        val request = Request.Builder()
+            .url(url.trim())
+            .post(body.toString().toRequestBody("application/json; charset=utf-8".toMediaType()))
+            .header("Accept", "application/json")
+            .build()
+        http.newCall(request).execute().use { resp ->
+            if (!resp.isSuccessful) return null
+            val text = resp.body?.string()?.trim().orEmpty()
+            if (text.isEmpty()) return null
+            return try {
+                JSONObject(text)
+            } catch (e: Exception) {
+                null
+            }
+        }
+    }
+
+    private fun <T> wrap(
+        url: String,
+        token: String,
+        action: String,
+        payload: JSONObject?,
+        parse: (JSONObject) -> T
+    ): ApiResult<T> {
+        val json = try {
+            call(url, token, action, payload)
+        } catch (e: Exception) {
+            return ApiResult.failure("Network error: ${e.message ?: "connection failed"}")
+        } ?: return ApiResult.failure(
+            "No valid response from the server. Check the URL and your internet connection."
+        )
+        if (!json.optBoolean("ok", false)) {
+            return ApiResult.failure(json.optString("error", "Server reported an error.").ifBlank { "Server reported an error." })
+        }
+        return try {
+            ApiResult.success(parse(json))
+        } catch (e: Exception) {
+            ApiResult.failure("The server response was malformed: ${e.message}")
+        }
+    }
+
+    /** Verifies URL + token with a read-only call. Changes nothing on the sheet. */
+    override fun ping(url: String, token: String): ApiResult<PingInfo> =
+        wrap(url, token, "ping", null) { json ->
+            val d = json.getJSONObject("data")
+            PingInfo(
+                version = d.optInt("version", 0),
+                sheetTitle = d.optString("sheetTitle", ""),
+                taskCount = d.optInt("taskCount", 0)
+            )
+        }
+
+    /** Full validated snapshot of remote tasks. */
+    override fun snapshot(url: String, token: String): ApiResult<List<Task>> =
+        wrap(url, token, "snapshot", null) { json ->
+            val arr = json.getJSONObject("data").getJSONArray("tasks")
+            val out = ArrayList<Task>(arr.length())
+            for (i in 0 until arr.length()) {
+                val obj = arr.getJSONObject(i)
+                val map = HashMap<String, String?>(obj.length())
+                val keys = obj.keys()
+                while (keys.hasNext()) {
+                    val k = keys.next()
+                    map[k] = if (obj.isNull(k)) null else obj.optString(k, "")
+                }
+                SheetsSchema.mapToTask(map)?.let { out.add(it) }
+            }
+            out
+        }
+
+    override fun upsert(url: String, token: String, task: Task): ApiResult<String> {
+        val payload = JSONObject().put("task", JSONObject(SheetsSchema.taskToMap(task)))
+        return wrap(url, token, "upsert", payload) { json ->
+            json.getJSONObject("data").getString("id")
+        }
+    }
+
+    override fun delete(url: String, token: String, id: String): ApiResult<Boolean> {
+        val payload = JSONObject().put("id", id)
+        return wrap(url, token, "delete", payload) { json ->
+            json.getJSONObject("data").optBoolean("deleted", false)
+        }
+    }
+
+    override fun batchUpsert(url: String, token: String, tasks: List<Task>): ApiResult<BatchUpsertResult> {
+        val arr = JSONArray()
+        tasks.forEach { arr.put(JSONObject(SheetsSchema.taskToMap(it))) }
+        val payload = JSONObject().put("tasks", arr)
+        return wrap(url, token, "batchUpsert", payload) { json ->
+            val d = json.getJSONObject("data")
+            val skipped = mutableListOf<String>()
+            val skippedArr = d.optJSONArray("skippedIds")
+            if (skippedArr != null) {
+                for (i in 0 until skippedArr.length()) {
+                    skipped.add(skippedArr.optString(i, ""))
+                }
+            }
+            BatchUpsertResult(
+                upserted = d.optInt("upserted", 0),
+                skippedIds = skipped.filter { it.isNotEmpty() }
+            )
+        }
+    }
+}
