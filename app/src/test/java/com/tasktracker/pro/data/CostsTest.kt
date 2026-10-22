@@ -1,1 +1,101 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRGYWxzZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQ29zdHNUZXN0IHsKCiAgICBwcml2YXRlIGZ1biB0YXNrKAogICAgICAgIGlkOiBTdHJpbmcsCiAgICAgICAgZXN0OiBTdHJpbmcgPSAiIiwKICAgICAgICBhY3Q6IFN0cmluZyA9ICIiLAogICAgICAgIHBheW1lbnQ6IFN0cmluZyA9ICIiLAogICAgICAgIHZlbmRvcjogU3RyaW5nID0gIiIsCiAgICAgICAgZGVsZXRlZDogQm9vbGVhbiA9IGZhbHNlCiAgICApID0gVGFzaygKICAgICAgICBpZCA9IGlkLAogICAgICAgIHRhc2tOYW1lID0gIlRhc2sgJGlkIiwKICAgICAgICBlc3RpbWF0ZWRDb3N0SW5yID0gZXN0LAogICAgICAgIGFjdHVhbENvc3RJbnIgPSBhY3QsCiAgICAgICAgcGF5bWVudFN0YXR1cyA9IHBheW1lbnQsCiAgICAgICAgdmVuZG9yID0gdmVuZG9yLAogICAgICAgIGRlbGV0ZWQgPSBkZWxldGVkCiAgICApCgogICAgQFRlc3QKICAgIGZ1biBwYXJzZU1vbmV5SGFuZGxlc1J1cGVlU3ltYm9sQ29tbWFzQW5kR2FyYmFnZSgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMTIwMC4wLCBDb3N0cy5wYXJzZU1vbmV5KCLigrkxLDIwMCIpLCAwLjAwMSkKICAgICAgICBhc3NlcnRFcXVhbHMoMTIwMC41LCBDb3N0cy5wYXJzZU1vbmV5KCIxMjAwLjUwIiksIDAuMDAxKQogICAgICAgIGFzc2VydEVxdWFscygwLjAsIENvc3RzLnBhcnNlTW9uZXkoIiIpLCAwLjAwMSkKICAgICAgICBhc3NlcnRFcXVhbHMoMC4wLCBDb3N0cy5wYXJzZU1vbmV5KCJhYmMiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0b3RhbHNJbmNsdWRlQWxsTm9uRGVsZXRlZFRhc2tzKCkgewogICAgICAgIHZhbCBzID0gQ29zdHMuc3VtbWFyaXplKAogICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICB0YXNrKCJhIiwgZXN0ID0gIjEwMDAiLCBhY3QgPSAiOTAwIiwgcGF5bWVudCA9ICJQYWlkIiksCiAgICAgICAgICAgICAgICB0YXNrKCJiIiwgZXN0ID0gIjIwMDAiLCBhY3QgPSAiIiwgcGF5bWVudCA9ICJQZW5kaW5nIiksCiAgICAgICAgICAgICAgICB0YXNrKCJnb25lIiwgZXN0ID0gIjk5OTkiLCBhY3QgPSAiOTk5OSIsIGRlbGV0ZWQgPSB0cnVlKQogICAgICAgICAgICApCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygzMDAwLjAsIHMudG90YWxFc3RpbWF0ZWRJbnIsIDAuMDAxKQogICAgICAgIGFzc2VydEVxdWFscyg5MDAuMCwgcy50b3RhbEFjdHVhbEluciwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBkdWVVc2VzQWN0dWFsV2hlbkdpdmVuRWxzZUVzdGltYXRlZCgpIHsKICAgICAgICB2YWwgcyA9IENvc3RzLnN1bW1hcml6ZSgKICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgdGFzaygiYSIsIGVzdCA9ICIxMDAwIiwgYWN0ID0gIjcwMCIsIHBheW1lbnQgPSAiIiksCiAgICAgICAgICAgICAgICB0YXNrKCJiIiwgZXN0ID0gIjUwMCIsIGFjdCA9ICIiLCBwYXltZW50ID0gIlBlbmRpbmciKQogICAgICAgICAgICApCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygxMjAwLjAsIHMuYW1vdW50RHVlSW5yLCAwLjAwMSkKICAgICAgICBhc3NlcnRFcXVhbHMoMiwgcy5wZW5kaW5nUGF5bWVudFRhc2tzKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gcGFpZFRhc2tzSGF2ZU5vRHVlX2Nhc2VJbnNlbnNpdGl2ZSgpIHsKICAgICAgICB2YWwgcyA9IENvc3RzLnN1bW1hcml6ZSgKICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgdGFzaygiYSIsIGVzdCA9ICIxMDAwIiwgYWN0ID0gIjEwMDAiLCBwYXltZW50ID0gIlBBSUQiKSwKICAgICAgICAgICAgICAgIHRhc2soImIiLCBlc3QgPSAiMTAwMCIsIGFjdCA9ICIxMDAwIiwgcGF5bWVudCA9ICIgcGFpZCAiKQogICAgICAgICAgICApCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygwLjAsIHMuYW1vdW50RHVlSW5yLCAwLjAwMSkKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgcy5wZW5kaW5nUGF5bWVudFRhc2tzKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdmVuZG9yRHVlc0FyZUdyb3VwZWRBbmRTb3J0ZWRCeUR1ZURlc2NlbmRpbmcoKSB7CiAgICAgICAgdmFsIHMgPSBDb3N0cy5zdW1tYXJpemUoCiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgIHRhc2soImEiLCBlc3QgPSAiMTAwMCIsIHBheW1lbnQgPSAiUGVuZGluZyIsIHZlbmRvciA9ICJTaGFybWEiKSwKICAgICAgICAgICAgICAgIHRhc2soImIiLCBlc3QgPSAiMzAwMCIsIHBheW1lbnQgPSAiUGVuZGluZyIsIHZlbmRvciA9ICJWZXJtYSIpLAogICAgICAgICAgICAgICAgdGFzaygiYyIsIGVzdCA9ICI1MDAiLCBwYXltZW50ID0gIlBlbmRpbmciLCB2ZW5kb3IgPSAiU2hhcm1hIiksCiAgICAgICAgICAgICAgICB0YXNrKCJkIiwgZXN0ID0gIjIwMCIsIHBheW1lbnQgPSAiUGVuZGluZyIsIHZlbmRvciA9ICIiKQogICAgICAgICAgICApCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoIlZlcm1hIiwgIlNoYXJtYSIsICJObyB2ZW5kb3IiKSwgcy52ZW5kb3JEdWVzLm1hcCB7IGl0LnZlbmRvciB9KQogICAgICAgIGFzc2VydEVxdWFscygzMDAwLjAsIHMudmVuZG9yRHVlc1swXS5kdWVJbnIsIDAuMDAxKQogICAgICAgIGFzc2VydEVxdWFscygyLCBzLnZlbmRvckR1ZXNbMV0ucGVuZGluZ1Rhc2tzKQogICAgICAgIGFzc2VydEVxdWFscygxNTAwLjAsIHMudmVuZG9yRHVlc1sxXS5kdWVJbnIsIDAuMDAxKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gZW1wdHlUYXNrTGlzdEhhc05vTW9uZXkoKSB7CiAgICAgICAgdmFsIHMgPSBDb3N0cy5zdW1tYXJpemUoZW1wdHlMaXN0KCkpCiAgICAgICAgYXNzZXJ0RmFsc2Uocy5oYXNNb25leSkKICAgICAgICBhc3NlcnRUcnVlKHMudmVuZG9yRHVlcy5pc0VtcHR5KCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBmb3JtYXRJbnJVc2VzSW5kaWFuR3JvdXBpbmcoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCLigrkxMiwzNCw1NjciLCBDb3N0cy5mb3JtYXRJbnIoMTIzNDU2Ny4wKSkKICAgICAgICBhc3NlcnRFcXVhbHMoIuKCuTEsMjAwLjUwIiwgQ29zdHMuZm9ybWF0SW5yKDEyMDAuNSkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCLigrkwIiwgQ29zdHMuZm9ybWF0SW5yKDAuMCkpCiAgICB9Cn0K
+package com.tasktracker.pro.data
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class CostsTest {
+
+    private fun task(
+        id: String,
+        est: String = "",
+        act: String = "",
+        payment: String = "",
+        vendor: String = "",
+        deleted: Boolean = false
+    ) = Task(
+        id = id,
+        taskName = "Task $id",
+        estimatedCostInr = est,
+        actualCostInr = act,
+        paymentStatus = payment,
+        vendor = vendor,
+        deleted = deleted
+    )
+
+    @Test
+    fun parseMoneyHandlesRupeeSymbolCommasAndGarbage() {
+        assertEquals(1200.0, Costs.parseMoney("₹1,200"), 0.001)
+        assertEquals(1200.5, Costs.parseMoney("1200.50"), 0.001)
+        assertEquals(0.0, Costs.parseMoney(""), 0.001)
+        assertEquals(0.0, Costs.parseMoney("abc"), 0.001)
+    }
+
+    @Test
+    fun totalsIncludeAllNonDeletedTasks() {
+        val s = Costs.summarize(
+            listOf(
+                task("a", est = "1000", act = "900", payment = "Paid"),
+                task("b", est = "2000", act = "", payment = "Pending"),
+                task("gone", est = "9999", act = "9999", deleted = true)
+            )
+        )
+        assertEquals(3000.0, s.totalEstimatedInr, 0.001)
+        assertEquals(900.0, s.totalActualInr, 0.001)
+    }
+
+    @Test
+    fun dueUsesActualWhenGivenElseEstimated() {
+        val s = Costs.summarize(
+            listOf(
+                task("a", est = "1000", act = "700", payment = ""),
+                task("b", est = "500", act = "", payment = "Pending")
+            )
+        )
+        assertEquals(1200.0, s.amountDueInr, 0.001)
+        assertEquals(2, s.pendingPaymentTasks)
+    }
+
+    @Test
+    fun paidTasksHaveNoDue_caseInsensitive() {
+        val s = Costs.summarize(
+            listOf(
+                task("a", est = "1000", act = "1000", payment = "PAID"),
+                task("b", est = "1000", act = "1000", payment = " paid ")
+            )
+        )
+        assertEquals(0.0, s.amountDueInr, 0.001)
+        assertEquals(0, s.pendingPaymentTasks)
+    }
+
+    @Test
+    fun vendorDuesAreGroupedAndSortedByDueDescending() {
+        val s = Costs.summarize(
+            listOf(
+                task("a", est = "1000", payment = "Pending", vendor = "Sharma"),
+                task("b", est = "3000", payment = "Pending", vendor = "Verma"),
+                task("c", est = "500", payment = "Pending", vendor = "Sharma"),
+                task("d", est = "200", payment = "Pending", vendor = "")
+            )
+        )
+        assertEquals(listOf("Verma", "Sharma", "No vendor"), s.vendorDues.map { it.vendor })
+        assertEquals(3000.0, s.vendorDues[0].dueInr, 0.001)
+        assertEquals(2, s.vendorDues[1].pendingTasks)
+        assertEquals(1500.0, s.vendorDues[1].dueInr, 0.001)
+    }
+
+    @Test
+    fun emptyTaskListHasNoMoney() {
+        val s = Costs.summarize(emptyList())
+        assertFalse(s.hasMoney)
+        assertTrue(s.vendorDues.isEmpty())
+    }
+
+    @Test
+    fun formatInrUsesIndianGrouping() {
+        assertEquals("₹12,34,567", Costs.formatInr(1234567.0))
+        assertEquals("₹1,200.50", Costs.formatInr(1200.5))
+        assertEquals("₹0", Costs.formatInr(0.0))
+    }
+}
