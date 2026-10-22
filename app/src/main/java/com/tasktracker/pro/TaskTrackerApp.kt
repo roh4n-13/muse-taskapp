@@ -1,1 +1,99 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvCgppbXBvcnQgYW5kcm9pZC5hcHAuQXBwbGljYXRpb24KaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbkNoYW5uZWwKaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbk1hbmFnZXIKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm5ldC5Db25uZWN0aXZpdHlNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLm5ldC5OZXR3b3JrQ2FwYWJpbGl0aWVzCmltcG9ydCBjb20udGFza3RyYWNrZXIucHJvLmRhdGEuQmFja3VwTWFuYWdlcgppbXBvcnQgY29tLnRhc2t0cmFja2VyLnByby5kYXRhLlNldHRpbmdzU3RvcmUKaW1wb3J0IGNvbS50YXNrdHJhY2tlci5wcm8uZGF0YS5UYXNrRGF0YWJhc2UKaW1wb3J0IGNvbS50YXNrdHJhY2tlci5wcm8uZGF0YS5UYXNrUmVwb3NpdG9yeQppbXBvcnQgY29tLnRhc2t0cmFja2VyLnByby5kYXRhLnN5bmMuU2VjdXJlUHJlZnMKaW1wb3J0IGNvbS50YXNrdHJhY2tlci5wcm8uZGF0YS5zeW5jLlN5bmNFbmdpbmUKaW1wb3J0IGNvbS50YXNrdHJhY2tlci5wcm8uZGF0YS5zeW5jLlN5bmNQb2xsZXIKaW1wb3J0IGNvbS50YXNrdHJhY2tlci5wcm8ucmVtaW5kZXJzLlJlbWluZGVyU2NoZWR1bGVyCmltcG9ydCBjb20udGFza3RyYWNrZXIucHJvLnJlbWluZGVycy5UYXNrUmVtaW5kZXJNYW5hZ2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5TdXBlcnZpc29ySm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmNsYXNzIFRhc2tUcmFja2VyQXBwIDogQXBwbGljYXRpb24oKSB7CiAgICB2YWwgYXBwU2NvcGUgPSBDb3JvdXRpbmVTY29wZShTdXBlcnZpc29ySm9iKCkpCiAgICBsYXRlaW5pdCB2YXIgY29udGFpbmVyOiBBcHBDb250YWluZXIKICAgICAgICBwcml2YXRlIHNldAoKICAgIG92ZXJyaWRlIGZ1biBvbkNyZWF0ZSgpIHsKICAgICAgICBzdXBlci5vbkNyZWF0ZSgpCiAgICAgICAgY29udGFpbmVyID0gQXBwQ29udGFpbmVyKHRoaXMsIGFwcFNjb3BlKQogICAgICAgIGNyZWF0ZU5vdGlmaWNhdGlvbkNoYW5uZWwoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNyZWF0ZU5vdGlmaWNhdGlvbkNoYW5uZWwoKSB7CiAgICAgICAgdmFsIGNoYW5uZWwgPSBOb3RpZmljYXRpb25DaGFubmVsKAogICAgICAgICAgICBDSEFOTkVMX1JFTUlOREVSUywKICAgICAgICAgICAgIlRhc2sgcmVtaW5kZXJzIiwKICAgICAgICAgICAgTm90aWZpY2F0aW9uTWFuYWdlci5JTVBPUlRBTkNFX0RFRkFVTFQKICAgICAgICApLmFwcGx5IHsgZGVzY3JpcHRpb24gPSAiRGFpbHkgcGVuZGluZy10YXNrIHJlbWluZGVycyBhbmQgZHVlLWRhdGUgYWxlcnRzIiB9CiAgICAgICAgZ2V0U3lzdGVtU2VydmljZShOb3RpZmljYXRpb25NYW5hZ2VyOjpjbGFzcy5qYXZhKS5jcmVhdGVOb3RpZmljYXRpb25DaGFubmVsKGNoYW5uZWwpCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgY29uc3QgdmFsIENIQU5ORUxfUkVNSU5ERVJTID0gInJlbWluZGVycyIKICAgIH0KfQoKZnVuIENvbnRleHQuYXBwQ29udGFpbmVyKCk6IEFwcENvbnRhaW5lciA9CiAgICAoYXBwbGljYXRpb25Db250ZXh0IGFzIFRhc2tUcmFja2VyQXBwKS5jb250YWluZXIKCi8qKiBTaW1wbGUgaGFuZC1yb2xsZWQgREk6IG9uZSBpbnN0YW5jZSBvZiBlYWNoIGNvbGxhYm9yYXRvci4gKi8KY2xhc3MgQXBwQ29udGFpbmVyKGNvbnRleHQ6IENvbnRleHQsIHZhbCBhcHBTY29wZTogQ29yb3V0aW5lU2NvcGUpIHsKICAgIHByaXZhdGUgdmFsIGFwcENvbnRleHQgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dAoKICAgIHZhbCBkYXRhYmFzZTogVGFza0RhdGFiYXNlID0gVGFza0RhdGFiYXNlLmdldChhcHBDb250ZXh0KQogICAgdmFsIHJlcG9zaXRvcnk6IFRhc2tSZXBvc2l0b3J5ID0gVGFza1JlcG9zaXRvcnkoZGF0YWJhc2UudGFza0RhbygpKQogICAgdmFsIHNlY3VyZVByZWZzOiBTZWN1cmVQcmVmcyA9IFNlY3VyZVByZWZzKGFwcENvbnRleHQpCiAgICB2YWwgc2V0dGluZ3M6IFNldHRpbmdzU3RvcmUgPSBTZXR0aW5nc1N0b3JlKGFwcENvbnRleHQpCiAgICB2YWwgYmFja3VwOiBCYWNrdXBNYW5hZ2VyID0gQmFja3VwTWFuYWdlcihyZXBvc2l0b3J5KQogICAgdmFsIHJlbWluZGVyczogUmVtaW5kZXJTY2hlZHVsZXIgPSBSZW1pbmRlclNjaGVkdWxlcihhcHBDb250ZXh0KQogICAgdmFsIHRhc2tSZW1pbmRlcnM6IFRhc2tSZW1pbmRlck1hbmFnZXIgPSBUYXNrUmVtaW5kZXJNYW5hZ2VyKGFwcENvbnRleHQsIHJlbWluZGVycykKCiAgICB2YWwgc3luY0VuZ2luZTogU3luY0VuZ2luZSA9IFN5bmNFbmdpbmUoCiAgICAgICAgcmVwbyA9IHJlcG9zaXRvcnksCiAgICAgICAgcHJlZnMgPSBzZWN1cmVQcmVmcywKICAgICAgICBpc09ubGluZSA9IHsgaXNPbmxpbmUoYXBwQ29udGV4dCkgfQogICAgKQogICAgdmFsIHN5bmNQb2xsZXI6IFN5bmNQb2xsZXIgPSBTeW5jUG9sbGVyKHN5bmNFbmdpbmUsIGludGVydmFsTXMgPSAxNV8wMDBMKQoKICAgIGluaXQgewogICAgICAgIC8vIEluc3RhbnQgdXBsb2FkOiBhbnkgbG9jYWwgdGFzayBjaGFuZ2UgdHJpZ2dlcnMgYSBkZWJvdW5jZWQgc3luYyAofjJzKSwKICAgICAgICAvLyBzbyBhcHAg4oaSIHNoZWV0IG5vIGxvbmdlciB3YWl0cyBmb3IgdGhlIG5leHQgcG9sbCB0aWNrLiBUaGUgc2FtZSBob29rCiAgICAgICAgLy8gcmUtcGxhbnMgZXhhY3QtdGltZSB0YXNrIHJlbWluZGVycyBzbyBhbGFybXMgYWx3YXlzIG1hdGNoIHRoZSBkYXRhLgogICAgICAgIHJlcG9zaXRvcnkub25NdXRhdGVkID0gewogICAgICAgICAgICBzeW5jRW5naW5lLm5vdGlmeUxvY2FsQ2hhbmdlKGFwcFNjb3BlKQogICAgICAgICAgICByZWZyZXNoVGFza1JlbWluZGVycygpCiAgICAgICAgfQogICAgICAgIC8vIEhlYWwgYW55IGFsYXJtIGRyaWZ0IChhcHAgdXBkYXRlLCByZXN0b3JlZCBkYXRhKSBvbiBldmVyeSBzdGFydC4KICAgICAgICByZWZyZXNoVGFza1JlbWluZGVycygpCiAgICB9CgogICAgLyoqIFJlY29tcHV0ZXMgd2hpY2ggdGFza3Mgc2hvdWxkIGhhdmUgYW4gZXhhY3QtdGltZSBhbGFybSBzZXQuICovCiAgICBmdW4gcmVmcmVzaFRhc2tSZW1pbmRlcnMoKSB7CiAgICAgICAgYXBwU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHRhc2tSZW1pbmRlcnMuc3luYyhyZXBvc2l0b3J5LmdldEFsbEFjdGl2ZSgpKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIC8vIEJlc3QgZWZmb3J0IOKAlCB0aGUgbmV4dCBtdXRhdGlvbiBvciBzdGFydCByZXRyaWVzLgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGZ1biBpc09ubGluZShjb250ZXh0OiBDb250ZXh0KTogQm9vbGVhbiB7CiAgICAgICAgICAgIHZhbCBjbSA9IGNvbnRleHQuZ2V0U3lzdGVtU2VydmljZShDb250ZXh0LkNPTk5FQ1RJVklUWV9TRVJWSUNFKSBhcyBDb25uZWN0aXZpdHlNYW5hZ2VyCiAgICAgICAgICAgIHZhbCBuZXQgPSBjbS5hY3RpdmVOZXR3b3JrID86IHJldHVybiBmYWxzZQogICAgICAgICAgICB2YWwgY2FwcyA9IGNtLmdldE5ldHdvcmtDYXBhYmlsaXRpZXMobmV0KSA/OiByZXR1cm4gZmFsc2UKICAgICAgICAgICAgcmV0dXJuIGNhcHMuaGFzQ2FwYWJpbGl0eShOZXR3b3JrQ2FwYWJpbGl0aWVzLk5FVF9DQVBBQklMSVRZX0lOVEVSTkVUKQogICAgICAgIH0KICAgIH0KfQo=
+package com.tasktracker.pro
+
+import android.app.Application
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.content.Context
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
+import com.tasktracker.pro.data.BackupManager
+import com.tasktracker.pro.data.SettingsStore
+import com.tasktracker.pro.data.TaskDatabase
+import com.tasktracker.pro.data.TaskRepository
+import com.tasktracker.pro.data.sync.SecurePrefs
+import com.tasktracker.pro.data.sync.SyncEngine
+import com.tasktracker.pro.data.sync.SyncPoller
+import com.tasktracker.pro.reminders.ReminderScheduler
+import com.tasktracker.pro.reminders.TaskReminderManager
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.launch
+class TaskTrackerApp : Application() {
+    val appScope = CoroutineScope(SupervisorJob())
+    lateinit var container: AppContainer
+        private set
+
+    override fun onCreate() {
+        super.onCreate()
+        container = AppContainer(this, appScope)
+        createNotificationChannel()
+    }
+
+    private fun createNotificationChannel() {
+        val channel = NotificationChannel(
+            CHANNEL_REMINDERS,
+            "Task reminders",
+            NotificationManager.IMPORTANCE_DEFAULT
+        ).apply { description = "Daily pending-task reminders and due-date alerts" }
+        getSystemService(NotificationManager::class.java).createNotificationChannel(channel)
+    }
+
+    companion object {
+        const val CHANNEL_REMINDERS = "reminders"
+    }
+}
+
+fun Context.appContainer(): AppContainer =
+    (applicationContext as TaskTrackerApp).container
+
+/** Simple hand-rolled DI: one instance of each collaborator. */
+class AppContainer(context: Context, val appScope: CoroutineScope) {
+    private val appContext = context.applicationContext
+
+    val database: TaskDatabase = TaskDatabase.get(appContext)
+    val repository: TaskRepository = TaskRepository(database.taskDao())
+    val securePrefs: SecurePrefs = SecurePrefs(appContext)
+    val settings: SettingsStore = SettingsStore(appContext)
+    val backup: BackupManager = BackupManager(repository)
+    val reminders: ReminderScheduler = ReminderScheduler(appContext)
+    val taskReminders: TaskReminderManager = TaskReminderManager(appContext, reminders)
+
+    val syncEngine: SyncEngine = SyncEngine(
+        repo = repository,
+        prefs = securePrefs,
+        isOnline = { isOnline(appContext) }
+    )
+    val syncPoller: SyncPoller = SyncPoller(syncEngine, intervalMs = 15_000L)
+
+    init {
+        // Instant upload: any local task change triggers a debounced sync (~2s),
+        // so app → sheet no longer waits for the next poll tick. The same hook
+        // re-plans exact-time task reminders so alarms always match the data.
+        repository.onMutated = {
+            syncEngine.notifyLocalChange(appScope)
+            refreshTaskReminders()
+        }
+        // Heal any alarm drift (app update, restored data) on every start.
+        refreshTaskReminders()
+    }
+
+    /** Recomputes which tasks should have an exact-time alarm set. */
+    fun refreshTaskReminders() {
+        appScope.launch {
+            try {
+                taskReminders.sync(repository.getAllActive())
+            } catch (e: Exception) {
+                // Best effort — the next mutation or start retries.
+            }
+        }
+    }
+
+    companion object {
+        fun isOnline(context: Context): Boolean {
+            val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+            val net = cm.activeNetwork ?: return false
+            val caps = cm.getNetworkCapabilities(net) ?: return false
+            return caps.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)
+        }
+    }
+}
