@@ -1,1 +1,45 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEuc3luYwoKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmRlbGF5CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuaXNBY3RpdmUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCi8qKgogKiBGb3JlZ3JvdW5kIHBvbGxpbmcgZm9yIHNoZWV0IOKGkiBhcHAgdXBkYXRlcy4KICoKICogSG93IHNoZWV0LXRvLWFwcCBzeW5jIHJlYWxseSB3b3JrczogR29vZ2xlIEFwcHMgU2NyaXB0IHdlYiBhcHBzIGNhbm5vdCBwdXNoCiAqIHNwcmVhZHNoZWV0IGVkaXRzIHRvIGluc3RhbGxlZCBhcHBzLCBzbyB3aGlsZSB0aGUgYXBwIGlzIG9wZW4gYW5kIHN5bmMgaXMKICogZW5hYmxlZCB0aGlzIHBvbGxzIHRoZSBiYWNrZW5kIGZvciBhIGZyZXNoIHNuYXBzaG90IGV2ZXJ5IFtpbnRlcnZhbE1zXQogKiAoZGVmYXVsdCAxNSBzZWNvbmRzKS4gQXBwIOKGkiBzaGVldCBpcyBpbnN0YW50OiBldmVyeSBsb2NhbCB0YXNrIGNoYW5nZQogKiB0cmlnZ2VycyBhIGRlYm91bmNlZCBzeW5jIH4yIHNlY29uZHMgbGF0ZXIgdmlhIFtTeW5jRW5naW5lLm5vdGlmeUxvY2FsQ2hhbmdlXS4KICogVGhlIGFwcCBhbHNvIHJlZnJlc2hlcyBvbiByZXN1bWUgYW5kIGFmdGVyIGV2ZXJ5IG1hbnVhbCAiU3luYyBOb3ciLgogKiBUaGlzIGludGVydmFsIGlzIGRvY3VtZW50ZWQgaW4gdGhlIFVJIGFuZCBSRUFETUUg4oCUIHdlIG5ldmVyIGNsYWltCiAqIHRydWUgaW5zdGFudCBwdXNoIGZyb20gdGhlIHNoZWV0IHNpZGUuCiAqLwpjbGFzcyBTeW5jUG9sbGVyKAogICAgcHJpdmF0ZSB2YWwgZW5naW5lOiBTeW5jRW5naW5lLAogICAgcHJpdmF0ZSB2YWwgaW50ZXJ2YWxNczogTG9uZyA9IDE1XzAwMEwKKSB7CiAgICBwcml2YXRlIHZhciBqb2I6IEpvYj8gPSBudWxsCgogICAgZnVuIHN0YXJ0KHNjb3BlOiBDb3JvdXRpbmVTY29wZSkgewogICAgICAgIGlmIChqb2IgIT0gbnVsbCkgcmV0dXJuCiAgICAgICAgam9iID0gc2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgd2hpbGUgKGlzQWN0aXZlKSB7CiAgICAgICAgICAgICAgICBkZWxheShpbnRlcnZhbE1zKQogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBpZiAoZW5naW5lLmlzRW5hYmxlZCkgZW5naW5lLnN5bmNOb3coKQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gUG9sbGluZyBtdXN0IG5ldmVyIGNyYXNoIHRoZSBhcHA7IHRoZSBuZXh0IHRpY2sgcmV0cmllcy4KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gc3RvcCgpIHsKICAgICAgICBqb2I/LmNhbmNlbCgpCiAgICAgICAgam9iID0gbnVsbAogICAgfQp9Cg==
+package com.tasktracker.pro.data.sync
+
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.isActive
+import kotlinx.coroutines.launch
+
+/**
+ * Foreground polling for sheet → app updates.
+ *
+ * How sheet-to-app sync really works: Google Apps Script web apps cannot push
+ * spreadsheet edits to installed apps, so while the app is open and sync is
+ * enabled this polls the backend for a fresh snapshot every [intervalMs]
+ * (default 15 seconds). App → sheet is instant: every local task change
+ * triggers a debounced sync ~2 seconds later via [SyncEngine.notifyLocalChange].
+ * The app also refreshes on resume and after every manual "Sync Now".
+ * This interval is documented in the UI and README — we never claim
+ * true instant push from the sheet side.
+ */
+class SyncPoller(
+    private val engine: SyncEngine,
+    private val intervalMs: Long = 15_000L
+) {
+    private var job: Job? = null
+
+    fun start(scope: CoroutineScope) {
+        if (job != null) return
+        job = scope.launch {
+            while (isActive) {
+                delay(intervalMs)
+                try {
+                    if (engine.isEnabled) engine.syncNow()
+                } catch (e: Exception) {
+                    // Polling must never crash the app; the next tick retries.
+                }
+            }
+        }
+    }
+
+    fun stop() {
+        job?.cancel()
+        job = null
+    }
+}
