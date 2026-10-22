@@ -1,1 +1,35 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLnJlbWluZGVycwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Ccm9hZGNhc3RSZWNlaXZlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGNvbS50YXNrdHJhY2tlci5wcm8uYXBwQ29udGFpbmVyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlN1cGVydmlzb3JKb2IKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZpcnN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgovKiogUmUtc2NoZWR1bGVzIHRoZSBkYWlseSByZW1pbmRlciBhZnRlciBhIHJlYm9vdCwgaWYgdGhlIHVzZXIgZW5hYmxlZCBpdC4gKi8KY2xhc3MgQm9vdFJlY2VpdmVyIDogQnJvYWRjYXN0UmVjZWl2ZXIoKSB7CiAgICBvdmVycmlkZSBmdW4gb25SZWNlaXZlKGNvbnRleHQ6IENvbnRleHQsIGludGVudDogSW50ZW50KSB7CiAgICAgICAgaWYgKGludGVudC5hY3Rpb24gIT0gSW50ZW50LkFDVElPTl9CT09UX0NPTVBMRVRFRCkgcmV0dXJuCiAgICAgICAgdmFsIHBlbmRpbmcgPSBnb0FzeW5jKCkKICAgICAgICBDb3JvdXRpbmVTY29wZShTdXBlcnZpc29ySm9iKCkgKyBEaXNwYXRjaGVycy5JTykubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBjb250YWluZXIgPSBjb250ZXh0LmFwcENvbnRhaW5lcigpCiAgICAgICAgICAgICAgICBpZiAoY29udGFpbmVyLnNldHRpbmdzLnJlbWluZGVyRW5hYmxlZC5maXJzdCgpKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGhvdXIgPSBjb250YWluZXIuc2V0dGluZ3MucmVtaW5kZXJIb3VyLmZpcnN0KCkKICAgICAgICAgICAgICAgICAgICB2YWwgbWludXRlID0gY29udGFpbmVyLnNldHRpbmdzLnJlbWluZGVyTWludXRlLmZpcnN0KCkKICAgICAgICAgICAgICAgICAgICBjb250YWluZXIucmVtaW5kZXJzLnNjaGVkdWxlRGFpbHkoaG91ciwgbWludXRlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgLy8gRXhhY3QtdGltZSBwZXItdGFzayByZW1pbmRlcnMgYXJlIHJlLXBsYW5uZWQgZnJvbSB0aGUgREIuCiAgICAgICAgICAgICAgICBjb250YWluZXIucmVmcmVzaFRhc2tSZW1pbmRlcnMoKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIC8vIEJlc3QgZWZmb3J0IG9uIGJvb3QuCiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICBwZW5kaW5nLmZpbmlzaCgpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.tasktracker.pro.reminders
+
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import com.tasktracker.pro.appContainer
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
+
+/** Re-schedules the daily reminder after a reboot, if the user enabled it. */
+class BootReceiver : BroadcastReceiver() {
+    override fun onReceive(context: Context, intent: Intent) {
+        if (intent.action != Intent.ACTION_BOOT_COMPLETED) return
+        val pending = goAsync()
+        CoroutineScope(SupervisorJob() + Dispatchers.IO).launch {
+            try {
+                val container = context.appContainer()
+                if (container.settings.reminderEnabled.first()) {
+                    val hour = container.settings.reminderHour.first()
+                    val minute = container.settings.reminderMinute.first()
+                    container.reminders.scheduleDaily(hour, minute)
+                }
+                // Exact-time per-task reminders are re-planned from the DB.
+                container.refreshTaskReminders()
+            } catch (e: Exception) {
+                // Best effort on boot.
+            } finally {
+                pending.finish()
+            }
+        }
+    }
+}
