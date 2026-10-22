@@ -1,1 +1,320 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMudGVzdC5ydW5UZXN0CmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRGYWxzZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnROb3ROdWxsCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE51bGwKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LkJlZm9yZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIFRhc2tSZXBvc2l0b3J5VGVzdCB7CgogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgZGFvOiBGYWtlVGFza0RhbwogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgcmVwbzogVGFza1JlcG9zaXRvcnkKCiAgICBAQmVmb3JlCiAgICBmdW4gc2V0VXAoKSB7CiAgICAgICAgZGFvID0gRmFrZVRhc2tEYW8oKQogICAgICAgIHJlcG8gPSBUYXNrUmVwb3NpdG9yeShkYW8pCiAgICB9CgogICAgLy8gLS0tLS0tLS0tLSBjcmVhdGVUYXNrIC0tLS0tLS0tLS0KCiAgICBAVGVzdAogICAgZnVuIGBjcmVhdGVUYXNrIHJlamVjdHMgYSBibGFuayB0YXNrIG5hbWVgKCkgPSBydW5UZXN0IHsKICAgICAgICBhc3NlcnROdWxsKHJlcG8uY3JlYXRlVGFzaygiIikpCiAgICAgICAgYXNzZXJ0TnVsbChyZXBvLmNyZWF0ZVRhc2soIiAgICIpKQogICAgICAgIGFzc2VydEVxdWFscygwLCBkYW8uY291bnRBY3RpdmUoKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBjcmVhdGVUYXNrIHJlamVjdHMgYW4gaW52YWxpZCBkZWFkbGluZWAoKSA9IHJ1blRlc3QgewogICAgICAgIGFzc2VydE51bGwocmVwby5jcmVhdGVUYXNrKCJCYWQgZGF0ZSIsIGRlYWRsaW5lID0gInRvbW9ycm93IikpCiAgICAgICAgYXNzZXJ0TnVsbChyZXBvLmNyZWF0ZVRhc2soIkJhZCBkYXRlIiwgZGVhZGxpbmUgPSAiMjAyNi0xMy00MCIpKQogICAgICAgIGFzc2VydEVxdWFscygwLCBkYW8uY291bnRBY3RpdmUoKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBjcmVhdGVUYXNrIHN0YW1wcyBhbmQgaW5pdGlhbGl6ZXMgYSBuZXcgdGFza2AoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCB0ID0gcmVwby5jcmVhdGVUYXNrKCJXcml0ZSB0ZXN0cyIsIGRlYWRsaW5lID0gIjIwMjYtMTAtMjUiKSEhCiAgICAgICAgYXNzZXJ0VHJ1ZSh0LmlkLmlzTm90QmxhbmsoKSkKICAgICAgICBhc3NlcnRFcXVhbHMoIldyaXRlIHRlc3RzIiwgdC50YXNrTmFtZSkKICAgICAgICBhc3NlcnRFcXVhbHMoVGFzay5QUk9HUkVTU19OT1RfU1RBUlRFRCwgdC5wcm9ncmVzcykKICAgICAgICBhc3NlcnRUcnVlKHQudGFza0FkZGVkLmlzTm90QmxhbmsoKSkKICAgICAgICBhc3NlcnRUcnVlKHQubGFzdFVwZGF0ZWQuaXNOb3RCbGFuaygpKQogICAgICAgIGFzc2VydFRydWUodC50YXNrU3RhcnRlZC5pc0JsYW5rKCkpCiAgICAgICAgYXNzZXJ0VHJ1ZSh0LnRhc2tDb21wbGV0ZWQuaXNCbGFuaygpKQogICAgICAgIGFzc2VydEVxdWFscyhUYXNrLlNZTkNfU1RBVEVfUEVORElORywgdC5zeW5jU3RhdGUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRhc2suT1JJR0lOX0xPQ0FMLCB0Lm9yaWdpbikKICAgICAgICBhc3NlcnRGYWxzZSh0LmRlbGV0ZWQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgY3JlYXRlVGFzayBzZXRzIHRhc2tTdGFydGVkIGZvciBpbi1wcm9ncmVzcyB0YXNrc2AoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCB0ID0gcmVwby5jcmVhdGVUYXNrKCJTdGFydGVkIiwgcHJvZ3Jlc3MgPSBUYXNrLlBST0dSRVNTX0lOX1BST0dSRVNTKSEhCiAgICAgICAgYXNzZXJ0VHJ1ZSh0LnRhc2tTdGFydGVkLmlzTm90QmxhbmsoKSkKICAgICAgICBhc3NlcnRUcnVlKHQudGFza0NvbXBsZXRlZC5pc0JsYW5rKCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgY3JlYXRlVGFzayBzZXRzIHRhc2tDb21wbGV0ZWQgZm9yIGNvbXBsZXRlZCB0YXNrc2AoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCB0ID0gcmVwby5jcmVhdGVUYXNrKCJEb25lIiwgcHJvZ3Jlc3MgPSBUYXNrLlBST0dSRVNTX0NPTVBMRVRFRCkhIQogICAgICAgIGFzc2VydFRydWUodC50YXNrU3RhcnRlZC5pc05vdEJsYW5rKCkpCiAgICAgICAgYXNzZXJ0VHJ1ZSh0LnRhc2tDb21wbGV0ZWQuaXNOb3RCbGFuaygpKQogICAgICAgIGFzc2VydFRydWUodC5pc0NvbXBsZXRlZCkKICAgIH0KCiAgICAvLyAtLS0tLS0tLS0tIHVwZGF0ZVRhc2sgLS0tLS0tLS0tLQoKICAgIEBUZXN0CiAgICBmdW4gYHVwZGF0ZVRhc2sgcHJlc2VydmVzIHRhc2tBZGRlZCBhbmQgcmVmcmVzaGVzIHN0YW1wc2AoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCBjcmVhdGVkID0gcmVwby5jcmVhdGVUYXNrKCJPcmlnaW5hbCIsIG5vdGVzID0gIm4iKSEhCiAgICAgICAgdmFsIHVwZGF0ZWQgPSBjcmVhdGVkLmNvcHkodGFza05hbWUgPSAiUmVuYW1lZCIsIGRlYWRsaW5lID0gIjIwMjYtMTEtMDEiLCBub3RlcyA9ICJjaGFuZ2VkIikKICAgICAgICBhc3NlcnRUcnVlKHJlcG8udXBkYXRlVGFzayh1cGRhdGVkKSkKICAgICAgICB2YWwgZmV0Y2hlZCA9IHJlcG8uZ2V0QnlJZChjcmVhdGVkLmlkKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJSZW5hbWVkIiwgZmV0Y2hlZC50YXNrTmFtZSkKICAgICAgICBhc3NlcnRFcXVhbHMoIjIwMjYtMTEtMDEiLCBmZXRjaGVkLmRlYWRsaW5lKQogICAgICAgIGFzc2VydEVxdWFscyhjcmVhdGVkLnRhc2tBZGRlZCwgZmV0Y2hlZC50YXNrQWRkZWQpCiAgICAgICAgYXNzZXJ0VHJ1ZShmZXRjaGVkLmxhc3RVcGRhdGVkLmlzTm90QmxhbmsoKSkKICAgICAgICBhc3NlcnRFcXVhbHMoVGFzay5TWU5DX1NUQVRFX1BFTkRJTkcsIGZldGNoZWQuc3luY1N0YXRlKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHVwZGF0ZVRhc2sgcmVqZWN0cyBhIGJsYW5rIHRhc2sgbmFtZWAoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCBjcmVhdGVkID0gcmVwby5jcmVhdGVUYXNrKCJPcmlnaW5hbCIpISEKICAgICAgICBhc3NlcnRGYWxzZShyZXBvLnVwZGF0ZVRhc2soY3JlYXRlZC5jb3B5KHRhc2tOYW1lID0gIiAgICIpKSkKICAgICAgICBhc3NlcnRFcXVhbHMoIk9yaWdpbmFsIiwgcmVwby5nZXRCeUlkKGNyZWF0ZWQuaWQpISEudGFza05hbWUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgdXBkYXRlVGFzayByZWplY3RzIGFuIGludmFsaWQgZGVhZGxpbmVgKCkgPSBydW5UZXN0IHsKICAgICAgICB2YWwgY3JlYXRlZCA9IHJlcG8uY3JlYXRlVGFzaygiT3JpZ2luYWwiLCBkZWFkbGluZSA9ICIyMDI2LTEwLTI1IikhIQogICAgICAgIGFzc2VydEZhbHNlKHJlcG8udXBkYXRlVGFzayhjcmVhdGVkLmNvcHkoZGVhZGxpbmUgPSAibmV2ZXIiKSkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIyMDI2LTEwLTI1IiwgcmVwby5nZXRCeUlkKGNyZWF0ZWQuaWQpISEuZGVhZGxpbmUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgdXBkYXRlVGFzayByZXR1cm5zIGZhbHNlIGZvciBhIG1pc3Npbmcgb3IgZGVsZXRlZCB0YXNrYCgpID0gcnVuVGVzdCB7CiAgICAgICAgdmFsIGdob3N0ID0gVGFzayhpZCA9ICJnaG9zdCIsIHRhc2tOYW1lID0gIkdob3N0IikKICAgICAgICBhc3NlcnRGYWxzZShyZXBvLnVwZGF0ZVRhc2soZ2hvc3QpKQogICAgICAgIHZhbCBjcmVhdGVkID0gcmVwby5jcmVhdGVUYXNrKCJEb29tZWQiKSEhCiAgICAgICAgcmVwby5kZWxldGVUYXNrKGNyZWF0ZWQuaWQpCiAgICAgICAgYXNzZXJ0RmFsc2UocmVwby51cGRhdGVUYXNrKGNyZWF0ZWQuY29weSh0YXNrTmFtZSA9ICJFZGl0ZWQiKSkpCiAgICB9CgogICAgLy8gLS0tLS0tLS0tLSBjb21wbGV0ZVRhc2sgLyByZW9wZW5UYXNrIC0tLS0tLS0tLS0KCiAgICBAVGVzdAogICAgZnVuIGBjb21wbGV0ZVRhc2sgdHJhbnNpdGlvbnMgYSB0YXNrIGFuZCBzdGFtcHMgY29tcGxldGlvbmAoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCB0ID0gcmVwby5jcmVhdGVUYXNrKCJEbyBpdCIpISEKICAgICAgICBhc3NlcnRUcnVlKHJlcG8uY29tcGxldGVUYXNrKHQuaWQpKQogICAgICAgIHZhbCBkb25lID0gcmVwby5nZXRCeUlkKHQuaWQpISEKICAgICAgICBhc3NlcnRUcnVlKGRvbmUuaXNDb21wbGV0ZWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRhc2suUFJPR1JFU1NfQ09NUExFVEVELCBkb25lLnByb2dyZXNzKQogICAgICAgIGFzc2VydFRydWUoZG9uZS50YXNrQ29tcGxldGVkLmlzTm90QmxhbmsoKSkKICAgICAgICBhc3NlcnRUcnVlKGRvbmUudGFza1N0YXJ0ZWQuaXNOb3RCbGFuaygpKQogICAgICAgIGFzc2VydEVxdWFscyhUYXNrLlNZTkNfU1RBVEVfUEVORElORywgZG9uZS5zeW5jU3RhdGUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgY29tcGxldGVUYXNrIHJldHVybnMgZmFsc2Ugd2hlbiBhbHJlYWR5IGNvbXBsZXRlZCBvciBtaXNzaW5nYCgpID0gcnVuVGVzdCB7CiAgICAgICAgdmFsIHQgPSByZXBvLmNyZWF0ZVRhc2soIkRvIGl0IikhIQogICAgICAgIGFzc2VydFRydWUocmVwby5jb21wbGV0ZVRhc2sodC5pZCkpCiAgICAgICAgYXNzZXJ0RmFsc2UocmVwby5jb21wbGV0ZVRhc2sodC5pZCkpCiAgICAgICAgYXNzZXJ0RmFsc2UocmVwby5jb21wbGV0ZVRhc2soIm5vcGUiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGByZW9wZW5UYXNrIGNsZWFycyBjb21wbGV0aW9uIGFuZCByZXR1cm5zIHRvIGluIHByb2dyZXNzYCgpID0gcnVuVGVzdCB7CiAgICAgICAgdmFsIHQgPSByZXBvLmNyZWF0ZVRhc2soIkRvIGl0IikhIQogICAgICAgIHJlcG8uY29tcGxldGVUYXNrKHQuaWQpCiAgICAgICAgYXNzZXJ0VHJ1ZShyZXBvLnJlb3BlblRhc2sodC5pZCkpCiAgICAgICAgdmFsIHIgPSByZXBvLmdldEJ5SWQodC5pZCkhIQogICAgICAgIGFzc2VydEZhbHNlKHIuaXNDb21wbGV0ZWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRhc2suUFJPR1JFU1NfSU5fUFJPR1JFU1MsIHIucHJvZ3Jlc3MpCiAgICAgICAgYXNzZXJ0VHJ1ZShyLnRhc2tDb21wbGV0ZWQuaXNCbGFuaygpKQogICAgICAgIGFzc2VydEVxdWFscyhUYXNrLlNZTkNfU1RBVEVfUEVORElORywgci5zeW5jU3RhdGUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcmVvcGVuVGFzayByZXR1cm5zIGZhbHNlIHdoZW4gdGhlIHRhc2sgaXMgbm90IGNvbXBsZXRlZGAoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCB0ID0gcmVwby5jcmVhdGVUYXNrKCJOb3QgZG9uZSIpISEKICAgICAgICBhc3NlcnRGYWxzZShyZXBvLnJlb3BlblRhc2sodC5pZCkpCiAgICAgICAgYXNzZXJ0RmFsc2UocmVwby5yZW9wZW5UYXNrKCJub3BlIikpCiAgICB9CgogICAgLy8gLS0tLS0tLS0tLSBkZWxldGVUYXNrIC8gcmVzdG9yZVRhc2sgLS0tLS0tLS0tLQoKICAgIEBUZXN0CiAgICBmdW4gYGRlbGV0ZVRhc2sgY3JlYXRlcyBhIHRvbWJzdG9uZSBpbnN0ZWFkIG9mIGhhcmQtZGVsZXRpbmdgKCkgPSBydW5UZXN0IHsKICAgICAgICB2YWwgdCA9IHJlcG8uY3JlYXRlVGFzaygiR29uZSIpISEKICAgICAgICBhc3NlcnRUcnVlKHJlcG8uZGVsZXRlVGFzayh0LmlkKSkKICAgICAgICB2YWwgdG9tYiA9IHJlcG8uZ2V0QnlJZCh0LmlkKQogICAgICAgIGFzc2VydE5vdE51bGwodG9tYikgLy8gc3RpbGwgaW4gc3RvcmFnZSBmb3Igc3luYwogICAgICAgIGFzc2VydFRydWUodG9tYiEhLmRlbGV0ZWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRhc2suU1lOQ19TVEFURV9QRU5ESU5HLCB0b21iLnN5bmNTdGF0ZSkKICAgICAgICBhc3NlcnRUcnVlKHJlcG8uZ2V0QWxsQWN0aXZlKCkuaXNFbXB0eSgpKSAvLyBoaWRkZW4gZnJvbSBhY3RpdmUgdmlld3MKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgZGFvLmNvdW50QWN0aXZlKCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgZGVsZXRlVGFzayByZXR1cm5zIGZhbHNlIGZvciBhIG1pc3Npbmcgb3IgYWxyZWFkeSBkZWxldGVkIHRhc2tgKCkgPSBydW5UZXN0IHsKICAgICAgICBhc3NlcnRGYWxzZShyZXBvLmRlbGV0ZVRhc2soIm5vcGUiKSkKICAgICAgICB2YWwgdCA9IHJlcG8uY3JlYXRlVGFzaygiR29uZSIpISEKICAgICAgICBhc3NlcnRUcnVlKHJlcG8uZGVsZXRlVGFzayh0LmlkKSkKICAgICAgICBhc3NlcnRGYWxzZShyZXBvLmRlbGV0ZVRhc2sodC5pZCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcmVzdG9yZVRhc2sgdW5kb2VzIGEgc29mdCBkZWxldGVgKCkgPSBydW5UZXN0IHsKICAgICAgICB2YWwgdCA9IHJlcG8uY3JlYXRlVGFzaygiQmFjayIpISEKICAgICAgICByZXBvLmRlbGV0ZVRhc2sodC5pZCkKICAgICAgICBhc3NlcnRUcnVlKHJlcG8ucmVzdG9yZVRhc2sodC5pZCkpCiAgICAgICAgdmFsIHJlc3RvcmVkID0gcmVwby5nZXRCeUlkKHQuaWQpISEKICAgICAgICBhc3NlcnRGYWxzZShyZXN0b3JlZC5kZWxldGVkKQogICAgICAgIGFzc2VydEVxdWFscygxLCByZXBvLmdldEFsbEFjdGl2ZSgpLnNpemUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRhc2suU1lOQ19TVEFURV9QRU5ESU5HLCByZXN0b3JlZC5zeW5jU3RhdGUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcmVzdG9yZVRhc2sgcmV0dXJucyBmYWxzZSB3aGVuIHRoZSB0YXNrIGlzIG5vdCBkZWxldGVkYCgpID0gcnVuVGVzdCB7CiAgICAgICAgdmFsIHQgPSByZXBvLmNyZWF0ZVRhc2soIkZpbmUiKSEhCiAgICAgICAgYXNzZXJ0RmFsc2UocmVwby5yZXN0b3JlVGFzayh0LmlkKSkKICAgICAgICBhc3NlcnRGYWxzZShyZXBvLnJlc3RvcmVUYXNrKCJub3BlIikpCiAgICB9CgogICAgLy8gLS0tLS0tLS0tLSBzeW5jLWVuZ2luZSBoZWxwZXJzIC0tLS0tLS0tLS0KCiAgICBAVGVzdAogICAgZnVuIGBhcHBseVJlbW90ZVRhc2sgZG9lcyBub3QgcmVzdXJyZWN0IGEgcGVuZGluZyB0b21ic3RvbmVgKCkgPSBydW5UZXN0IHsKICAgICAgICB2YWwgdCA9IHJlcG8uY3JlYXRlVGFzaygiTG9jYWwgZ29uZSIpISEKICAgICAgICByZXBvLmRlbGV0ZVRhc2sodC5pZCkgLy8gdG9tYnN0b25lIGlzIFBFTkRJTkcKICAgICAgICByZXBvLmFwcGx5UmVtb3RlVGFzaygKICAgICAgICAgICAgVGFzayhpZCA9IHQuaWQsIHRhc2tOYW1lID0gIlJlbW90ZSB2ZXJzaW9uIiwgbGFzdFVwZGF0ZWQgPSAiMjAyNi0xMC0yMFQxMDowMDowMCswNTozMCIpCiAgICAgICAgKQogICAgICAgIHZhbCBrZXB0ID0gcmVwby5nZXRCeUlkKHQuaWQpISEKICAgICAgICBhc3NlcnRUcnVlKGtlcHQuZGVsZXRlZCkKICAgICAgICBhc3NlcnRFcXVhbHMoIkxvY2FsIGdvbmUiLCBrZXB0LnRhc2tOYW1lKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGFwcGx5UmVtb3RlVGFzayBpbnNlcnRzIG5ldyByZW1vdGUgdGFza3MgYXMgc3luY2VkYCgpID0gcnVuVGVzdCB7CiAgICAgICAgdmFsIHJlbW90ZSA9IFRhc2soCiAgICAgICAgICAgIGlkID0gInItOSIsCiAgICAgICAgICAgIHRhc2tOYW1lID0gIkZyb20gc2hlZXQiLAogICAgICAgICAgICBsYXN0VXBkYXRlZCA9ICIyMDI2LTEwLTE5VDEwOjAwOjAwKzA1OjMwIgogICAgICAgICkKICAgICAgICByZXBvLmFwcGx5UmVtb3RlVGFzayhyZW1vdGUpCiAgICAgICAgdmFsIGdvdCA9IHJlcG8uZ2V0QnlJZCgici05IikhIQogICAgICAgIGFzc2VydEVxdWFscygiRnJvbSBzaGVldCIsIGdvdC50YXNrTmFtZSkKICAgICAgICBhc3NlcnRFcXVhbHMoVGFzay5TWU5DX1NUQVRFX1NZTkNFRCwgZ290LnN5bmNTdGF0ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoVGFzay5PUklHSU5fUkVNT1RFLCBnb3Qub3JpZ2luKQogICAgICAgIGFzc2VydEZhbHNlKGdvdC5kZWxldGVkKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGFwcGx5UmVtb3RlRGVsZXRpb24gcmVmdXNlcyB0byBkZWxldGUgdW5zeW5jZWQgbG9jYWwgdGFza3NgKCkgPSBydW5UZXN0IHsKICAgICAgICB2YWwgdCA9IHJlcG8uY3JlYXRlVGFzaygiVW5zeW5jZWQiKSEhIC8vIFBFTkRJTkcgKyBMT0NBTAogICAgICAgIGFzc2VydEZhbHNlKHJlcG8uYXBwbHlSZW1vdGVEZWxldGlvbih0LmlkKSkKICAgICAgICB2YWwga2VwdCA9IHJlcG8uZ2V0QnlJZCh0LmlkKSEhCiAgICAgICAgYXNzZXJ0RmFsc2Uoa2VwdC5kZWxldGVkKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGFwcGx5UmVtb3RlRGVsZXRpb24gcmVtb3ZlcyBwcmV2aW91c2x5IHN5bmNlZCB0YXNrc2AoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCB0ID0gcmVwby5jcmVhdGVUYXNrKCJTeW5jZWQiKSEhCiAgICAgICAgcmVwby5tYXJrU3luY2VkKHQuaWQpCiAgICAgICAgYXNzZXJ0VHJ1ZShyZXBvLmFwcGx5UmVtb3RlRGVsZXRpb24odC5pZCkpCiAgICAgICAgdmFsIGRlbGV0ZWQgPSByZXBvLmdldEJ5SWQodC5pZCkhIQogICAgICAgIGFzc2VydFRydWUoZGVsZXRlZC5kZWxldGVkKQogICAgICAgIGFzc2VydEVxdWFscyhUYXNrLlNZTkNfU1RBVEVfU1lOQ0VELCBkZWxldGVkLnN5bmNTdGF0ZSkKICAgICAgICBhc3NlcnRUcnVlKHJlcG8uZ2V0QWxsQWN0aXZlKCkuaXNFbXB0eSgpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGFwcGx5UmVtb3RlRGVsZXRpb24gcmV0dXJucyBmYWxzZSBmb3IgYW4gdW5rbm93biBpZGAoKSA9IHJ1blRlc3QgewogICAgICAgIGFzc2VydEZhbHNlKHJlcG8uYXBwbHlSZW1vdGVEZWxldGlvbigibm9wZSIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYG1hcmtTeW5jZWQgYW5kIG1hcmtTeW5jRXJyb3IgdXBkYXRlIHN5bmMgc3RhdGVgKCkgPSBydW5UZXN0IHsKICAgICAgICB2YWwgdCA9IHJlcG8uY3JlYXRlVGFzaygiU3luYyBtZSIpISEKICAgICAgICByZXBvLm1hcmtTeW5jRXJyb3IodC5pZCwgImJvb20iKQogICAgICAgIHZhbCBlcnIgPSByZXBvLmdldEJ5SWQodC5pZCkhIQogICAgICAgIGFzc2VydEVxdWFscyhUYXNrLlNZTkNfU1RBVEVfRVJST1IsIGVyci5zeW5jU3RhdGUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJib29tIiwgZXJyLmxhc3RTeW5jRXJyb3IpCgogICAgICAgIHJlcG8ubWFya1N5bmNlZCh0LmlkKQogICAgICAgIHZhbCBvayA9IHJlcG8uZ2V0QnlJZCh0LmlkKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRhc2suU1lOQ19TVEFURV9TWU5DRUQsIG9rLnN5bmNTdGF0ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoVGFzay5PUklHSU5fUkVNT1RFLCBvay5vcmlnaW4pCiAgICAgICAgYXNzZXJ0VHJ1ZShvay5sYXN0U3luY0Vycm9yLmlzQmxhbmsoKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBtYXJrU3luY0Vycm9yIHRydW5jYXRlcyBsb25nIGVycm9yIG1lc3NhZ2VzYCgpID0gcnVuVGVzdCB7CiAgICAgICAgdmFsIHQgPSByZXBvLmNyZWF0ZVRhc2soIlN5bmMgbWUiKSEhCiAgICAgICAgcmVwby5tYXJrU3luY0Vycm9yKHQuaWQsICJ4Ii5yZXBlYXQoNDAwKSkKICAgICAgICBhc3NlcnRFcXVhbHMoMzAwLCByZXBvLmdldEJ5SWQodC5pZCkhIS5sYXN0U3luY0Vycm9yLmxlbmd0aCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBwdXJnZVRvbWJzdG9uZSByZW1vdmVzIG9ubHkgdG9tYnN0b25lc2AoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCB0b21iID0gcmVwby5jcmVhdGVUYXNrKCJUb21iIikhIQogICAgICAgIHJlcG8uZGVsZXRlVGFzayh0b21iLmlkKQogICAgICAgIHJlcG8ucHVyZ2VUb21ic3RvbmUodG9tYi5pZCkKICAgICAgICBhc3NlcnROdWxsKHJlcG8uZ2V0QnlJZCh0b21iLmlkKSkKCiAgICAgICAgdmFsIGxpdmUgPSByZXBvLmNyZWF0ZVRhc2soIkxpdmUiKSEhCiAgICAgICAgcmVwby5wdXJnZVRvbWJzdG9uZShsaXZlLmlkKQogICAgICAgIGFzc2VydE5vdE51bGwocmVwby5nZXRCeUlkKGxpdmUuaWQpKQogICAgfQoKICAgIC8vIC0tLS0tLS0tLS0gb25NdXRhdGVkIC0tLS0tLS0tLS0KCiAgICBAVGVzdAogICAgZnVuIGBvbk11dGF0ZWQgZmlyZXMgYWZ0ZXIgZXZlcnkgc3VjY2Vzc2Z1bCBsb2NhbCBtdXRhdGlvbmAoKSA9IHJ1blRlc3QgewogICAgICAgIHZhciBjb3VudCA9IDAKICAgICAgICByZXBvLm9uTXV0YXRlZCA9IHsgY291bnQrKyB9CgogICAgICAgIHZhbCB0ID0gcmVwby5jcmVhdGVUYXNrKCJNdXRhdGVkIikhIQogICAgICAgIGFzc2VydEVxdWFscygxLCBjb3VudCkKCiAgICAgICAgYXNzZXJ0VHJ1ZShyZXBvLnVwZGF0ZVRhc2sodC5jb3B5KG5vdGVzID0gImVkaXRlZCIpKSkKICAgICAgICBhc3NlcnRFcXVhbHMoMiwgY291bnQpCgogICAgICAgIGFzc2VydFRydWUocmVwby5jb21wbGV0ZVRhc2sodC5pZCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMsIGNvdW50KQoKICAgICAgICBhc3NlcnRUcnVlKHJlcG8ucmVvcGVuVGFzayh0LmlkKSkKICAgICAgICBhc3NlcnRFcXVhbHMoNCwgY291bnQpCgogICAgICAgIGFzc2VydFRydWUocmVwby5kZWxldGVUYXNrKHQuaWQpKQogICAgICAgIGFzc2VydEVxdWFscyg1LCBjb3VudCkKCiAgICAgICAgYXNzZXJ0VHJ1ZShyZXBvLnJlc3RvcmVUYXNrKHQuaWQpKQogICAgICAgIGFzc2VydEVxdWFscyg2LCBjb3VudCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBvbk11dGF0ZWQgZG9lcyBub3QgZmlyZSBvbiBmYWlsZWQgbXV0YXRpb25zIG9yIHJlbW90ZSBhcHBsaWVzYCgpID0gcnVuVGVzdCB7CiAgICAgICAgdmFyIGNvdW50ID0gMAogICAgICAgIHJlcG8ub25NdXRhdGVkID0geyBjb3VudCsrIH0KCiAgICAgICAgYXNzZXJ0TnVsbChyZXBvLmNyZWF0ZVRhc2soIiIpKSAvLyB2YWxpZGF0aW9uIGZhaWx1cmUKICAgICAgICBhc3NlcnRGYWxzZShyZXBvLnVwZGF0ZVRhc2soVGFzayhpZCA9ICJub3BlIiwgdGFza05hbWUgPSAieCIpKSkKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgY291bnQpCgogICAgICAgIHZhbCB0ID0gcmVwby5jcmVhdGVUYXNrKCJMb2NhbCIpISEKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgY291bnQpCgogICAgICAgIC8vIFJlbW90ZS1hcHBsaWVkIGNoYW5nZXMgbXVzdCBub3QgdHJpZ2dlciBhIHN5bmMgbG9vcC4KICAgICAgICByZXBvLmFwcGx5UmVtb3RlVGFzayh0LmNvcHkodGFza05hbWUgPSAiUmVtb3RlIGVkaXQiKSkKICAgICAgICByZXBvLmFwcGx5UmVtb3RlRGVsZXRpb24oInVua25vd24taWQiKQogICAgICAgIHJlcG8ubWFya1N5bmNlZCh0LmlkKQogICAgICAgIHJlcG8ubWFya1N5bmNFcnJvcih0LmlkLCAiYm9vbSIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEsIGNvdW50KQogICAgfQp9Cg==
+package com.tasktracker.pro.data
+
+import kotlinx.coroutines.test.runTest
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNotNull
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Before
+import org.junit.Test
+
+class TaskRepositoryTest {
+
+    private lateinit var dao: FakeTaskDao
+    private lateinit var repo: TaskRepository
+
+    @Before
+    fun setUp() {
+        dao = FakeTaskDao()
+        repo = TaskRepository(dao)
+    }
+
+    // ---------- createTask ----------
+
+    @Test
+    fun `createTask rejects a blank task name`() = runTest {
+        assertNull(repo.createTask(""))
+        assertNull(repo.createTask("   "))
+        assertEquals(0, dao.countActive())
+    }
+
+    @Test
+    fun `createTask rejects an invalid deadline`() = runTest {
+        assertNull(repo.createTask("Bad date", deadline = "tomorrow"))
+        assertNull(repo.createTask("Bad date", deadline = "2026-13-40"))
+        assertEquals(0, dao.countActive())
+    }
+
+    @Test
+    fun `createTask stamps and initializes a new task`() = runTest {
+        val t = repo.createTask("Write tests", deadline = "2026-10-25")!!
+        assertTrue(t.id.isNotBlank())
+        assertEquals("Write tests", t.taskName)
+        assertEquals(Task.PROGRESS_NOT_STARTED, t.progress)
+        assertTrue(t.taskAdded.isNotBlank())
+        assertTrue(t.lastUpdated.isNotBlank())
+        assertTrue(t.taskStarted.isBlank())
+        assertTrue(t.taskCompleted.isBlank())
+        assertEquals(Task.SYNC_STATE_PENDING, t.syncState)
+        assertEquals(Task.ORIGIN_LOCAL, t.origin)
+        assertFalse(t.deleted)
+    }
+
+    @Test
+    fun `createTask sets taskStarted for in-progress tasks`() = runTest {
+        val t = repo.createTask("Started", progress = Task.PROGRESS_IN_PROGRESS)!!
+        assertTrue(t.taskStarted.isNotBlank())
+        assertTrue(t.taskCompleted.isBlank())
+    }
+
+    @Test
+    fun `createTask sets taskCompleted for completed tasks`() = runTest {
+        val t = repo.createTask("Done", progress = Task.PROGRESS_COMPLETED)!!
+        assertTrue(t.taskStarted.isNotBlank())
+        assertTrue(t.taskCompleted.isNotBlank())
+        assertTrue(t.isCompleted)
+    }
+
+    // ---------- updateTask ----------
+
+    @Test
+    fun `updateTask preserves taskAdded and refreshes stamps`() = runTest {
+        val created = repo.createTask("Original", notes = "n")!!
+        val updated = created.copy(taskName = "Renamed", deadline = "2026-11-01", notes = "changed")
+        assertTrue(repo.updateTask(updated))
+        val fetched = repo.getById(created.id)!!
+        assertEquals("Renamed", fetched.taskName)
+        assertEquals("2026-11-01", fetched.deadline)
+        assertEquals(created.taskAdded, fetched.taskAdded)
+        assertTrue(fetched.lastUpdated.isNotBlank())
+        assertEquals(Task.SYNC_STATE_PENDING, fetched.syncState)
+    }
+
+    @Test
+    fun `updateTask rejects a blank task name`() = runTest {
+        val created = repo.createTask("Original")!!
+        assertFalse(repo.updateTask(created.copy(taskName = "   ")))
+        assertEquals("Original", repo.getById(created.id)!!.taskName)
+    }
+
+    @Test
+    fun `updateTask rejects an invalid deadline`() = runTest {
+        val created = repo.createTask("Original", deadline = "2026-10-25")!!
+        assertFalse(repo.updateTask(created.copy(deadline = "never")))
+        assertEquals("2026-10-25", repo.getById(created.id)!!.deadline)
+    }
+
+    @Test
+    fun `updateTask returns false for a missing or deleted task`() = runTest {
+        val ghost = Task(id = "ghost", taskName = "Ghost")
+        assertFalse(repo.updateTask(ghost))
+        val created = repo.createTask("Doomed")!!
+        repo.deleteTask(created.id)
+        assertFalse(repo.updateTask(created.copy(taskName = "Edited")))
+    }
+
+    // ---------- completeTask / reopenTask ----------
+
+    @Test
+    fun `completeTask transitions a task and stamps completion`() = runTest {
+        val t = repo.createTask("Do it")!!
+        assertTrue(repo.completeTask(t.id))
+        val done = repo.getById(t.id)!!
+        assertTrue(done.isCompleted)
+        assertEquals(Task.PROGRESS_COMPLETED, done.progress)
+        assertTrue(done.taskCompleted.isNotBlank())
+        assertTrue(done.taskStarted.isNotBlank())
+        assertEquals(Task.SYNC_STATE_PENDING, done.syncState)
+    }
+
+    @Test
+    fun `completeTask returns false when already completed or missing`() = runTest {
+        val t = repo.createTask("Do it")!!
+        assertTrue(repo.completeTask(t.id))
+        assertFalse(repo.completeTask(t.id))
+        assertFalse(repo.completeTask("nope"))
+    }
+
+    @Test
+    fun `reopenTask clears completion and returns to in progress`() = runTest {
+        val t = repo.createTask("Do it")!!
+        repo.completeTask(t.id)
+        assertTrue(repo.reopenTask(t.id))
+        val r = repo.getById(t.id)!!
+        assertFalse(r.isCompleted)
+        assertEquals(Task.PROGRESS_IN_PROGRESS, r.progress)
+        assertTrue(r.taskCompleted.isBlank())
+        assertEquals(Task.SYNC_STATE_PENDING, r.syncState)
+    }
+
+    @Test
+    fun `reopenTask returns false when the task is not completed`() = runTest {
+        val t = repo.createTask("Not done")!!
+        assertFalse(repo.reopenTask(t.id))
+        assertFalse(repo.reopenTask("nope"))
+    }
+
+    // ---------- deleteTask / restoreTask ----------
+
+    @Test
+    fun `deleteTask creates a tombstone instead of hard-deleting`() = runTest {
+        val t = repo.createTask("Gone")!!
+        assertTrue(repo.deleteTask(t.id))
+        val tomb = repo.getById(t.id)
+        assertNotNull(tomb) // still in storage for sync
+        assertTrue(tomb!!.deleted)
+        assertEquals(Task.SYNC_STATE_PENDING, tomb.syncState)
+        assertTrue(repo.getAllActive().isEmpty()) // hidden from active views
+        assertEquals(0, dao.countActive())
+    }
+
+    @Test
+    fun `deleteTask returns false for a missing or already deleted task`() = runTest {
+        assertFalse(repo.deleteTask("nope"))
+        val t = repo.createTask("Gone")!!
+        assertTrue(repo.deleteTask(t.id))
+        assertFalse(repo.deleteTask(t.id))
+    }
+
+    @Test
+    fun `restoreTask undoes a soft delete`() = runTest {
+        val t = repo.createTask("Back")!!
+        repo.deleteTask(t.id)
+        assertTrue(repo.restoreTask(t.id))
+        val restored = repo.getById(t.id)!!
+        assertFalse(restored.deleted)
+        assertEquals(1, repo.getAllActive().size)
+        assertEquals(Task.SYNC_STATE_PENDING, restored.syncState)
+    }
+
+    @Test
+    fun `restoreTask returns false when the task is not deleted`() = runTest {
+        val t = repo.createTask("Fine")!!
+        assertFalse(repo.restoreTask(t.id))
+        assertFalse(repo.restoreTask("nope"))
+    }
+
+    // ---------- sync-engine helpers ----------
+
+    @Test
+    fun `applyRemoteTask does not resurrect a pending tombstone`() = runTest {
+        val t = repo.createTask("Local gone")!!
+        repo.deleteTask(t.id) // tombstone is PENDING
+        repo.applyRemoteTask(
+            Task(id = t.id, taskName = "Remote version", lastUpdated = "2026-10-20T10:00:00+05:30")
+        )
+        val kept = repo.getById(t.id)!!
+        assertTrue(kept.deleted)
+        assertEquals("Local gone", kept.taskName)
+    }
+
+    @Test
+    fun `applyRemoteTask inserts new remote tasks as synced`() = runTest {
+        val remote = Task(
+            id = "r-9",
+            taskName = "From sheet",
+            lastUpdated = "2026-10-19T10:00:00+05:30"
+        )
+        repo.applyRemoteTask(remote)
+        val got = repo.getById("r-9")!!
+        assertEquals("From sheet", got.taskName)
+        assertEquals(Task.SYNC_STATE_SYNCED, got.syncState)
+        assertEquals(Task.ORIGIN_REMOTE, got.origin)
+        assertFalse(got.deleted)
+    }
+
+    @Test
+    fun `applyRemoteDeletion refuses to delete unsynced local tasks`() = runTest {
+        val t = repo.createTask("Unsynced")!! // PENDING + LOCAL
+        assertFalse(repo.applyRemoteDeletion(t.id))
+        val kept = repo.getById(t.id)!!
+        assertFalse(kept.deleted)
+    }
+
+    @Test
+    fun `applyRemoteDeletion removes previously synced tasks`() = runTest {
+        val t = repo.createTask("Synced")!!
+        repo.markSynced(t.id)
+        assertTrue(repo.applyRemoteDeletion(t.id))
+        val deleted = repo.getById(t.id)!!
+        assertTrue(deleted.deleted)
+        assertEquals(Task.SYNC_STATE_SYNCED, deleted.syncState)
+        assertTrue(repo.getAllActive().isEmpty())
+    }
+
+    @Test
+    fun `applyRemoteDeletion returns false for an unknown id`() = runTest {
+        assertFalse(repo.applyRemoteDeletion("nope"))
+    }
+
+    @Test
+    fun `markSynced and markSyncError update sync state`() = runTest {
+        val t = repo.createTask("Sync me")!!
+        repo.markSyncError(t.id, "boom")
+        val err = repo.getById(t.id)!!
+        assertEquals(Task.SYNC_STATE_ERROR, err.syncState)
+        assertEquals("boom", err.lastSyncError)
+
+        repo.markSynced(t.id)
+        val ok = repo.getById(t.id)!!
+        assertEquals(Task.SYNC_STATE_SYNCED, ok.syncState)
+        assertEquals(Task.ORIGIN_REMOTE, ok.origin)
+        assertTrue(ok.lastSyncError.isBlank())
+    }
+
+    @Test
+    fun `markSyncError truncates long error messages`() = runTest {
+        val t = repo.createTask("Sync me")!!
+        repo.markSyncError(t.id, "x".repeat(400))
+        assertEquals(300, repo.getById(t.id)!!.lastSyncError.length)
+    }
+
+    @Test
+    fun `purgeTombstone removes only tombstones`() = runTest {
+        val tomb = repo.createTask("Tomb")!!
+        repo.deleteTask(tomb.id)
+        repo.purgeTombstone(tomb.id)
+        assertNull(repo.getById(tomb.id))
+
+        val live = repo.createTask("Live")!!
+        repo.purgeTombstone(live.id)
+        assertNotNull(repo.getById(live.id))
+    }
+
+    // ---------- onMutated ----------
+
+    @Test
+    fun `onMutated fires after every successful local mutation`() = runTest {
+        var count = 0
+        repo.onMutated = { count++ }
+
+        val t = repo.createTask("Mutated")!!
+        assertEquals(1, count)
+
+        assertTrue(repo.updateTask(t.copy(notes = "edited")))
+        assertEquals(2, count)
+
+        assertTrue(repo.completeTask(t.id))
+        assertEquals(3, count)
+
+        assertTrue(repo.reopenTask(t.id))
+        assertEquals(4, count)
+
+        assertTrue(repo.deleteTask(t.id))
+        assertEquals(5, count)
+
+        assertTrue(repo.restoreTask(t.id))
+        assertEquals(6, count)
+    }
+
+    @Test
+    fun `onMutated does not fire on failed mutations or remote applies`() = runTest {
+        var count = 0
+        repo.onMutated = { count++ }
+
+        assertNull(repo.createTask("")) // validation failure
+        assertFalse(repo.updateTask(Task(id = "nope", taskName = "x")))
+        assertEquals(0, count)
+
+        val t = repo.createTask("Local")!!
+        assertEquals(1, count)
+
+        // Remote-applied changes must not trigger a sync loop.
+        repo.applyRemoteTask(t.copy(taskName = "Remote edit"))
+        repo.applyRemoteDeletion("unknown-id")
+        repo.markSynced(t.id)
+        repo.markSyncError(t.id, "boom")
+        assertEquals(1, count)
+    }
+}
