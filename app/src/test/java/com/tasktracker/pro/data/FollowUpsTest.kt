@@ -1,1 +1,87 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZQoKY2xhc3MgRm9sbG93VXBzVGVzdCB7CgogICAgcHJpdmF0ZSB2YWwgdG9kYXk6IExvY2FsRGF0ZSA9IExvY2FsRGF0ZS5vZigyMDI2LCAxMCwgMjIpCgogICAgcHJpdmF0ZSBmdW4gdGFzaygKICAgICAgICBpZDogU3RyaW5nLAogICAgICAgIHByb2dyZXNzOiBTdHJpbmcgPSBUYXNrLlBST0dSRVNTX0lOX1BST0dSRVNTLAogICAgICAgIGZvbGxvd1VwOiBTdHJpbmcgPSAiIiwKICAgICAgICBkZWxldGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgdmVuZG9yOiBTdHJpbmcgPSAiIgogICAgKSA9IFRhc2soCiAgICAgICAgaWQgPSBpZCwKICAgICAgICB0YXNrTmFtZSA9ICJUYXNrICRpZCIsCiAgICAgICAgcHJvZ3Jlc3MgPSBwcm9ncmVzcywKICAgICAgICBuZXh0Rm9sbG93VXAgPSBmb2xsb3dVcCwKICAgICAgICBkZWxldGVkID0gZGVsZXRlZCwKICAgICAgICB2ZW5kb3IgPSB2ZW5kb3IKICAgICkKCiAgICBAVGVzdAogICAgZnVuIGZvbGxvd1VwRHVlVG9kYXlJc0luY2x1ZGVkKCkgewogICAgICAgIHZhbCBkdWUgPSBGb2xsb3dVcHMuZHVlRm9sbG93VXBzKGxpc3RPZih0YXNrKCJhIiwgZm9sbG93VXAgPSAiMjAyNi0xMC0yMiIpKSwgdG9kYXkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigiYSIpLCBkdWUubWFwIHsgaXQuaWQgfSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIG92ZXJkdWVGb2xsb3dVcElzSW5jbHVkZWQoKSB7CiAgICAgICAgdmFsIGR1ZSA9IEZvbGxvd1Vwcy5kdWVGb2xsb3dVcHMobGlzdE9mKHRhc2soImEiLCBmb2xsb3dVcCA9ICIyMDI2LTEwLTIwIikpLCB0b2RheSkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJhIiksIGR1ZS5tYXAgeyBpdC5pZCB9KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gZnV0dXJlRm9sbG93VXBJc05vdER1ZSgpIHsKICAgICAgICB2YWwgZHVlID0gRm9sbG93VXBzLmR1ZUZvbGxvd1VwcyhsaXN0T2YodGFzaygiYSIsIGZvbGxvd1VwID0gIjIwMjYtMTAtMjMiKSksIHRvZGF5KQogICAgICAgIGFzc2VydFRydWUoZHVlLmlzRW1wdHkoKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGNvbXBsZXRlZEFuZERlbGV0ZWRUYXNrc0FyZUV4Y2x1ZGVkKCkgewogICAgICAgIHZhbCBkdWUgPSBGb2xsb3dVcHMuZHVlRm9sbG93VXBzKAogICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICB0YXNrKCJkb25lIiwgcHJvZ3Jlc3MgPSBUYXNrLlBST0dSRVNTX0NPTVBMRVRFRCwgZm9sbG93VXAgPSAiMjAyNi0xMC0yMiIpLAogICAgICAgICAgICAgICAgdGFzaygiZ29uZSIsIGZvbGxvd1VwID0gIjIwMjYtMTAtMjIiLCBkZWxldGVkID0gdHJ1ZSkKICAgICAgICAgICAgKSwKICAgICAgICAgICAgdG9kYXkKICAgICAgICApCiAgICAgICAgYXNzZXJ0VHJ1ZShkdWUuaXNFbXB0eSgpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYmxhbmtPckludmFsaWRGb2xsb3dVcERhdGVJc0lnbm9yZWQoKSB7CiAgICAgICAgdmFsIGR1ZSA9IEZvbGxvd1Vwcy5kdWVGb2xsb3dVcHMoCiAgICAgICAgICAgIGxpc3RPZih0YXNrKCJhIiwgZm9sbG93VXAgPSAiIiksIHRhc2soImIiLCBmb2xsb3dVcCA9ICJuZXh0IHdlZWsiKSksCiAgICAgICAgICAgIHRvZGF5CiAgICAgICAgKQogICAgICAgIGFzc2VydFRydWUoZHVlLmlzRW1wdHkoKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIG9sZGVzdEZvbGxvd1VwQ29tZXNGaXJzdCgpIHsKICAgICAgICB2YWwgZHVlID0gRm9sbG93VXBzLmR1ZUZvbGxvd1VwcygKICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgdGFzaygibmV3ZXIiLCBmb2xsb3dVcCA9ICIyMDI2LTEwLTIyIiksCiAgICAgICAgICAgICAgICB0YXNrKCJvbGRlciIsIGZvbGxvd1VwID0gIjIwMjYtMTAtMTkiKQogICAgICAgICAgICApLAogICAgICAgICAgICB0b2RheQogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJvbGRlciIsICJuZXdlciIpLCBkdWUubWFwIHsgaXQuaWQgfSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIG5vdGlmaWNhdGlvblRleHRNZW50aW9uc1ZlbmRvckFuZE92ZXJkdWUoKSB7CiAgICAgICAgdmFsIHRleHQgPSBGb2xsb3dVcHMubm90aWZpY2F0aW9uVGV4dCgKICAgICAgICAgICAgdGFzaygiYSIsIGZvbGxvd1VwID0gIjIwMjYtMTAtMjAiLCB2ZW5kb3IgPSAiU2hhcm1hIEZ1cm5pdHVyZSIpLAogICAgICAgICAgICB0b2RheQogICAgICAgICkKICAgICAgICBhc3NlcnRUcnVlKHRleHQuY29udGFpbnMoIlNoYXJtYSBGdXJuaXR1cmUiKSkKICAgICAgICBhc3NlcnRUcnVlKHRleHQuY29udGFpbnMoIm92ZXJkdWUiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpCiAgICB9Cn0K
+package com.tasktracker.pro.data
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import java.time.LocalDate
+
+class FollowUpsTest {
+
+    private val today: LocalDate = LocalDate.of(2026, 10, 22)
+
+    private fun task(
+        id: String,
+        progress: String = Task.PROGRESS_IN_PROGRESS,
+        followUp: String = "",
+        deleted: Boolean = false,
+        vendor: String = ""
+    ) = Task(
+        id = id,
+        taskName = "Task $id",
+        progress = progress,
+        nextFollowUp = followUp,
+        deleted = deleted,
+        vendor = vendor
+    )
+
+    @Test
+    fun followUpDueTodayIsIncluded() {
+        val due = FollowUps.dueFollowUps(listOf(task("a", followUp = "2026-10-22")), today)
+        assertEquals(listOf("a"), due.map { it.id })
+    }
+
+    @Test
+    fun overdueFollowUpIsIncluded() {
+        val due = FollowUps.dueFollowUps(listOf(task("a", followUp = "2026-10-20")), today)
+        assertEquals(listOf("a"), due.map { it.id })
+    }
+
+    @Test
+    fun futureFollowUpIsNotDue() {
+        val due = FollowUps.dueFollowUps(listOf(task("a", followUp = "2026-10-23")), today)
+        assertTrue(due.isEmpty())
+    }
+
+    @Test
+    fun completedAndDeletedTasksAreExcluded() {
+        val due = FollowUps.dueFollowUps(
+            listOf(
+                task("done", progress = Task.PROGRESS_COMPLETED, followUp = "2026-10-22"),
+                task("gone", followUp = "2026-10-22", deleted = true)
+            ),
+            today
+        )
+        assertTrue(due.isEmpty())
+    }
+
+    @Test
+    fun blankOrInvalidFollowUpDateIsIgnored() {
+        val due = FollowUps.dueFollowUps(
+            listOf(task("a", followUp = ""), task("b", followUp = "next week")),
+            today
+        )
+        assertTrue(due.isEmpty())
+    }
+
+    @Test
+    fun oldestFollowUpComesFirst() {
+        val due = FollowUps.dueFollowUps(
+            listOf(
+                task("newer", followUp = "2026-10-22"),
+                task("older", followUp = "2026-10-19")
+            ),
+            today
+        )
+        assertEquals(listOf("older", "newer"), due.map { it.id })
+    }
+
+    @Test
+    fun notificationTextMentionsVendorAndOverdue() {
+        val text = FollowUps.notificationText(
+            task("a", followUp = "2026-10-20", vendor = "Sharma Furniture"),
+            today
+        )
+        assertTrue(text.contains("Sharma Furniture"))
+        assertTrue(text.contains("overdue", ignoreCase = true))
+    }
+}
