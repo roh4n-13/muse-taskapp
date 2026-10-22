@@ -1,1 +1,97 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCi8qKgogKiBNb25leSBsb2dpYyBmb3IgdGhlIGluLWFwcCBLaGFyY2hhIChjb3N0KSBzdW1tYXJ5LiBSdWxlcyBpbnRlbnRpb25hbGx5CiAqIG1hdGNoIHRoZSBHb29nbGUgU2hlZXQgIlN1bW1hcnkiIHRhYiBzbyBib3RoIHBsYWNlcyBhbHdheXMgYWdyZWU6CiAqICAtIFRvdGFscyBpbmNsdWRlIGV2ZXJ5IG5vbi1kZWxldGVkIHRhc2sgKGNvbXBsZXRlZCBvbmVzIGluY2x1ZGVkKS4KICogIC0gQW1vdW50IGR1ZTogZm9yIHRhc2tzIHdob3NlIFBheW1lbnQgU3RhdHVzIGlzIG5vdCAiUGFpZCIsCiAqICAgIGR1ZSA9IEFjdHVhbCBDb3N0IHdoZW4gZ2l2ZW4sIG90aGVyd2lzZSBFc3RpbWF0ZWQgQ29zdC4KICogIC0gVW5wYXJzZWFibGUgYW1vdW50cyBjb3VudCBhcyAwLgogKi8Kb2JqZWN0IENvc3RzIHsKCiAgICBkYXRhIGNsYXNzIFZlbmRvckR1ZSh2YWwgdmVuZG9yOiBTdHJpbmcsIHZhbCBwZW5kaW5nVGFza3M6IEludCwgdmFsIGR1ZUlucjogRG91YmxlKQoKICAgIGRhdGEgY2xhc3MgQ29zdFN1bW1hcnkoCiAgICAgICAgdmFsIHRvdGFsRXN0aW1hdGVkSW5yOiBEb3VibGUsCiAgICAgICAgdmFsIHRvdGFsQWN0dWFsSW5yOiBEb3VibGUsCiAgICAgICAgdmFsIGFtb3VudER1ZUlucjogRG91YmxlLAogICAgICAgIHZhbCBwZW5kaW5nUGF5bWVudFRhc2tzOiBJbnQsCiAgICAgICAgdmFsIHZlbmRvckR1ZXM6IExpc3Q8VmVuZG9yRHVlPgogICAgKSB7CiAgICAgICAgdmFsIGhhc01vbmV5OiBCb29sZWFuCiAgICAgICAgICAgIGdldCgpID0gdG90YWxFc3RpbWF0ZWRJbnIgPiAwIHx8IHRvdGFsQWN0dWFsSW5yID4gMCB8fCBhbW91bnREdWVJbnIgPiAwCiAgICB9CgogICAgLyoqICLigrkxLDIwMCIgLyAiMSwyMDAuNTAiIC8gIiIgLT4gbnVtYmVyICgwIHdoZW4gdW5wYXJzZWFibGUpLiAqLwogICAgZnVuIHBhcnNlTW9uZXkocmF3OiBTdHJpbmcpOiBEb3VibGUgewogICAgICAgIHZhbCBjbGVhbmVkID0gcmF3LmZpbHRlciB7IGl0LmlzRGlnaXQoKSB8fCBpdCA9PSAnLicgfQogICAgICAgIGlmIChjbGVhbmVkLmlzQmxhbmsoKSkgcmV0dXJuIDAuMAogICAgICAgIHJldHVybiBjbGVhbmVkLnRvRG91YmxlT3JOdWxsKCkgPzogMC4wCiAgICB9CgogICAgZnVuIHN1bW1hcml6ZSh0YXNrczogTGlzdDxUYXNrPik6IENvc3RTdW1tYXJ5IHsKICAgICAgICB2YXIgdG90YWxFc3RpbWF0ZWQgPSAwLjAKICAgICAgICB2YXIgdG90YWxBY3R1YWwgPSAwLjAKICAgICAgICB2YXIgdG90YWxEdWUgPSAwLjAKICAgICAgICB2YXIgcGVuZGluZ1BheW1lbnRUYXNrcyA9IDAKICAgICAgICB2YWwgYnlWZW5kb3IgPSBtdXRhYmxlTWFwT2Y8U3RyaW5nLCBWZW5kb3JEdWU+KCkKICAgICAgICBmb3IgKHRhc2sgaW4gdGFza3MpIHsKICAgICAgICAgICAgaWYgKHRhc2suZGVsZXRlZCkgY29udGludWUKICAgICAgICAgICAgdmFsIGVzdCA9IHBhcnNlTW9uZXkodGFzay5lc3RpbWF0ZWRDb3N0SW5yKQogICAgICAgICAgICB2YWwgYWN0ID0gcGFyc2VNb25leSh0YXNrLmFjdHVhbENvc3RJbnIpCiAgICAgICAgICAgIHRvdGFsRXN0aW1hdGVkICs9IGVzdAogICAgICAgICAgICB0b3RhbEFjdHVhbCArPSBhY3QKICAgICAgICAgICAgdmFsIHBhaWQgPSB0YXNrLnBheW1lbnRTdGF0dXMudHJpbSgpLmVxdWFscygicGFpZCIsIGlnbm9yZUNhc2UgPSB0cnVlKQogICAgICAgICAgICBpZiAoIXBhaWQpIHsKICAgICAgICAgICAgICAgIHZhbCBkdWUgPSBpZiAoYWN0ID4gMCkgYWN0IGVsc2UgZXN0CiAgICAgICAgICAgICAgICBpZiAoZHVlID4gMCkgewogICAgICAgICAgICAgICAgICAgIHRvdGFsRHVlICs9IGR1ZQogICAgICAgICAgICAgICAgICAgIHBlbmRpbmdQYXltZW50VGFza3MrKwogICAgICAgICAgICAgICAgICAgIHZhbCBuYW1lID0gdGFzay52ZW5kb3IudHJpbSgpLmlmRW1wdHkgeyAiTm8gdmVuZG9yIiB9CiAgICAgICAgICAgICAgICAgICAgdmFsIHByZXYgPSBieVZlbmRvcltuYW1lXQogICAgICAgICAgICAgICAgICAgIGJ5VmVuZG9yW25hbWVdID0gVmVuZG9yRHVlKAogICAgICAgICAgICAgICAgICAgICAgICB2ZW5kb3IgPSBuYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBwZW5kaW5nVGFza3MgPSAocHJldj8ucGVuZGluZ1Rhc2tzID86IDApICsgMSwKICAgICAgICAgICAgICAgICAgICAgICAgZHVlSW5yID0gKHByZXY/LmR1ZUluciA/OiAwLjApICsgZHVlCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBDb3N0U3VtbWFyeSgKICAgICAgICAgICAgdG90YWxFc3RpbWF0ZWRJbnIgPSB0b3RhbEVzdGltYXRlZCwKICAgICAgICAgICAgdG90YWxBY3R1YWxJbnIgPSB0b3RhbEFjdHVhbCwKICAgICAgICAgICAgYW1vdW50RHVlSW5yID0gdG90YWxEdWUsCiAgICAgICAgICAgIHBlbmRpbmdQYXltZW50VGFza3MgPSBwZW5kaW5nUGF5bWVudFRhc2tzLAogICAgICAgICAgICB2ZW5kb3JEdWVzID0gYnlWZW5kb3IudmFsdWVzLnNvcnRlZFdpdGgoCiAgICAgICAgICAgICAgICBjb21wYXJlQnlEZXNjZW5kaW5nPFZlbmRvckR1ZT4geyBpdC5kdWVJbnIgfS50aGVuQnkgeyBpdC52ZW5kb3IubG93ZXJjYXNlKCkgfQogICAgICAgICAgICApCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICog4oK5IGZvcm1hdHRpbmcgd2l0aCBJbmRpYW4gZGlnaXQgZ3JvdXBpbmc6IDEyMzQ1NjcgLT4gIuKCuTEyLDM0LDU2NyIuCiAgICAgKiBJbXBsZW1lbnRlZCBtYW51YWxseSAobm90IHZpYSBOdW1iZXJGb3JtYXQpIGJlY2F1c2UgcGxhdGZvcm0gbG9jYWxlCiAgICAgKiBkYXRhIGRpZmZlcnMgYmV0d2VlbiBkZXZpY2VzL0pWTXMg4oCUIHRoZSByZXN1bHQgbXVzdCBiZSBpZGVudGljYWwKICAgICAqIGV2ZXJ5d2hlcmU6IGxhc3QgMyBkaWdpdHMsIHRoZW4gZ3JvdXBzIG9mIDIuCiAgICAgKi8KICAgIGZ1biBmb3JtYXRJbnIoYW1vdW50OiBEb3VibGUpOiBTdHJpbmcgewogICAgICAgIHZhbCBuZWdhdGl2ZSA9IGFtb3VudCA8IDAKICAgICAgICB2YWwgYWJzID0ga290bGluLm1hdGguYWJzKGFtb3VudCkKICAgICAgICB2YWwgcm91bmRlZCA9IE1hdGgucm91bmQoYWJzICogMTAwLjApIC8gMTAwLjAKICAgICAgICB2YWwgaW50UGFydCA9IHJvdW5kZWQudG9Mb25nKCkKICAgICAgICB2YWwgZnJhY1BhaXNlID0gTWF0aC5yb3VuZCgocm91bmRlZCAtIGludFBhcnQpICogMTAwKS50b0ludCgpCgogICAgICAgIHZhbCBkaWdpdHMgPSBpbnRQYXJ0LnRvU3RyaW5nKCkKICAgICAgICB2YWwgZ3JvdXBlZCA9IGlmIChkaWdpdHMubGVuZ3RoIDw9IDMpIHsKICAgICAgICAgICAgZGlnaXRzCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdmFsIGhlYWQgPSBkaWdpdHMuZHJvcExhc3QoMykKICAgICAgICAgICAgdmFsIHRhaWwgPSBkaWdpdHMudGFrZUxhc3QoMykKICAgICAgICAgICAgdmFsIGhlYWRHcm91cGVkID0gaGVhZC5yZXZlcnNlZCgpLmNodW5rZWQoMikuam9pblRvU3RyaW5nKCIsIikgeyBpdCB9LnJldmVyc2VkKCkKICAgICAgICAgICAgIiRoZWFkR3JvdXBlZCwkdGFpbCIKICAgICAgICB9CiAgICAgICAgdmFsIGZyYWNQYXJ0ID0gaWYgKGZyYWNQYWlzZSA+IDApICIuIiArIGZyYWNQYWlzZS50b1N0cmluZygpLnBhZFN0YXJ0KDIsICcwJykgZWxzZSAiIgogICAgICAgIHJldHVybiAoaWYgKG5lZ2F0aXZlKSAiLSIgZWxzZSAiIikgKyAi4oK5IiArIGdyb3VwZWQgKyBmcmFjUGFydAogICAgfQp9Cg==
+package com.tasktracker.pro.data
+
+/**
+ * Money logic for the in-app Kharcha (cost) summary. Rules intentionally
+ * match the Google Sheet "Summary" tab so both places always agree:
+ *  - Totals include every non-deleted task (completed ones included).
+ *  - Amount due: for tasks whose Payment Status is not "Paid",
+ *    due = Actual Cost when given, otherwise Estimated Cost.
+ *  - Unparseable amounts count as 0.
+ */
+object Costs {
+
+    data class VendorDue(val vendor: String, val pendingTasks: Int, val dueInr: Double)
+
+    data class CostSummary(
+        val totalEstimatedInr: Double,
+        val totalActualInr: Double,
+        val amountDueInr: Double,
+        val pendingPaymentTasks: Int,
+        val vendorDues: List<VendorDue>
+    ) {
+        val hasMoney: Boolean
+            get() = totalEstimatedInr > 0 || totalActualInr > 0 || amountDueInr > 0
+    }
+
+    /** "₹1,200" / "1,200.50" / "" -> number (0 when unparseable). */
+    fun parseMoney(raw: String): Double {
+        val cleaned = raw.filter { it.isDigit() || it == '.' }
+        if (cleaned.isBlank()) return 0.0
+        return cleaned.toDoubleOrNull() ?: 0.0
+    }
+
+    fun summarize(tasks: List<Task>): CostSummary {
+        var totalEstimated = 0.0
+        var totalActual = 0.0
+        var totalDue = 0.0
+        var pendingPaymentTasks = 0
+        val byVendor = mutableMapOf<String, VendorDue>()
+        for (task in tasks) {
+            if (task.deleted) continue
+            val est = parseMoney(task.estimatedCostInr)
+            val act = parseMoney(task.actualCostInr)
+            totalEstimated += est
+            totalActual += act
+            val paid = task.paymentStatus.trim().equals("paid", ignoreCase = true)
+            if (!paid) {
+                val due = if (act > 0) act else est
+                if (due > 0) {
+                    totalDue += due
+                    pendingPaymentTasks++
+                    val name = task.vendor.trim().ifEmpty { "No vendor" }
+                    val prev = byVendor[name]
+                    byVendor[name] = VendorDue(
+                        vendor = name,
+                        pendingTasks = (prev?.pendingTasks ?: 0) + 1,
+                        dueInr = (prev?.dueInr ?: 0.0) + due
+                    )
+                }
+            }
+        }
+        return CostSummary(
+            totalEstimatedInr = totalEstimated,
+            totalActualInr = totalActual,
+            amountDueInr = totalDue,
+            pendingPaymentTasks = pendingPaymentTasks,
+            vendorDues = byVendor.values.sortedWith(
+                compareByDescending<VendorDue> { it.dueInr }.thenBy { it.vendor.lowercase() }
+            )
+        )
+    }
+
+    /**
+     * ₹ formatting with Indian digit grouping: 1234567 -> "₹12,34,567".
+     * Implemented manually (not via NumberFormat) because platform locale
+     * data differs between devices/JVMs — the result must be identical
+     * everywhere: last 3 digits, then groups of 2.
+     */
+    fun formatInr(amount: Double): String {
+        val negative = amount < 0
+        val abs = kotlin.math.abs(amount)
+        val rounded = Math.round(abs * 100.0) / 100.0
+        val intPart = rounded.toLong()
+        val fracPaise = Math.round((rounded - intPart) * 100).toInt()
+
+        val digits = intPart.toString()
+        val grouped = if (digits.length <= 3) {
+            digits
+        } else {
+            val head = digits.dropLast(3)
+            val tail = digits.takeLast(3)
+            val headGrouped = head.reversed().chunked(2).joinToString(",") { it }.reversed()
+            "$headGrouped,$tail"
+        }
+        val fracPart = if (fracPaise > 0) "." + fracPaise.toString().padStart(2, '0') else ""
+        return (if (negative) "-" else "") + "₹" + grouped + fracPart
+    }
+}
