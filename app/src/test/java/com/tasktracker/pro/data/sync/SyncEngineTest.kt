@@ -1,1 +1,346 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEuc3luYwoKaW1wb3J0IGNvbS50YXNrdHJhY2tlci5wcm8uZGF0YS5GYWtlU2hlZXRzQXBpCmltcG9ydCBjb20udGFza3RyYWNrZXIucHJvLmRhdGEuRmFrZVN5bmNQcmVmcwppbXBvcnQgY29tLnRhc2t0cmFja2VyLnByby5kYXRhLkZha2VUYXNrRGFvCmltcG9ydCBjb20udGFza3RyYWNrZXIucHJvLmRhdGEuVGFzawppbXBvcnQgY29tLnRhc2t0cmFja2VyLnByby5kYXRhLlRhc2tSZXBvc2l0b3J5CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy50ZXN0LnJ1blRlc3QKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE5vdE51bGwKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0TnVsbAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuQmVmb3JlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgU3luY0VuZ2luZVRlc3QgewoKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIGRhbzogRmFrZVRhc2tEYW8KICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIHJlcG86IFRhc2tSZXBvc2l0b3J5CiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBwcmVmczogRmFrZVN5bmNQcmVmcwogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgYXBpOiBGYWtlU2hlZXRzQXBpCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBlbmdpbmU6IFN5bmNFbmdpbmUKICAgIHByaXZhdGUgdmFyIG9ubGluZSA9IHRydWUKCiAgICBwcml2YXRlIHZhbCB2YWxpZFVybCA9ICJodHRwczovL3NjcmlwdC5nb29nbGUuY29tL21hY3Jvcy9zL0FLZnljYngxMjMvZXhlYyIKCiAgICBAQmVmb3JlCiAgICBmdW4gc2V0VXAoKSB7CiAgICAgICAgZGFvID0gRmFrZVRhc2tEYW8oKQogICAgICAgIHJlcG8gPSBUYXNrUmVwb3NpdG9yeShkYW8pCiAgICAgICAgcHJlZnMgPSBGYWtlU3luY1ByZWZzKCkKICAgICAgICBhcGkgPSBGYWtlU2hlZXRzQXBpKCkKICAgICAgICBvbmxpbmUgPSB0cnVlCiAgICAgICAgZW5naW5lID0gU3luY0VuZ2luZShyZXBvLCBwcmVmcywgYXBpLCBEaXNwYXRjaGVycy5VbmNvbmZpbmVkKSB7IG9ubGluZSB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY29uZmlndXJlU3luYygpIHsKICAgICAgICBwcmVmcy53ZWJBcHBVcmwgPSB2YWxpZFVybAogICAgICAgIHByZWZzLnRva2VuID0gInRlc3QtdG9rZW4iCiAgICAgICAgZW5naW5lLnNldFN5bmNFbmFibGVkKHRydWUpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVtb3RlVGFzayhpZDogU3RyaW5nLCBuYW1lOiBTdHJpbmcsIGxhc3RVcGRhdGVkOiBTdHJpbmcpID0gVGFzaygKICAgICAgICBpZCA9IGlkLAogICAgICAgIHRhc2tOYW1lID0gbmFtZSwKICAgICAgICBsYXN0VXBkYXRlZCA9IGxhc3RVcGRhdGVkLAogICAgICAgIHN5bmNTdGF0ZSA9IFRhc2suU1lOQ19TVEFURV9TWU5DRUQsCiAgICAgICAgb3JpZ2luID0gVGFzay5PUklHSU5fUkVNT1RFCiAgICApCgogICAgLy8gLS0tLS0tLS0tLSB0ZXN0Q29ubmVjdGlvbiAtLS0tLS0tLS0tCgogICAgQFRlc3QKICAgIGZ1biBgdGVzdENvbm5lY3Rpb24gcmVqZWN0cyBhIG1hbGZvcm1lZCBVUkxgKCkgPSBydW5UZXN0IHsKICAgICAgICB2YWwgciA9IGVuZ2luZS50ZXN0Q29ubmVjdGlvbigiaHR0cDovL2V4YW1wbGUuY29tL25vdC1nb29nbGUiLCAidG9rIikKICAgICAgICBhc3NlcnRGYWxzZShyLm9rKQogICAgICAgIGFzc2VydFRydWUoYXBpLnBpbmdDYWxscy5pc0VtcHR5KCkpIC8vIG5ldmVyIGV2ZW4gYXR0ZW1wdGVkCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgdGVzdENvbm5lY3Rpb24gcmVqZWN0cyBhIFVSTCBub3QgZW5kaW5nIGluIGV4ZWNgKCkgPSBydW5UZXN0IHsKICAgICAgICB2YWwgciA9IGVuZ2luZS50ZXN0Q29ubmVjdGlvbigiaHR0cHM6Ly9zY3JpcHQuZ29vZ2xlLmNvbS9tYWNyb3Mvcy9BQkMiLCAidG9rIikKICAgICAgICBhc3NlcnRGYWxzZShyLm9rKQogICAgICAgIGFzc2VydFRydWUoYXBpLnBpbmdDYWxscy5pc0VtcHR5KCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgdGVzdENvbm5lY3Rpb24gcmVqZWN0cyBhbiBlbXB0eSBVUkxgKCkgPSBydW5UZXN0IHsKICAgICAgICB2YWwgciA9IGVuZ2luZS50ZXN0Q29ubmVjdGlvbigiICAgIiwgInRvayIpCiAgICAgICAgYXNzZXJ0RmFsc2Uoci5vaykKICAgICAgICBhc3NlcnRUcnVlKHIubWVzc2FnZS5jb250YWlucygiVVJMIiwgaWdub3JlQ2FzZSA9IHRydWUpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHRlc3RDb25uZWN0aW9uIHJlamVjdHMgYSBibGFuayB0b2tlbmAoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCByID0gZW5naW5lLnRlc3RDb25uZWN0aW9uKHZhbGlkVXJsLCAiICAgIikKICAgICAgICBhc3NlcnRGYWxzZShyLm9rKQogICAgICAgIGFzc2VydFRydWUoci5tZXNzYWdlLmNvbnRhaW5zKCJ0b2tlbiIsIGlnbm9yZUNhc2UgPSB0cnVlKSkKICAgICAgICBhc3NlcnRUcnVlKGFwaS5waW5nQ2FsbHMuaXNFbXB0eSgpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHRlc3RDb25uZWN0aW9uIHN1cmZhY2VzIGEgcGluZyBmYWlsdXJlYCgpID0gcnVuVGVzdCB7CiAgICAgICAgYXBpLnBpbmdSZXN1bHQgPSBBcGlSZXN1bHQuZmFpbHVyZSgiSW52YWxpZCB0b2tlbi4iKQogICAgICAgIHZhbCByID0gZW5naW5lLnRlc3RDb25uZWN0aW9uKHZhbGlkVXJsLCAiYmFkLXRva2VuIikKICAgICAgICBhc3NlcnRGYWxzZShyLm9rKQogICAgICAgIGFzc2VydFRydWUoci5tZXNzYWdlLmNvbnRhaW5zKCJJbnZhbGlkIHRva2VuLiIpKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YodmFsaWRVcmwgdG8gImJhZC10b2tlbiIpLCBhcGkucGluZ0NhbGxzKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHRlc3RDb25uZWN0aW9uIHN1Y2NlZWRzIG9uIGEgdmFsaWQgcGluZyBhbmQgY2hhbmdlcyBub3RoaW5nYCgpID0gcnVuVGVzdCB7CiAgICAgICAgYXBpLnBpbmdSZXN1bHQgPSBBcGlSZXN1bHQuc3VjY2VzcyhQaW5nSW5mbyh2ZXJzaW9uID0gMSwgc2hlZXRUaXRsZSA9ICJNeSBTaGVldCIsIHRhc2tDb3VudCA9IDcpKQogICAgICAgIHZhbCByID0gZW5naW5lLnRlc3RDb25uZWN0aW9uKHZhbGlkVXJsLCAiZ29vZC10b2tlbiIpCiAgICAgICAgYXNzZXJ0VHJ1ZShyLm9rKQogICAgICAgIGFzc2VydFRydWUoci5tZXNzYWdlLmNvbnRhaW5zKCJNeSBTaGVldCIpKQogICAgICAgIGFzc2VydFRydWUoci5tZXNzYWdlLmNvbnRhaW5zKCI3IikpCiAgICAgICAgLy8gUmVhZC1vbmx5IHZlcmlmaWNhdGlvbjogbm90aGluZyBzdG9yZWQsIG5vdGhpbmcgZW5hYmxlZC4KICAgICAgICBhc3NlcnRGYWxzZShwcmVmcy5pc0NvbmZpZ3VyZWQpCiAgICAgICAgYXNzZXJ0RmFsc2UocHJlZnMuc3luY0VuYWJsZWQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgdGVzdENvbm5lY3Rpb24gZmFpbHMgd2hlbiBvZmZsaW5lYCgpID0gcnVuVGVzdCB7CiAgICAgICAgb25saW5lID0gZmFsc2UKICAgICAgICB2YWwgciA9IGVuZ2luZS50ZXN0Q29ubmVjdGlvbih2YWxpZFVybCwgInRvayIpCiAgICAgICAgYXNzZXJ0RmFsc2Uoci5vaykKICAgICAgICBhc3NlcnRUcnVlKHIubWVzc2FnZS5jb250YWlucygiaW50ZXJuZXQiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpCiAgICAgICAgYXNzZXJ0VHJ1ZShhcGkucGluZ0NhbGxzLmlzRW1wdHkoKSkKICAgIH0KCiAgICAvLyAtLS0tLS0tLS0tIHN5bmNOb3cgZ2F0aW5nIC0tLS0tLS0tLS0KCiAgICBAVGVzdAogICAgZnVuIGBzeW5jTm93IGlzIGEgbm8tb3AgcmVwb3J0aW5nIG5vdC1lbmFibGVkIHdoZW4gc3luYyBpcyBkaXNhYmxlZGAoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCB0ID0gcmVwby5jcmVhdGVUYXNrKCJMb2NhbCBvbmx5IikhIQogICAgICAgIHZhbCByID0gZW5naW5lLnN5bmNOb3coKQogICAgICAgIGFzc2VydEZhbHNlKHIub2spCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJTeW5jIGlzIG5vdCBlbmFibGVkLiIsIHIubWVzc2FnZSkKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgci5wdXNoZWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIHIucHVsbGVkKQogICAgICAgIGFzc2VydFRydWUoYXBpLmJhdGNoQ2FsbHMuaXNFbXB0eSgpKQogICAgICAgIGFzc2VydFRydWUoYXBpLnNuYXBzaG90Q2FsbHMuaXNFbXB0eSgpKQogICAgICAgIC8vIExvY2FsIHdvcmsgdW50b3VjaGVkLgogICAgICAgIGFzc2VydEVxdWFscyhUYXNrLlNZTkNfU1RBVEVfUEVORElORywgcmVwby5nZXRCeUlkKHQuaWQpISEuc3luY1N0YXRlKQogICAgfQoKICAgIC8vIC0tLS0tLS0tLS0gcHVzaCAtLS0tLS0tLS0tCgogICAgQFRlc3QKICAgIGZ1biBgc3luY05vdyBwdXNoZXMgcGVuZGluZyB0YXNrcyB2aWEgYmF0Y2hVcHNlcnQgYW5kIG1hcmtzIHRoZW0gc3luY2VkYCgpID0gcnVuVGVzdCB7CiAgICAgICAgY29uZmlndXJlU3luYygpCiAgICAgICAgdmFsIGEgPSByZXBvLmNyZWF0ZVRhc2soIlRhc2sgQSIpISEKICAgICAgICB2YWwgYiA9IHJlcG8uY3JlYXRlVGFzaygiVGFzayBCIikhIQogICAgICAgIGFwaS5iYXRjaFJlc3VsdCA9IEFwaVJlc3VsdC5zdWNjZXNzKEJhdGNoVXBzZXJ0UmVzdWx0KDIsIGVtcHR5TGlzdCgpKSkKICAgICAgICBhcGkuc25hcHNob3RSZXN1bHQgPSBBcGlSZXN1bHQuc3VjY2VzcyhlbXB0eUxpc3QoKSkKCiAgICAgICAgdmFsIHIgPSBlbmdpbmUuc3luY05vdygpCgogICAgICAgIGFzc2VydFRydWUoci5vaykKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgYXBpLmJhdGNoQ2FsbHMuc2l6ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoc2V0T2YoYS5pZCwgYi5pZCksIGFwaS5iYXRjaENhbGxzWzBdLm1hcCB7IGl0LmlkIH0udG9TZXQoKSkKICAgICAgICBhc3NlcnRUcnVlKGFwaS51cHNlcnRDYWxscy5pc0VtcHR5KCkpIC8vIGJhdGNoIGNvdmVyZWQgZXZlcnl0aGluZwogICAgICAgIGFzc2VydEVxdWFscyhUYXNrLlNZTkNfU1RBVEVfU1lOQ0VELCByZXBvLmdldEJ5SWQoYS5pZCkhIS5zeW5jU3RhdGUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRhc2suU1lOQ19TVEFURV9TWU5DRUQsIHJlcG8uZ2V0QnlJZChiLmlkKSEhLnN5bmNTdGF0ZSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBzeW5jTm93IGtlZXBzIHNlcnZlci1za2lwcGVkIHRhc2tzIHVuc3luY2VkIGluc3RlYWQgb2YgbWFya2luZyB0aGVtIHN5bmNlZGAoKSA9IHJ1blRlc3QgewogICAgICAgIGNvbmZpZ3VyZVN5bmMoKQogICAgICAgIHZhbCBhID0gcmVwby5jcmVhdGVUYXNrKCJUYXNrIEEiKSEhCiAgICAgICAgdmFsIGIgPSByZXBvLmNyZWF0ZVRhc2soIlRhc2sgQiIpISEKICAgICAgICAvLyBTZXJ2ZXIgd3JvdGUgQSBidXQgc2tpcHBlZCBCIChlLmcuIHZhbGlkYXRpb24pIOKAlCBCIG11c3Qgc3RheSByZXRyeWFibGUuCiAgICAgICAgYXBpLmJhdGNoUmVzdWx0ID0gQXBpUmVzdWx0LnN1Y2Nlc3MoQmF0Y2hVcHNlcnRSZXN1bHQoMSwgbGlzdE9mKGIuaWQpKSkKICAgICAgICBhcGkuc25hcHNob3RSZXN1bHQgPSBBcGlSZXN1bHQuc3VjY2VzcyhlbXB0eUxpc3QoKSkKCiAgICAgICAgdmFsIHIgPSBlbmdpbmUuc3luY05vdygpCgogICAgICAgIGFzc2VydFRydWUoci5vaykKICAgICAgICBhc3NlcnRFcXVhbHMoVGFzay5TWU5DX1NUQVRFX1NZTkNFRCwgcmVwby5nZXRCeUlkKGEuaWQpISEuc3luY1N0YXRlKQogICAgICAgIGFzc2VydEVxdWFscyhUYXNrLlNZTkNfU1RBVEVfRVJST1IsIHJlcG8uZ2V0QnlJZChiLmlkKSEhLnN5bmNTdGF0ZSkKICAgICAgICBhc3NlcnRUcnVlKHJlcG8uZ2V0QnlJZChiLmlkKSEhLmxhc3RTeW5jRXJyb3IuaXNOb3RCbGFuaygpKQogICAgICAgIC8vIEIgaXMgc3RpbGwgdW5zeW5jZWQsIHNvIGEgbGF0ZXIgc3luYyByZXRyaWVzIGl0LgogICAgICAgIGFzc2VydEVxdWFscygxLCByZXBvLmdldFVuc3luY2VkKCkuc2l6ZSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBtYXJrQWxsRm9yVXBsb2FkIHJlc2V0cyBzdHVjayB0YXNrcyB0byBwZW5kaW5nYCgpID0gcnVuVGVzdCB7CiAgICAgICAgdmFsIHQgPSByZXBvLmNyZWF0ZVRhc2soIlN0dWNrIikhIQogICAgICAgIHJlcG8ubWFya1N5bmNlZCh0LmlkKQogICAgICAgIGFzc2VydFRydWUocmVwby5nZXRVbnN5bmNlZCgpLmlzRW1wdHkoKSkKCiAgICAgICAgcmVwby5tYXJrQWxsRm9yVXBsb2FkKCkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEsIHJlcG8uZ2V0VW5zeW5jZWQoKS5zaXplKQogICAgICAgIGFzc2VydEVxdWFscyhUYXNrLlNZTkNfU1RBVEVfUEVORElORywgcmVwby5nZXRCeUlkKHQuaWQpISEuc3luY1N0YXRlKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHN5bmNOb3cgZGVsZXRlcyB0b21ic3RvbmVzIHJlbW90ZWx5IHRoZW4gcHVyZ2VzIHRoZW1gKCkgPSBydW5UZXN0IHsKICAgICAgICBjb25maWd1cmVTeW5jKCkKICAgICAgICB2YWwgdCA9IHJlcG8uY3JlYXRlVGFzaygiR29uZSIpISEKICAgICAgICByZXBvLmRlbGV0ZVRhc2sodC5pZCkKICAgICAgICBhcGkuc25hcHNob3RSZXN1bHQgPSBBcGlSZXN1bHQuc3VjY2VzcyhlbXB0eUxpc3QoKSkKCiAgICAgICAgdmFsIHIgPSBlbmdpbmUuc3luY05vdygpCgogICAgICAgIGFzc2VydFRydWUoci5vaykKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKHQuaWQpLCBhcGkuZGVsZXRlQ2FsbHMpCiAgICAgICAgYXNzZXJ0TnVsbChyZXBvLmdldEJ5SWQodC5pZCkpIC8vIHB1cmdlZCBhZnRlciBjb25maXJtZWQgZGVsZXRlCiAgICB9CgogICAgLy8gLS0tLS0tLS0tLSBwdWxsIC0tLS0tLS0tLS0KCiAgICBAVGVzdAogICAgZnVuIGBzeW5jTm93IHB1bGxzIG5ldyByZW1vdGUgdGFza3NgKCkgPSBydW5UZXN0IHsKICAgICAgICBjb25maWd1cmVTeW5jKCkKICAgICAgICBhcGkuc25hcHNob3RSZXN1bHQgPSBBcGlSZXN1bHQuc3VjY2VzcygKICAgICAgICAgICAgbGlzdE9mKHJlbW90ZVRhc2soInIxIiwgIkZyb20gc2hlZXQiLCAiMjAyNi0xMC0xOVQxMDowMDowMCswNTozMCIpKQogICAgICAgICkKCiAgICAgICAgdmFsIHIgPSBlbmdpbmUuc3luY05vdygpCgogICAgICAgIGFzc2VydFRydWUoci5vaykKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgci5wdWxsZWQpCiAgICAgICAgdmFsIGxvY2FsID0gcmVwby5nZXRCeUlkKCJyMSIpISEKICAgICAgICBhc3NlcnRFcXVhbHMoIkZyb20gc2hlZXQiLCBsb2NhbC50YXNrTmFtZSkKICAgICAgICBhc3NlcnRFcXVhbHMoVGFzay5TWU5DX1NUQVRFX1NZTkNFRCwgbG9jYWwuc3luY1N0YXRlKQogICAgICAgIGFzc2VydEVxdWFscyhUYXNrLk9SSUdJTl9SRU1PVEUsIGxvY2FsLm9yaWdpbikKICAgICAgICBhc3NlcnRFcXVhbHMoc2V0T2YoInIxIiksIHByZWZzLmxhc3RTeW5jZWRJZHMpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcmVtb3RlIG5ld2VyIExhc3QgVXBkYXRlZCB3aW5zIG92ZXIgdGhlIHN5bmNlZCBsb2NhbCBjb3B5YCgpID0gcnVuVGVzdCB7CiAgICAgICAgZGFvLnVwc2VydCgKICAgICAgICAgICAgVGFzaygKICAgICAgICAgICAgICAgIGlkID0gIncxIiwKICAgICAgICAgICAgICAgIHRhc2tOYW1lID0gIkxvY2FsIG9sZCIsCiAgICAgICAgICAgICAgICBsYXN0VXBkYXRlZCA9ICIyMDI2LTEwLTE5VDEwOjAwOjAwKzA1OjMwIiwKICAgICAgICAgICAgICAgIHN5bmNTdGF0ZSA9IFRhc2suU1lOQ19TVEFURV9TWU5DRUQsCiAgICAgICAgICAgICAgICBvcmlnaW4gPSBUYXNrLk9SSUdJTl9SRU1PVEUKICAgICAgICAgICAgKQogICAgICAgICkKICAgICAgICBwcmVmcy5sYXN0U3luY2VkSWRzID0gc2V0T2YoIncxIikKICAgICAgICBjb25maWd1cmVTeW5jKCkKICAgICAgICBhcGkuc25hcHNob3RSZXN1bHQgPSBBcGlSZXN1bHQuc3VjY2VzcygKICAgICAgICAgICAgbGlzdE9mKHJlbW90ZVRhc2soIncxIiwgIlJlbW90ZSBuZXciLCAiMjAyNi0xMC0xOVQxMjowMDowMCswNTozMCIpKQogICAgICAgICkKCiAgICAgICAgdmFsIHIgPSBlbmdpbmUuc3luY05vdygpCgogICAgICAgIGFzc2VydFRydWUoci5vaykKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgci5wdWxsZWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJSZW1vdGUgbmV3IiwgcmVwby5nZXRCeUlkKCJ3MSIpISEudGFza05hbWUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgbG9jYWwgcGVuZGluZyBlZGl0IHdpbnMgdGhlIGNvbmZsaWN0IGFuZCBpcyByZS1wdXNoZWRgKCkgPSBydW5UZXN0IHsKICAgICAgICAvLyBnMSB1cGxvYWRzIGZpbmU7IGMxIGtlZXBzIGZhaWxpbmcgc28gaXQgc3RheXMgdW5zeW5jZWQgZm9yIHRoZSBtZXJnZS4KICAgICAgICBkYW8udXBzZXJ0KAogICAgICAgICAgICBUYXNrKAogICAgICAgICAgICAgICAgaWQgPSAiZzEiLCB0YXNrTmFtZSA9ICJHIG9uZSIsCiAgICAgICAgICAgICAgICBsYXN0VXBkYXRlZCA9ICIyMDI2LTEwLTE5VDEwOjAwOjAwKzA1OjMwIiwKICAgICAgICAgICAgICAgIHN5bmNTdGF0ZSA9IFRhc2suU1lOQ19TVEFURV9QRU5ESU5HLCBvcmlnaW4gPSBUYXNrLk9SSUdJTl9MT0NBTAogICAgICAgICAgICApCiAgICAgICAgKQogICAgICAgIGRhby51cHNlcnQoCiAgICAgICAgICAgIFRhc2soCiAgICAgICAgICAgICAgICBpZCA9ICJjMSIsIHRhc2tOYW1lID0gIkxvY2FsIGVkaXQiLAogICAgICAgICAgICAgICAgbGFzdFVwZGF0ZWQgPSAiMjAyNi0xMC0xOVQxMTowMDowMCswNTozMCIsCiAgICAgICAgICAgICAgICBzeW5jU3RhdGUgPSBUYXNrLlNZTkNfU1RBVEVfUEVORElORywgb3JpZ2luID0gVGFzay5PUklHSU5fTE9DQUwKICAgICAgICAgICAgKQogICAgICAgICkKICAgICAgICBwcmVmcy5sYXN0U3luY2VkSWRzID0gc2V0T2YoImMxIikKICAgICAgICBjb25maWd1cmVTeW5jKCkKICAgICAgICBhcGkuYmF0Y2hSZXN1bHQgPSBBcGlSZXN1bHQuZmFpbHVyZSgiYmF0Y2ggZG93biIpCiAgICAgICAgYXBpLnVwc2VydEhhbmRsZXIgPSB7IHQgLT4KICAgICAgICAgICAgaWYgKHQuaWQgPT0gImMxIikgQXBpUmVzdWx0LmZhaWx1cmUoInNpbmdsZSBkb3duIikgZWxzZSBBcGlSZXN1bHQuc3VjY2Vzcyh0LmlkKQogICAgICAgIH0KICAgICAgICBhcGkuc25hcHNob3RSZXN1bHQgPSBBcGlSZXN1bHQuc3VjY2VzcygKICAgICAgICAgICAgbGlzdE9mKHJlbW90ZVRhc2soImMxIiwgIlJlbW90ZSBvdGhlciIsICIyMDI2LTEwLTE5VDEyOjAwOjAwKzA1OjMwIikpCiAgICAgICAgKQoKICAgICAgICB2YWwgciA9IGVuZ2luZS5zeW5jTm93KCkKCiAgICAgICAgYXNzZXJ0VHJ1ZShyLm9rKQogICAgICAgIGFzc2VydEVxdWFscygxLCByLmNvbmZsaWN0cykKICAgICAgICAvLyBMb2NhbCBlZGl0IHByZXNlcnZlZCwgbmV2ZXIgb3ZlcndyaXR0ZW4gYnkgdGhlIHJlbW90ZSByb3cuLi4KICAgICAgICBhc3NlcnRFcXVhbHMoIkxvY2FsIGVkaXQiLCByZXBvLmdldEJ5SWQoImMxIikhIS50YXNrTmFtZSkKICAgICAgICAvLyAuLi5hbmQgcmUtcHVzaGVkIHNvIHRoZSBzaGVldCBjb252ZXJnZXMgdG8gaXQgKG9uY2UgaW4gcHVzaCwgb25jZSBpbiBtZXJnZSkuCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIsIGFwaS51cHNlcnRDYWxscy5jb3VudCB7IGl0LmlkID09ICJjMSIgfSkKICAgICAgICAvLyBUaGUgdGFzayB0aGF0IHVwbG9hZGVkIGZpbmUgaXMgc3luY2VkLgogICAgICAgIGFzc2VydEVxdWFscyhUYXNrLlNZTkNfU1RBVEVfU1lOQ0VELCByZXBvLmdldEJ5SWQoImcxIikhIS5zeW5jU3RhdGUpCiAgICB9CgogICAgLy8gLS0tLS0tLS0tLSBkZWxldGlvbiByZWNvbmNpbGlhdGlvbiAtLS0tLS0tLS0tCgogICAgQFRlc3QKICAgIGZ1biBgcmVtb3RlIGRlbGV0aW9uIHJlY29uY2lsZXMgb25seSBpZHMgZnJvbSBsYXN0U3luY2VkSWRzYCgpID0gcnVuVGVzdCB7CiAgICAgICAgZGFvLnVwc2VydCgKICAgICAgICAgICAgVGFzaygKICAgICAgICAgICAgICAgIGlkID0gImExIiwgdGFza05hbWUgPSAiV2FzIG9uIHNoZWV0IiwKICAgICAgICAgICAgICAgIGxhc3RVcGRhdGVkID0gIjIwMjYtMTAtMTlUMTA6MDA6MDArMDU6MzAiLAogICAgICAgICAgICAgICAgc3luY1N0YXRlID0gVGFzay5TWU5DX1NUQVRFX1NZTkNFRCwgb3JpZ2luID0gVGFzay5PUklHSU5fUkVNT1RFCiAgICAgICAgICAgICkKICAgICAgICApCiAgICAgICAgdmFsIGMyID0gcmVwby5jcmVhdGVUYXNrKCJOZXZlciBzeW5jZWQiKSEhIC8vIFBFTkRJTkcgKyBMT0NBTCwgaWQgbm90IGluIGxhc3RTeW5jZWRJZHMKICAgICAgICBwcmVmcy5sYXN0U3luY2VkSWRzID0gc2V0T2YoImExIikKICAgICAgICBjb25maWd1cmVTeW5jKCkKICAgICAgICBhcGkuYmF0Y2hSZXN1bHQgPSBBcGlSZXN1bHQuc3VjY2VzcyhCYXRjaFVwc2VydFJlc3VsdCgxLCBlbXB0eUxpc3QoKSkpCiAgICAgICAgYXBpLnNuYXBzaG90UmVzdWx0ID0gQXBpUmVzdWx0LnN1Y2Nlc3MoZW1wdHlMaXN0KCkpIC8vIGJvdGggcm93cyBtaXNzaW5nIHJlbW90ZWx5CgogICAgICAgIHZhbCByID0gZW5naW5lLnN5bmNOb3coKQoKICAgICAgICBhc3NlcnRUcnVlKHIub2spCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEsIHIucmVtb3RlRGVsZXRlZCkKICAgICAgICBhc3NlcnRUcnVlKHJlcG8uZ2V0QnlJZCgiYTEiKSEhLmRlbGV0ZWQpIC8vIHByZXZpb3VzbHkgc3luY2VkIC0+IHJlY29uY2lsZWQKICAgICAgICBhc3NlcnRGYWxzZShyZXBvLmdldEJ5SWQoYzIuaWQpISEuZGVsZXRlZCkgLy8gbmV2ZXIgc3luY2VkIC0+IG5ldmVyIGRlbGV0ZWQKICAgICAgICBhc3NlcnRUcnVlKHByZWZzLmxhc3RTeW5jZWRJZHMuaXNFbXB0eSgpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGEgZmFpbGVkIHNuYXBzaG90IG5ldmVyIGRlbGV0ZXMgYW55dGhpbmdgKCkgPSBydW5UZXN0IHsKICAgICAgICBkYW8udXBzZXJ0KAogICAgICAgICAgICBUYXNrKAogICAgICAgICAgICAgICAgaWQgPSAiYTEiLCB0YXNrTmFtZSA9ICJTYWZlIiwKICAgICAgICAgICAgICAgIGxhc3RVcGRhdGVkID0gIjIwMjYtMTAtMTlUMTA6MDA6MDArMDU6MzAiLAogICAgICAgICAgICAgICAgc3luY1N0YXRlID0gVGFzay5TWU5DX1NUQVRFX1NZTkNFRCwgb3JpZ2luID0gVGFzay5PUklHSU5fUkVNT1RFCiAgICAgICAgICAgICkKICAgICAgICApCiAgICAgICAgcHJlZnMubGFzdFN5bmNlZElkcyA9IHNldE9mKCJhMSIpCiAgICAgICAgY29uZmlndXJlU3luYygpCiAgICAgICAgYXBpLnNuYXBzaG90UmVzdWx0ID0gQXBpUmVzdWx0LmZhaWx1cmUoIkF1dGggZmFpbGVkIikKCiAgICAgICAgdmFsIHIgPSBlbmdpbmUuc3luY05vdygpCgogICAgICAgIGFzc2VydEZhbHNlKHIub2spCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIHIucmVtb3RlRGVsZXRlZCkKICAgICAgICBhc3NlcnRGYWxzZShyZXBvLmdldEJ5SWQoImExIikhIS5kZWxldGVkKQogICAgICAgIGFzc2VydEVxdWFscyhzZXRPZigiYTEiKSwgcHJlZnMubGFzdFN5bmNlZElkcykgLy8gdW50b3VjaGVkCiAgICAgICAgYXNzZXJ0VHJ1ZShwcmVmcy5sYXN0U3luY0Vycm9yLmNvbnRhaW5zKCJBdXRoIGZhaWxlZCIpKQogICAgfQoKICAgIC8vIC0tLS0tLS0tLS0gb2ZmbGluZSAtLS0tLS0tLS0tCgogICAgQFRlc3QKICAgIGZ1biBgb2ZmbGluZSBzeW5jIGtlZXBzIGV2ZXJ5dGhpbmcgcGVuZGluZyBhbmQgbWFrZXMgbm8gbmV0d29yayBjYWxsc2AoKSA9IHJ1blRlc3QgewogICAgICAgIGNvbmZpZ3VyZVN5bmMoKQogICAgICAgIHZhbCB0ID0gcmVwby5jcmVhdGVUYXNrKCJPZmZsaW5lIHdvcmsiKSEhCiAgICAgICAgb25saW5lID0gZmFsc2UKCiAgICAgICAgdmFsIHIgPSBlbmdpbmUuc3luY05vdygpCgogICAgICAgIGFzc2VydEZhbHNlKHIub2spCiAgICAgICAgYXNzZXJ0VHJ1ZShyLm1lc3NhZ2UuY29udGFpbnMoImludGVybmV0IiwgaWdub3JlQ2FzZSA9IHRydWUpKQogICAgICAgIGFzc2VydFRydWUoYXBpLmJhdGNoQ2FsbHMuaXNFbXB0eSgpKQogICAgICAgIGFzc2VydFRydWUoYXBpLnNuYXBzaG90Q2FsbHMuaXNFbXB0eSgpKQogICAgICAgIGFzc2VydFRydWUoYXBpLnVwc2VydENhbGxzLmlzRW1wdHkoKSkKICAgICAgICBhc3NlcnRUcnVlKGFwaS5kZWxldGVDYWxscy5pc0VtcHR5KCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRhc2suU1lOQ19TVEFURV9QRU5ESU5HLCByZXBvLmdldEJ5SWQodC5pZCkhIS5zeW5jU3RhdGUpCiAgICAgICAgYXNzZXJ0VHJ1ZShwcmVmcy5sYXN0U3luY0Vycm9yLmlzTm90QmxhbmsoKSkKICAgICAgICBhc3NlcnROb3ROdWxsKHJlcG8uZ2V0QnlJZCh0LmlkKSkKICAgIH0KfQo=
+package com.tasktracker.pro.data.sync
+
+import com.tasktracker.pro.data.FakeSheetsApi
+import com.tasktracker.pro.data.FakeSyncPrefs
+import com.tasktracker.pro.data.FakeTaskDao
+import com.tasktracker.pro.data.Task
+import com.tasktracker.pro.data.TaskRepository
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.test.runTest
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNotNull
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Before
+import org.junit.Test
+
+class SyncEngineTest {
+
+    private lateinit var dao: FakeTaskDao
+    private lateinit var repo: TaskRepository
+    private lateinit var prefs: FakeSyncPrefs
+    private lateinit var api: FakeSheetsApi
+    private lateinit var engine: SyncEngine
+    private var online = true
+
+    private val validUrl = "https://script.google.com/macros/s/AKfycbx123/exec"
+
+    @Before
+    fun setUp() {
+        dao = FakeTaskDao()
+        repo = TaskRepository(dao)
+        prefs = FakeSyncPrefs()
+        api = FakeSheetsApi()
+        online = true
+        engine = SyncEngine(repo, prefs, api, Dispatchers.Unconfined) { online }
+    }
+
+    private fun configureSync() {
+        prefs.webAppUrl = validUrl
+        prefs.token = "test-token"
+        engine.setSyncEnabled(true)
+    }
+
+    private fun remoteTask(id: String, name: String, lastUpdated: String) = Task(
+        id = id,
+        taskName = name,
+        lastUpdated = lastUpdated,
+        syncState = Task.SYNC_STATE_SYNCED,
+        origin = Task.ORIGIN_REMOTE
+    )
+
+    // ---------- testConnection ----------
+
+    @Test
+    fun `testConnection rejects a malformed URL`() = runTest {
+        val r = engine.testConnection("http://example.com/not-google", "tok")
+        assertFalse(r.ok)
+        assertTrue(api.pingCalls.isEmpty()) // never even attempted
+    }
+
+    @Test
+    fun `testConnection rejects a URL not ending in exec`() = runTest {
+        val r = engine.testConnection("https://script.google.com/macros/s/ABC", "tok")
+        assertFalse(r.ok)
+        assertTrue(api.pingCalls.isEmpty())
+    }
+
+    @Test
+    fun `testConnection rejects an empty URL`() = runTest {
+        val r = engine.testConnection("   ", "tok")
+        assertFalse(r.ok)
+        assertTrue(r.message.contains("URL", ignoreCase = true))
+    }
+
+    @Test
+    fun `testConnection rejects a blank token`() = runTest {
+        val r = engine.testConnection(validUrl, "   ")
+        assertFalse(r.ok)
+        assertTrue(r.message.contains("token", ignoreCase = true))
+        assertTrue(api.pingCalls.isEmpty())
+    }
+
+    @Test
+    fun `testConnection surfaces a ping failure`() = runTest {
+        api.pingResult = ApiResult.failure("Invalid token.")
+        val r = engine.testConnection(validUrl, "bad-token")
+        assertFalse(r.ok)
+        assertTrue(r.message.contains("Invalid token."))
+        assertEquals(listOf(validUrl to "bad-token"), api.pingCalls)
+    }
+
+    @Test
+    fun `testConnection succeeds on a valid ping and changes nothing`() = runTest {
+        api.pingResult = ApiResult.success(PingInfo(version = 1, sheetTitle = "My Sheet", taskCount = 7))
+        val r = engine.testConnection(validUrl, "good-token")
+        assertTrue(r.ok)
+        assertTrue(r.message.contains("My Sheet"))
+        assertTrue(r.message.contains("7"))
+        // Read-only verification: nothing stored, nothing enabled.
+        assertFalse(prefs.isConfigured)
+        assertFalse(prefs.syncEnabled)
+    }
+
+    @Test
+    fun `testConnection fails when offline`() = runTest {
+        online = false
+        val r = engine.testConnection(validUrl, "tok")
+        assertFalse(r.ok)
+        assertTrue(r.message.contains("internet", ignoreCase = true))
+        assertTrue(api.pingCalls.isEmpty())
+    }
+
+    // ---------- syncNow gating ----------
+
+    @Test
+    fun `syncNow is a no-op reporting not-enabled when sync is disabled`() = runTest {
+        val t = repo.createTask("Local only")!!
+        val r = engine.syncNow()
+        assertFalse(r.ok)
+        assertEquals("Sync is not enabled.", r.message)
+        assertEquals(0, r.pushed)
+        assertEquals(0, r.pulled)
+        assertTrue(api.batchCalls.isEmpty())
+        assertTrue(api.snapshotCalls.isEmpty())
+        // Local work untouched.
+        assertEquals(Task.SYNC_STATE_PENDING, repo.getById(t.id)!!.syncState)
+    }
+
+    // ---------- push ----------
+
+    @Test
+    fun `syncNow pushes pending tasks via batchUpsert and marks them synced`() = runTest {
+        configureSync()
+        val a = repo.createTask("Task A")!!
+        val b = repo.createTask("Task B")!!
+        api.batchResult = ApiResult.success(BatchUpsertResult(2, emptyList()))
+        api.snapshotResult = ApiResult.success(emptyList())
+
+        val r = engine.syncNow()
+
+        assertTrue(r.ok)
+        assertEquals(1, api.batchCalls.size)
+        assertEquals(setOf(a.id, b.id), api.batchCalls[0].map { it.id }.toSet())
+        assertTrue(api.upsertCalls.isEmpty()) // batch covered everything
+        assertEquals(Task.SYNC_STATE_SYNCED, repo.getById(a.id)!!.syncState)
+        assertEquals(Task.SYNC_STATE_SYNCED, repo.getById(b.id)!!.syncState)
+    }
+
+    @Test
+    fun `syncNow keeps server-skipped tasks unsynced instead of marking them synced`() = runTest {
+        configureSync()
+        val a = repo.createTask("Task A")!!
+        val b = repo.createTask("Task B")!!
+        // Server wrote A but skipped B (e.g. validation) — B must stay retryable.
+        api.batchResult = ApiResult.success(BatchUpsertResult(1, listOf(b.id)))
+        api.snapshotResult = ApiResult.success(emptyList())
+
+        val r = engine.syncNow()
+
+        assertTrue(r.ok)
+        assertEquals(Task.SYNC_STATE_SYNCED, repo.getById(a.id)!!.syncState)
+        assertEquals(Task.SYNC_STATE_ERROR, repo.getById(b.id)!!.syncState)
+        assertTrue(repo.getById(b.id)!!.lastSyncError.isNotBlank())
+        // B is still unsynced, so a later sync retries it.
+        assertEquals(1, repo.getUnsynced().size)
+    }
+
+    @Test
+    fun `markAllForUpload resets stuck tasks to pending`() = runTest {
+        val t = repo.createTask("Stuck")!!
+        repo.markSynced(t.id)
+        assertTrue(repo.getUnsynced().isEmpty())
+
+        repo.markAllForUpload()
+
+        assertEquals(1, repo.getUnsynced().size)
+        assertEquals(Task.SYNC_STATE_PENDING, repo.getById(t.id)!!.syncState)
+    }
+
+    @Test
+    fun `syncNow deletes tombstones remotely then purges them`() = runTest {
+        configureSync()
+        val t = repo.createTask("Gone")!!
+        repo.deleteTask(t.id)
+        api.snapshotResult = ApiResult.success(emptyList())
+
+        val r = engine.syncNow()
+
+        assertTrue(r.ok)
+        assertEquals(listOf(t.id), api.deleteCalls)
+        assertNull(repo.getById(t.id)) // purged after confirmed delete
+    }
+
+    // ---------- pull ----------
+
+    @Test
+    fun `syncNow pulls new remote tasks`() = runTest {
+        configureSync()
+        api.snapshotResult = ApiResult.success(
+            listOf(remoteTask("r1", "From sheet", "2026-10-19T10:00:00+05:30"))
+        )
+
+        val r = engine.syncNow()
+
+        assertTrue(r.ok)
+        assertEquals(1, r.pulled)
+        val local = repo.getById("r1")!!
+        assertEquals("From sheet", local.taskName)
+        assertEquals(Task.SYNC_STATE_SYNCED, local.syncState)
+        assertEquals(Task.ORIGIN_REMOTE, local.origin)
+        assertEquals(setOf("r1"), prefs.lastSyncedIds)
+    }
+
+    @Test
+    fun `remote newer Last Updated wins over the synced local copy`() = runTest {
+        dao.upsert(
+            Task(
+                id = "w1",
+                taskName = "Local old",
+                lastUpdated = "2026-10-19T10:00:00+05:30",
+                syncState = Task.SYNC_STATE_SYNCED,
+                origin = Task.ORIGIN_REMOTE
+            )
+        )
+        prefs.lastSyncedIds = setOf("w1")
+        configureSync()
+        api.snapshotResult = ApiResult.success(
+            listOf(remoteTask("w1", "Remote new", "2026-10-19T12:00:00+05:30"))
+        )
+
+        val r = engine.syncNow()
+
+        assertTrue(r.ok)
+        assertEquals(1, r.pulled)
+        assertEquals("Remote new", repo.getById("w1")!!.taskName)
+    }
+
+    @Test
+    fun `local pending edit wins the conflict and is re-pushed`() = runTest {
+        // g1 uploads fine; c1 keeps failing so it stays unsynced for the merge.
+        dao.upsert(
+            Task(
+                id = "g1", taskName = "G one",
+                lastUpdated = "2026-10-19T10:00:00+05:30",
+                syncState = Task.SYNC_STATE_PENDING, origin = Task.ORIGIN_LOCAL
+            )
+        )
+        dao.upsert(
+            Task(
+                id = "c1", taskName = "Local edit",
+                lastUpdated = "2026-10-19T11:00:00+05:30",
+                syncState = Task.SYNC_STATE_PENDING, origin = Task.ORIGIN_LOCAL
+            )
+        )
+        prefs.lastSyncedIds = setOf("c1")
+        configureSync()
+        api.batchResult = ApiResult.failure("batch down")
+        api.upsertHandler = { t ->
+            if (t.id == "c1") ApiResult.failure("single down") else ApiResult.success(t.id)
+        }
+        api.snapshotResult = ApiResult.success(
+            listOf(remoteTask("c1", "Remote other", "2026-10-19T12:00:00+05:30"))
+        )
+
+        val r = engine.syncNow()
+
+        assertTrue(r.ok)
+        assertEquals(1, r.conflicts)
+        // Local edit preserved, never overwritten by the remote row...
+        assertEquals("Local edit", repo.getById("c1")!!.taskName)
+        // ...and re-pushed so the sheet converges to it (once in push, once in merge).
+        assertEquals(2, api.upsertCalls.count { it.id == "c1" })
+        // The task that uploaded fine is synced.
+        assertEquals(Task.SYNC_STATE_SYNCED, repo.getById("g1")!!.syncState)
+    }
+
+    // ---------- deletion reconciliation ----------
+
+    @Test
+    fun `remote deletion reconciles only ids from lastSyncedIds`() = runTest {
+        dao.upsert(
+            Task(
+                id = "a1", taskName = "Was on sheet",
+                lastUpdated = "2026-10-19T10:00:00+05:30",
+                syncState = Task.SYNC_STATE_SYNCED, origin = Task.ORIGIN_REMOTE
+            )
+        )
+        val c2 = repo.createTask("Never synced")!! // PENDING + LOCAL, id not in lastSyncedIds
+        prefs.lastSyncedIds = setOf("a1")
+        configureSync()
+        api.batchResult = ApiResult.success(BatchUpsertResult(1, emptyList()))
+        api.snapshotResult = ApiResult.success(emptyList()) // both rows missing remotely
+
+        val r = engine.syncNow()
+
+        assertTrue(r.ok)
+        assertEquals(1, r.remoteDeleted)
+        assertTrue(repo.getById("a1")!!.deleted) // previously synced -> reconciled
+        assertFalse(repo.getById(c2.id)!!.deleted) // never synced -> never deleted
+        assertTrue(prefs.lastSyncedIds.isEmpty())
+    }
+
+    @Test
+    fun `a failed snapshot never deletes anything`() = runTest {
+        dao.upsert(
+            Task(
+                id = "a1", taskName = "Safe",
+                lastUpdated = "2026-10-19T10:00:00+05:30",
+                syncState = Task.SYNC_STATE_SYNCED, origin = Task.ORIGIN_REMOTE
+            )
+        )
+        prefs.lastSyncedIds = setOf("a1")
+        configureSync()
+        api.snapshotResult = ApiResult.failure("Auth failed")
+
+        val r = engine.syncNow()
+
+        assertFalse(r.ok)
+        assertEquals(0, r.remoteDeleted)
+        assertFalse(repo.getById("a1")!!.deleted)
+        assertEquals(setOf("a1"), prefs.lastSyncedIds) // untouched
+        assertTrue(prefs.lastSyncError.contains("Auth failed"))
+    }
+
+    // ---------- offline ----------
+
+    @Test
+    fun `offline sync keeps everything pending and makes no network calls`() = runTest {
+        configureSync()
+        val t = repo.createTask("Offline work")!!
+        online = false
+
+        val r = engine.syncNow()
+
+        assertFalse(r.ok)
+        assertTrue(r.message.contains("internet", ignoreCase = true))
+        assertTrue(api.batchCalls.isEmpty())
+        assertTrue(api.snapshotCalls.isEmpty())
+        assertTrue(api.upsertCalls.isEmpty())
+        assertTrue(api.deleteCalls.isEmpty())
+        assertEquals(Task.SYNC_STATE_PENDING, repo.getById(t.id)!!.syncState)
+        assertTrue(prefs.lastSyncError.isNotBlank())
+        assertNotNull(repo.getById(t.id))
+    }
+}
