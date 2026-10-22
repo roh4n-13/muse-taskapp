@@ -1,1 +1,29 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCi8qKgogKiBQdXJlIHBsYW5uaW5nIGZvciBleGFjdC10aW1lIHBlci10YXNrIHJlbWluZGVycy4gQSB0YXNrIGlzIGVsaWdpYmxlIHdoZW4KICogaXQgaXMgbm90IGRlbGV0ZWQsIG5vdCBjb21wbGV0ZWQsIGhhcyBhIHZhbGlkIGByZW1pbmRlckF0YCwgYW5kIHRoYXQgdGltZQogKiBpcyBzdGlsbCBpbiB0aGUgZnV0dXJlLiBOb3RpZmljYXRpb24vcmVxdWVzdC1jb2RlIElEcyBhcmUgZGVyaXZlZCBmcm9tCiAqIHRoZSB0YXNrIElEIGhhc2ggKFN0cmluZy5oYXNoQ29kZSBpcyBzdGFibGUgYWNyb3NzIHJ1bnMpLCBzbyB0aGUgc2FtZQogKiB0YXNrIGFsd2F5cyBtYXBzIHRvIHRoZSBzYW1lIGFsYXJtIGFuZCB0aGUgc2FtZSBub3RpZmljYXRpb24uCiAqLwpvYmplY3QgUmVtaW5kZXJQbGFubmVyIHsKCiAgICBkYXRhIGNsYXNzIFBsYW5uZWQodmFsIHRhc2s6IFRhc2ssIHZhbCB0cmlnZ2VyQXRNaWxsaXM6IExvbmcpCgogICAgZnVuIGVsaWdpYmxlKHRhc2tzOiBMaXN0PFRhc2s+LCBub3dNaWxsaXM6IExvbmcpOiBMaXN0PFBsYW5uZWQ+ID0KICAgICAgICB0YXNrcy5tYXBOb3ROdWxsIHsgdGFzayAtPgogICAgICAgICAgICBpZiAodGFzay5kZWxldGVkIHx8IHRhc2suaXNDb21wbGV0ZWQpIHJldHVybkBtYXBOb3ROdWxsIG51bGwKICAgICAgICAgICAgdmFsIHRyaWdnZXIgPSBEYXRlcy5yZW1pbmRlclRvTWlsbGlzKHRhc2sucmVtaW5kZXJBdCkgPzogcmV0dXJuQG1hcE5vdE51bGwgbnVsbAogICAgICAgICAgICBpZiAodHJpZ2dlciA8PSBub3dNaWxsaXMpIG51bGwgZWxzZSBQbGFubmVkKHRhc2ssIHRyaWdnZXIpCiAgICAgICAgfS5zb3J0ZWRCeSB7IGl0LnRyaWdnZXJBdE1pbGxpcyB9CgogICAgZnVuIG5vdGlmaWNhdGlvbklkRm9yKHRhc2tJZDogU3RyaW5nKTogSW50ID0KICAgICAgICBOT1RJRklDQVRJT05fQkFTRSArICh0YXNrSWQuaGFzaENvZGUoKSBhbmQgMHgxRkZGKQoKICAgIGZ1biByZXF1ZXN0Q29kZUZvcih0YXNrSWQ6IFN0cmluZyk6IEludCA9CiAgICAgICAgUkVRVUVTVF9CQVNFICsgKHRhc2tJZC5oYXNoQ29kZSgpIGFuZCAweDdGRkYpCgogICAgY29uc3QgdmFsIE5PVElGSUNBVElPTl9CQVNFID0gNDAwMAogICAgY29uc3QgdmFsIFJFUVVFU1RfQkFTRSA9IDIwMDAwCn0K
+package com.tasktracker.pro.data
+
+/**
+ * Pure planning for exact-time per-task reminders. A task is eligible when
+ * it is not deleted, not completed, has a valid `reminderAt`, and that time
+ * is still in the future. Notification/request-code IDs are derived from
+ * the task ID hash (String.hashCode is stable across runs), so the same
+ * task always maps to the same alarm and the same notification.
+ */
+object ReminderPlanner {
+
+    data class Planned(val task: Task, val triggerAtMillis: Long)
+
+    fun eligible(tasks: List<Task>, nowMillis: Long): List<Planned> =
+        tasks.mapNotNull { task ->
+            if (task.deleted || task.isCompleted) return@mapNotNull null
+            val trigger = Dates.reminderToMillis(task.reminderAt) ?: return@mapNotNull null
+            if (trigger <= nowMillis) null else Planned(task, trigger)
+        }.sortedBy { it.triggerAtMillis }
+
+    fun notificationIdFor(taskId: String): Int =
+        NOTIFICATION_BASE + (taskId.hashCode() and 0x1FFF)
+
+    fun requestCodeFor(taskId: String): Int =
+        REQUEST_BASE + (taskId.hashCode() and 0x7FFF)
+
+    const val NOTIFICATION_BASE = 4000
+    const val REQUEST_BASE = 20000
+}
