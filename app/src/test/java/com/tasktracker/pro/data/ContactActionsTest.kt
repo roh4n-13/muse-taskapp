@@ -1,1 +1,49 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnROdWxsCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQ29udGFjdEFjdGlvbnNUZXN0IHsKCiAgICBAVGVzdAogICAgZnVuIHRlbkRpZ2l0SW5kaWFuTnVtYmVyR2V0c0NvdW50cnlDb2RlKCkgewogICAgICAgIGFzc2VydEVxdWFscygiOTE5ODc2NTQzMjEwIiwgQ29udGFjdEFjdGlvbnMud2hhdHNBcHBEaWdpdHMoIjk4NzY1IDQzMjEwIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJodHRwczovL3dhLm1lLzkxOTg3NjU0MzIxMCIsIENvbnRhY3RBY3Rpb25zLndoYXRzQXBwVXJsKCI5ODc2NTQzMjEwIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBsZWFkaW5nWmVyb0lzRHJvcHBlZEFuZENvdW50cnlDb2RlQWRkZWQoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCI5MTk4NzY1NDMyMTAiLCBDb250YWN0QWN0aW9ucy53aGF0c0FwcERpZ2l0cygiMDk4NzY1NDMyMTAiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIG51bWJlckFscmVhZHlXaXRoQ291bnRyeUNvZGVJc0tlcHQoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCI5MTk4NzY1NDMyMTAiLCBDb250YWN0QWN0aW9ucy53aGF0c0FwcERpZ2l0cygiKzkxIDk4NzY1IDQzMjEwIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIxNDE1NTU1MjY3MSIsIENvbnRhY3RBY3Rpb25zLndoYXRzQXBwRGlnaXRzKCIrMSA0MTUgNTU1IDI2NzEiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGludGVybmF0aW9uYWxQcmVmaXgwMElzTm9ybWFsaXplZCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIjkxOTg3NjU0MzIxMCIsIENvbnRhY3RBY3Rpb25zLndoYXRzQXBwRGlnaXRzKCIwMDkxIDk4NzY1IDQzMjEwIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0b29TaG9ydE51bWJlcnNBcmVSZWplY3RlZEZvcldoYXRzQXBwKCkgewogICAgICAgIGFzc2VydE51bGwoQ29udGFjdEFjdGlvbnMud2hhdHNBcHBVcmwoIjEyMzQ1IikpCiAgICAgICAgYXNzZXJ0TnVsbChDb250YWN0QWN0aW9ucy53aGF0c0FwcFVybCgiIikpCiAgICAgICAgYXNzZXJ0TnVsbChDb250YWN0QWN0aW9ucy53aGF0c0FwcFVybCgibm8gZGlnaXRzIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBkaWFsVXJpS2VlcHNQbHVzQW5kRGlnaXRzT25seSgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoInRlbDorOTE5ODc2NTQzMjEwIiwgQ29udGFjdEFjdGlvbnMuZGlhbFVyaSgiKzkxIDk4NzY1LTQzMjEwIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ0ZWw6OTg3NjU0MzIxMCIsIENvbnRhY3RBY3Rpb25zLmRpYWxVcmkoIjk4NzY1IDQzMjEwIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBkaWFsVXJpUmVqZWN0c0dhcmJhZ2UoKSB7CiAgICAgICAgYXNzZXJ0TnVsbChDb250YWN0QWN0aW9ucy5kaWFsVXJpKCJhYmMiKSkKICAgICAgICBhc3NlcnROdWxsKENvbnRhY3RBY3Rpb25zLmRpYWxVcmkoIiIpKQogICAgfQp9Cg==
+package com.tasktracker.pro.data
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Test
+
+class ContactActionsTest {
+
+    @Test
+    fun tenDigitIndianNumberGetsCountryCode() {
+        assertEquals("919876543210", ContactActions.whatsAppDigits("98765 43210"))
+        assertEquals("https://wa.me/919876543210", ContactActions.whatsAppUrl("9876543210"))
+    }
+
+    @Test
+    fun leadingZeroIsDroppedAndCountryCodeAdded() {
+        assertEquals("919876543210", ContactActions.whatsAppDigits("09876543210"))
+    }
+
+    @Test
+    fun numberAlreadyWithCountryCodeIsKept() {
+        assertEquals("919876543210", ContactActions.whatsAppDigits("+91 98765 43210"))
+        assertEquals("14155552671", ContactActions.whatsAppDigits("+1 415 555 2671"))
+    }
+
+    @Test
+    fun internationalPrefix00IsNormalized() {
+        assertEquals("919876543210", ContactActions.whatsAppDigits("0091 98765 43210"))
+    }
+
+    @Test
+    fun tooShortNumbersAreRejectedForWhatsApp() {
+        assertNull(ContactActions.whatsAppUrl("12345"))
+        assertNull(ContactActions.whatsAppUrl(""))
+        assertNull(ContactActions.whatsAppUrl("no digits"))
+    }
+
+    @Test
+    fun dialUriKeepsPlusAndDigitsOnly() {
+        assertEquals("tel:+919876543210", ContactActions.dialUri("+91 98765-43210"))
+        assertEquals("tel:9876543210", ContactActions.dialUri("98765 43210"))
+    }
+
+    @Test
+    fun dialUriRejectsGarbage() {
+        assertNull(ContactActions.dialUri("abc"))
+        assertNull(ContactActions.dialUri(""))
+    }
+}
