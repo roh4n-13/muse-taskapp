@@ -1,1 +1,44 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCi8qKgogKiBQdXJlIGhlbHBlcnMgZm9yIHRoZSBDYWxsIC8gV2hhdHNBcHAgYWN0aW9ucyBvbiBhIHRhc2sncyBjb250YWN0IG51bWJlci4KICogTnVtYmVycyBpbiB0aGlzIGFwcCBhcmUgbW9zdGx5IEluZGlhbiBtb2JpbGUgbnVtYmVycywgc28gYSBiYXJlIDEwLWRpZ2l0CiAqIG51bWJlciBpcyB0cmVhdGVkIGFzIEluZGlhICgrOTEpIGZvciBXaGF0c0FwcC4gVGhlIGRpYWwgVVJJIGtlZXBzIHRoZQogKiBudW1iZXIgZXNzZW50aWFsbHkgYXMgdHlwZWQgKHNwYWNlcy9kYXNoZXMgcmVtb3ZlZCksIHNvIHVudXN1YWwgZm9ybWF0cwogKiBzdGlsbCByZWFjaCB0aGUgZGlhbGVyIHVudG91Y2hlZCBpbiBtZWFuaW5nLgogKi8Kb2JqZWN0IENvbnRhY3RBY3Rpb25zIHsKCiAgICAvKiogRGlnaXRzIG9ubHkgKGRyb3BzICssIHNwYWNlcywgZGFzaGVzLCBicmFja2V0cykuICovCiAgICBmdW4gZGlnaXRzT25seShyYXc6IFN0cmluZyk6IFN0cmluZyA9IHJhdy5maWx0ZXIgeyBpdC5pc0RpZ2l0KCkgfQoKICAgIC8qKgogICAgICogSW50ZXJuYXRpb25hbCBkaWdpdHMgZm9yIHdhLm1lIGxpbmtzLCBvciBudWxsIHdoZW4gdGhlIG51bWJlciBpcyB0b28KICAgICAqIHNob3J0IHRvIGJlIGEgcmVhbCBwaG9uZSBudW1iZXI6CiAgICAgKiAgLSAiMDA5MeKApiIg4oaSICI5MeKApiIKICAgICAqICAtICIwOTg3NjXigKYiICgxMSBkaWdpdHMsIGxlYWRpbmcgMCkg4oaSICI5MeKApiIKICAgICAqICAtICI5ODc2NeKApiIgKDEwIGRpZ2l0cykg4oaSICI5MSIgKyBudW1iZXIKICAgICAqICAtIGFueXRoaW5nIGFscmVhZHkgY2FycnlpbmcgYSBjb3VudHJ5IGNvZGUgaXMga2VwdCBhcy1pcy4KICAgICAqLwogICAgZnVuIHdoYXRzQXBwRGlnaXRzKHJhdzogU3RyaW5nKTogU3RyaW5nPyB7CiAgICAgICAgdmFyIGQgPSBkaWdpdHNPbmx5KHJhdykKICAgICAgICBpZiAoZC5zdGFydHNXaXRoKCIwMCIpKSBkID0gZC5kcm9wKDIpCiAgICAgICAgcmV0dXJuIHdoZW4gewogICAgICAgICAgICBkLmxlbmd0aCA9PSAxMCAtPiAiOTEkZCIKICAgICAgICAgICAgZC5sZW5ndGggPT0gMTEgJiYgZC5zdGFydHNXaXRoKCIwIikgLT4gIjkxIiArIGQuZHJvcCgxKQogICAgICAgICAgICBkLmxlbmd0aCBpbiAxMS4uMTUgLT4gZAogICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICB9CiAgICB9CgogICAgLyoqIGh0dHBzOi8vd2EubWUvPGRpZ2l0cz4gbGluaywgb3IgbnVsbCB3aGVuIHRoZSBudW1iZXIgbG9va3MgdW51c2FibGUuICovCiAgICBmdW4gd2hhdHNBcHBVcmwocmF3OiBTdHJpbmcpOiBTdHJpbmc/ID0gd2hhdHNBcHBEaWdpdHMocmF3KT8ubGV0IHsgImh0dHBzOi8vd2EubWUvJGl0IiB9CgogICAgLyoqIHRlbDogVVJJIGZvciB0aGUgZGlhbGVyIChBQ1RJT05fRElBTCDigJQgbm8gY2FsbCBwZXJtaXNzaW9uIG5lZWRlZCkuICovCiAgICBmdW4gZGlhbFVyaShyYXc6IFN0cmluZyk6IFN0cmluZz8gewogICAgICAgIHZhbCB0cmltbWVkID0gcmF3LnRyaW0oKQogICAgICAgIGlmIChkaWdpdHNPbmx5KHRyaW1tZWQpLmxlbmd0aCA8IDUpIHJldHVybiBudWxsCiAgICAgICAgdmFsIGNsZWFuZWQgPSB0cmltbWVkLmZpbHRlciB7IGl0LmlzRGlnaXQoKSB8fCBpdCA9PSAnKycgfQogICAgICAgIHJldHVybiAidGVsOiRjbGVhbmVkIgogICAgfQp9Cg==
+package com.tasktracker.pro.data
+
+/**
+ * Pure helpers for the Call / WhatsApp actions on a task's contact number.
+ * Numbers in this app are mostly Indian mobile numbers, so a bare 10-digit
+ * number is treated as India (+91) for WhatsApp. The dial URI keeps the
+ * number essentially as typed (spaces/dashes removed), so unusual formats
+ * still reach the dialer untouched in meaning.
+ */
+object ContactActions {
+
+    /** Digits only (drops +, spaces, dashes, brackets). */
+    fun digitsOnly(raw: String): String = raw.filter { it.isDigit() }
+
+    /**
+     * International digits for wa.me links, or null when the number is too
+     * short to be a real phone number:
+     *  - "0091…" → "91…"
+     *  - "098765…" (11 digits, leading 0) → "91…"
+     *  - "98765…" (10 digits) → "91" + number
+     *  - anything already carrying a country code is kept as-is.
+     */
+    fun whatsAppDigits(raw: String): String? {
+        var d = digitsOnly(raw)
+        if (d.startsWith("00")) d = d.drop(2)
+        return when {
+            d.length == 10 -> "91$d"
+            d.length == 11 && d.startsWith("0") -> "91" + d.drop(1)
+            d.length in 11..15 -> d
+            else -> null
+        }
+    }
+
+    /** https://wa.me/<digits> link, or null when the number looks unusable. */
+    fun whatsAppUrl(raw: String): String? = whatsAppDigits(raw)?.let { "https://wa.me/$it" }
+
+    /** tel: URI for the dialer (ACTION_DIAL — no call permission needed). */
+    fun dialUri(raw: String): String? {
+        val trimmed = raw.trim()
+        if (digitsOnly(trimmed).length < 5) return null
+        val cleaned = trimmed.filter { it.isDigit() || it == '+' }
+        return "tel:$cleaned"
+    }
+}
