@@ -1,1 +1,53 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCmltcG9ydCBhbmRyb2lkeC5yb29tLkRhbwppbXBvcnQgYW5kcm9pZHgucm9vbS5JbnNlcnQKaW1wb3J0IGFuZHJvaWR4LnJvb20uT25Db25mbGljdFN0cmF0ZWd5CmltcG9ydCBhbmRyb2lkeC5yb29tLlF1ZXJ5CmltcG9ydCBhbmRyb2lkeC5yb29tLlVwZGF0ZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuRmxvdwoKQERhbwppbnRlcmZhY2UgVGFza0RhbyB7CiAgICBAUXVlcnkoIlNFTEVDVCAqIEZST00gdGFza3MgV0hFUkUgZGVsZXRlZCA9IDAgT1JERVIgQlkgbGFzdFVwZGF0ZWQgREVTQyIpCiAgICBmdW4gb2JzZXJ2ZUFjdGl2ZSgpOiBGbG93PExpc3Q8VGFzaz4+CgogICAgQFF1ZXJ5KCJTRUxFQ1QgKiBGUk9NIHRhc2tzIFdIRVJFIGRlbGV0ZWQgPSAwIEFORCBwcm9ncmVzcyA9ICdDb21wbGV0ZWQnIE9SREVSIEJZIHRhc2tDb21wbGV0ZWQgREVTQyIpCiAgICBmdW4gb2JzZXJ2ZUNvbXBsZXRlZCgpOiBGbG93PExpc3Q8VGFzaz4+CgogICAgQFF1ZXJ5KCJTRUxFQ1QgKiBGUk9NIHRhc2tzIFdIRVJFIGlkID0gOmlkIExJTUlUIDEiKQogICAgZnVuIG9ic2VydmVCeUlkKGlkOiBTdHJpbmcpOiBGbG93PFRhc2s/PgoKICAgIEBRdWVyeSgiU0VMRUNUICogRlJPTSB0YXNrcyBXSEVSRSBpZCA9IDppZCBMSU1JVCAxIikKICAgIHN1c3BlbmQgZnVuIGdldEJ5SWQoaWQ6IFN0cmluZyk6IFRhc2s/CgogICAgQFF1ZXJ5KCJTRUxFQ1QgKiBGUk9NIHRhc2tzIFdIRVJFIGRlbGV0ZWQgPSAwIikKICAgIHN1c3BlbmQgZnVuIGdldEFsbEFjdGl2ZSgpOiBMaXN0PFRhc2s+CgogICAgLyoqIEV2ZXJ5dGhpbmcgbmVlZGluZyBhIHJlbW90ZSB3cml0ZTogbG9jYWwgZWRpdHMgbm90IHlldCBzeW5jZWQgKyB0b21ic3RvbmVzLiAqLwogICAgQFF1ZXJ5KCJTRUxFQ1QgKiBGUk9NIHRhc2tzIFdIRVJFIHN5bmNTdGF0ZSBJTiAoJ1BFTkRJTkcnLCdFUlJPUicpIikKICAgIHN1c3BlbmQgZnVuIGdldFVuc3luY2VkKCk6IExpc3Q8VGFzaz4KCiAgICBAUXVlcnkoIlNFTEVDVCBDT1VOVCgqKSBGUk9NIHRhc2tzIFdIRVJFIHN5bmNTdGF0ZSBJTiAoJ1BFTkRJTkcnLCdFUlJPUicpIEFORCBkZWxldGVkID0gMCIpCiAgICBmdW4gb2JzZXJ2ZVBlbmRpbmdDb3VudCgpOiBGbG93PEludD4KCiAgICBASW5zZXJ0KG9uQ29uZmxpY3QgPSBPbkNvbmZsaWN0U3RyYXRlZ3kuUkVQTEFDRSkKICAgIHN1c3BlbmQgZnVuIHVwc2VydCh0YXNrOiBUYXNrKQoKICAgIEBJbnNlcnQob25Db25mbGljdCA9IE9uQ29uZmxpY3RTdHJhdGVneS5JR05PUkUpCiAgICBzdXNwZW5kIGZ1biBpbnNlcnRBbGwodGFza3M6IExpc3Q8VGFzaz4pCgogICAgQFVwZGF0ZQogICAgc3VzcGVuZCBmdW4gdXBkYXRlKHRhc2s6IFRhc2spCgogICAgLyoqIEhhcmQgZGVsZXRlIGlzIG9ubHkgdXNlZCBmb3IgdG9tYnN0b25lIGNsZWFudXAgYWZ0ZXIgYSB0b21ic3RvbmUgc3luY2VkLiAqLwogICAgQFF1ZXJ5KCJERUxFVEUgRlJPTSB0YXNrcyBXSEVSRSBpZCA9IDppZCIpCiAgICBzdXNwZW5kIGZ1biBoYXJkRGVsZXRlKGlkOiBTdHJpbmcpCgogICAgLyoqIE1hcmtzIGV2ZXJ5IG5vbi1kZWxldGVkIHRhc2sgYXMgbmVlZGluZyB1cGxvYWQgKHJlcGFpciBmb3Igc3R1Y2sgc3luYyBzdGF0ZSkuICovCiAgICBAUXVlcnkoIlVQREFURSB0YXNrcyBTRVQgc3luY1N0YXRlID0gJ1BFTkRJTkcnIFdIRVJFIGRlbGV0ZWQgPSAwIikKICAgIHN1c3BlbmQgZnVuIG1hcmtBbGxQZW5kaW5nKCkKCiAgICBAUXVlcnkoIlNFTEVDVCBDT1VOVCgqKSBGUk9NIHRhc2tzIFdIRVJFIGRlbGV0ZWQgPSAwIikKICAgIHN1c3BlbmQgZnVuIGNvdW50QWN0aXZlKCk6IEludAp9Cg==
+package com.tasktracker.pro.data
+
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+import androidx.room.Update
+import kotlinx.coroutines.flow.Flow
+
+@Dao
+interface TaskDao {
+    @Query("SELECT * FROM tasks WHERE deleted = 0 ORDER BY lastUpdated DESC")
+    fun observeActive(): Flow<List<Task>>
+
+    @Query("SELECT * FROM tasks WHERE deleted = 0 AND progress = 'Completed' ORDER BY taskCompleted DESC")
+    fun observeCompleted(): Flow<List<Task>>
+
+    @Query("SELECT * FROM tasks WHERE id = :id LIMIT 1")
+    fun observeById(id: String): Flow<Task?>
+
+    @Query("SELECT * FROM tasks WHERE id = :id LIMIT 1")
+    suspend fun getById(id: String): Task?
+
+    @Query("SELECT * FROM tasks WHERE deleted = 0")
+    suspend fun getAllActive(): List<Task>
+
+    /** Everything needing a remote write: local edits not yet synced + tombstones. */
+    @Query("SELECT * FROM tasks WHERE syncState IN ('PENDING','ERROR')")
+    suspend fun getUnsynced(): List<Task>
+
+    @Query("SELECT COUNT(*) FROM tasks WHERE syncState IN ('PENDING','ERROR') AND deleted = 0")
+    fun observePendingCount(): Flow<Int>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsert(task: Task)
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insertAll(tasks: List<Task>)
+
+    @Update
+    suspend fun update(task: Task)
+
+    /** Hard delete is only used for tombstone cleanup after a tombstone synced. */
+    @Query("DELETE FROM tasks WHERE id = :id")
+    suspend fun hardDelete(id: String)
+
+    /** Marks every non-deleted task as needing upload (repair for stuck sync state). */
+    @Query("UPDATE tasks SET syncState = 'PENDING' WHERE deleted = 0")
+    suspend fun markAllPending()
+
+    @Query("SELECT COUNT(*) FROM tasks WHERE deleted = 0")
+    suspend fun countActive(): Int
+}
