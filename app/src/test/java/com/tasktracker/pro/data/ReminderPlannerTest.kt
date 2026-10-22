@@ -1,1 +1,79 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZVRpbWUKaW1wb3J0IGphdmEudGltZS5ab25lSWQKCmNsYXNzIFJlbWluZGVyUGxhbm5lclRlc3QgewoKICAgIHByaXZhdGUgdmFsIG5vd01pbGxpczogTG9uZyA9IExvY2FsRGF0ZVRpbWUub2YoMjAyNiwgMTAsIDIyLCAxMCwgMCkKICAgICAgICAuYXRab25lKFpvbmVJZC5zeXN0ZW1EZWZhdWx0KCkpLnRvSW5zdGFudCgpLnRvRXBvY2hNaWxsaSgpCgogICAgcHJpdmF0ZSBmdW4gdGFzaygKICAgICAgICBpZDogU3RyaW5nLAogICAgICAgIHJlbWluZGVyQXQ6IFN0cmluZyA9ICIiLAogICAgICAgIHByb2dyZXNzOiBTdHJpbmcgPSBUYXNrLlBST0dSRVNTX0lOX1BST0dSRVNTLAogICAgICAgIGRlbGV0ZWQ6IEJvb2xlYW4gPSBmYWxzZQogICAgKSA9IFRhc2soaWQgPSBpZCwgdGFza05hbWUgPSAiVGFzayAkaWQiLCBwcm9ncmVzcyA9IHByb2dyZXNzLCByZW1pbmRlckF0ID0gcmVtaW5kZXJBdCwgZGVsZXRlZCA9IGRlbGV0ZWQpCgogICAgQFRlc3QKICAgIGZ1biBmdXR1cmVSZW1pbmRlcklzRWxpZ2libGUoKSB7CiAgICAgICAgdmFsIHBsYW5uZWQgPSBSZW1pbmRlclBsYW5uZXIuZWxpZ2libGUoCiAgICAgICAgICAgIGxpc3RPZih0YXNrKCJhIiwgcmVtaW5kZXJBdCA9ICIyMDI2LTEwLTIyVDExOjMwOjAwIikpLAogICAgICAgICAgICBub3dNaWxsaXMKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigiYSIpLCBwbGFubmVkLm1hcCB7IGl0LnRhc2suaWQgfSkKICAgICAgICBhc3NlcnRUcnVlKHBsYW5uZWRbMF0udHJpZ2dlckF0TWlsbGlzID4gbm93TWlsbGlzKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gcGFzdE9yQmxhbmtSZW1pbmRlcklzTm90RWxpZ2libGUoKSB7CiAgICAgICAgdmFsIHBsYW5uZWQgPSBSZW1pbmRlclBsYW5uZXIuZWxpZ2libGUoCiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgIHRhc2soInBhc3QiLCByZW1pbmRlckF0ID0gIjIwMjYtMTAtMjJUMDk6MDA6MDAiKSwKICAgICAgICAgICAgICAgIHRhc2soImJsYW5rIiwgcmVtaW5kZXJBdCA9ICIiKSwKICAgICAgICAgICAgICAgIHRhc2soImp1bmsiLCByZW1pbmRlckF0ID0gImthbCBzdWJhaCIpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIG5vd01pbGxpcwogICAgICAgICkKICAgICAgICBhc3NlcnRUcnVlKHBsYW5uZWQuaXNFbXB0eSgpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gY29tcGxldGVkQW5kRGVsZXRlZFRhc2tzQXJlTm90RWxpZ2libGUoKSB7CiAgICAgICAgdmFsIHBsYW5uZWQgPSBSZW1pbmRlclBsYW5uZXIuZWxpZ2libGUoCiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgIHRhc2soImRvbmUiLCByZW1pbmRlckF0ID0gIjIwMjYtMTAtMjNUMDk6MDA6MDAiLCBwcm9ncmVzcyA9IFRhc2suUFJPR1JFU1NfQ09NUExFVEVEKSwKICAgICAgICAgICAgICAgIHRhc2soImdvbmUiLCByZW1pbmRlckF0ID0gIjIwMjYtMTAtMjNUMDk6MDA6MDAiLCBkZWxldGVkID0gdHJ1ZSkKICAgICAgICAgICAgKSwKICAgICAgICAgICAgbm93TWlsbGlzCiAgICAgICAgKQogICAgICAgIGFzc2VydFRydWUocGxhbm5lZC5pc0VtcHR5KCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBwbGFubmVkUmVtaW5kZXJzQXJlU29ydGVkQnlUaW1lKCkgewogICAgICAgIHZhbCBwbGFubmVkID0gUmVtaW5kZXJQbGFubmVyLmVsaWdpYmxlKAogICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICB0YXNrKCJsYXRlciIsIHJlbWluZGVyQXQgPSAiMjAyNi0xMC0yNVQwOTowMDowMCIpLAogICAgICAgICAgICAgICAgdGFzaygic29vbmVyIiwgcmVtaW5kZXJBdCA9ICIyMDI2LTEwLTIzVDA5OjAwOjAwIikKICAgICAgICAgICAgKSwKICAgICAgICAgICAgbm93TWlsbGlzCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoInNvb25lciIsICJsYXRlciIpLCBwbGFubmVkLm1hcCB7IGl0LnRhc2suaWQgfSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGlkc0FyZVN0YWJsZVBlclRhc2soKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBSZW1pbmRlclBsYW5uZXIubm90aWZpY2F0aW9uSWRGb3IoInRhc2stMTIzIiksCiAgICAgICAgICAgIFJlbWluZGVyUGxhbm5lci5ub3RpZmljYXRpb25JZEZvcigidGFzay0xMjMiKQogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIFJlbWluZGVyUGxhbm5lci5yZXF1ZXN0Q29kZUZvcigidGFzay0xMjMiKSwKICAgICAgICAgICAgUmVtaW5kZXJQbGFubmVyLnJlcXVlc3RDb2RlRm9yKCJ0YXNrLTEyMyIpCiAgICAgICAgKQogICAgfQp9Cg==
+package com.tasktracker.pro.data
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import java.time.LocalDateTime
+import java.time.ZoneId
+
+class ReminderPlannerTest {
+
+    private val nowMillis: Long = LocalDateTime.of(2026, 10, 22, 10, 0)
+        .atZone(ZoneId.systemDefault()).toInstant().toEpochMilli()
+
+    private fun task(
+        id: String,
+        reminderAt: String = "",
+        progress: String = Task.PROGRESS_IN_PROGRESS,
+        deleted: Boolean = false
+    ) = Task(id = id, taskName = "Task $id", progress = progress, reminderAt = reminderAt, deleted = deleted)
+
+    @Test
+    fun futureReminderIsEligible() {
+        val planned = ReminderPlanner.eligible(
+            listOf(task("a", reminderAt = "2026-10-22T11:30:00")),
+            nowMillis
+        )
+        assertEquals(listOf("a"), planned.map { it.task.id })
+        assertTrue(planned[0].triggerAtMillis > nowMillis)
+    }
+
+    @Test
+    fun pastOrBlankReminderIsNotEligible() {
+        val planned = ReminderPlanner.eligible(
+            listOf(
+                task("past", reminderAt = "2026-10-22T09:00:00"),
+                task("blank", reminderAt = ""),
+                task("junk", reminderAt = "kal subah")
+            ),
+            nowMillis
+        )
+        assertTrue(planned.isEmpty())
+    }
+
+    @Test
+    fun completedAndDeletedTasksAreNotEligible() {
+        val planned = ReminderPlanner.eligible(
+            listOf(
+                task("done", reminderAt = "2026-10-23T09:00:00", progress = Task.PROGRESS_COMPLETED),
+                task("gone", reminderAt = "2026-10-23T09:00:00", deleted = true)
+            ),
+            nowMillis
+        )
+        assertTrue(planned.isEmpty())
+    }
+
+    @Test
+    fun plannedRemindersAreSortedByTime() {
+        val planned = ReminderPlanner.eligible(
+            listOf(
+                task("later", reminderAt = "2026-10-25T09:00:00"),
+                task("sooner", reminderAt = "2026-10-23T09:00:00")
+            ),
+            nowMillis
+        )
+        assertEquals(listOf("sooner", "later"), planned.map { it.task.id })
+    }
+
+    @Test
+    fun idsAreStablePerTask() {
+        assertEquals(
+            ReminderPlanner.notificationIdFor("task-123"),
+            ReminderPlanner.notificationIdFor("task-123")
+        )
+        assertEquals(
+            ReminderPlanner.requestCodeFor("task-123"),
+            ReminderPlanner.requestCodeFor("task-123")
+        )
+    }
+}
