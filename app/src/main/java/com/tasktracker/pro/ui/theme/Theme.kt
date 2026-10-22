@@ -1,1 +1,149 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLnVpLnRoZW1lCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmlzU3lzdGVtSW5EYXJrVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5Sb3VuZGVkQ29ybmVyU2hhcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlNoYXBlcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVHlwb2dyYXBoeQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuZGFya0NvbG9yU2NoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5saWdodENvbG9yU2NoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LlRleHRTdHlsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuc3AKaW1wb3J0IGNvbS50YXNrdHJhY2tlci5wcm8uZGF0YS5UaGVtZU1vZGUKCi8qKgogKiBpT1MtaW5zcGlyZWQgZGVzaWduIGxhbmd1YWdlICgiQXBwbGUtbGlrZSIpOgogKiAgLSBpT1Mgc3lzdGVtIHBhbGV0dGU6IGdyb3VwZWQgZ3JleSBiYWNrZ3JvdW5kICgjRjJGMkY3KSB3aXRoIHB1cmUgd2hpdGUKICogICAgY2FyZHMgaW4gbGlnaHQgbW9kZTsgdHJ1ZSBibGFjayBiYWNrZ3JvdW5kIHdpdGggIzFDMUMxRSBjYXJkcyBpbiBkYXJrLgogKiAgLSBpT1MgYWNjZW50IGJsdWUgKCMwMDdBRkYgLyAjMEE4NEZGKSwgZ3JlZW4gKCMzNEM3NTkpLCByZWQgKCNGRjNCMzApLgogKiAgLSBMYXJnZSwgc29mdCBjb3JuZXIgcmFkaWkgZXZlcnl3aGVyZSAoMTbigJMyOGRwKSBhbmQgZmxhdCBjYXJkcyDigJQKICogICAgc2VwYXJhdGlvbiBjb21lcyBmcm9tIHRoZSBncm91cGVkIGJhY2tncm91bmQsIG5vdCBzaGFkb3dzLgogKiAgLSBDbGVhbiBzeXN0ZW0gdHlwb2dyYXBoeSB3aXRoIHNlbWlib2xkIGhlYWRpbmdzLgogKi8KcHJpdmF0ZSB2YWwgTGlnaHRDb2xvcnMgPSBsaWdodENvbG9yU2NoZW1lKAogICAgcHJpbWFyeSA9IENvbG9yKDB4RkYwMDdBRkYpLAogICAgb25QcmltYXJ5ID0gQ29sb3IuV2hpdGUsCiAgICBwcmltYXJ5Q29udGFpbmVyID0gQ29sb3IoMHhGRkQ5RTlGRiksCiAgICBvblByaW1hcnlDb250YWluZXIgPSBDb2xvcigweEZGMDAzRTdFKSwKICAgIHNlY29uZGFyeSA9IENvbG9yKDB4RkY2QzZDNzApLAogICAgb25TZWNvbmRhcnkgPSBDb2xvci5XaGl0ZSwKICAgIHNlY29uZGFyeUNvbnRhaW5lciA9IENvbG9yKDB4RkZFOUU5RUUpLAogICAgb25TZWNvbmRhcnlDb250YWluZXIgPSBDb2xvcigweEZGMUMxQzFFKSwKICAgIGJhY2tncm91bmQgPSBDb2xvcigweEZGRjJGMkY3KSwKICAgIG9uQmFja2dyb3VuZCA9IENvbG9yKDB4RkYxQzFDMUUpLAogICAgc3VyZmFjZSA9IENvbG9yKDB4RkZGRkZGRkYpLAogICAgb25TdXJmYWNlID0gQ29sb3IoMHhGRjFDMUMxRSksCiAgICBzdXJmYWNlVmFyaWFudCA9IENvbG9yKDB4RkZFOUU5RUUpLAogICAgb25TdXJmYWNlVmFyaWFudCA9IENvbG9yKDB4RkYzQTNBM0MpLAogICAgb3V0bGluZSA9IENvbG9yKDB4RkZEMUQxRDYpLAogICAgb3V0bGluZVZhcmlhbnQgPSBDb2xvcigweEZGRTVFNUVBKSwKICAgIGVycm9yID0gQ29sb3IoMHhGRkZGM0IzMCksCiAgICBvbkVycm9yID0gQ29sb3IuV2hpdGUsCiAgICB0ZXJ0aWFyeSA9IENvbG9yKDB4RkYzNEM3NTkpLAogICAgb25UZXJ0aWFyeSA9IENvbG9yLldoaXRlCikKCnByaXZhdGUgdmFsIERhcmtDb2xvcnMgPSBkYXJrQ29sb3JTY2hlbWUoCiAgICBwcmltYXJ5ID0gQ29sb3IoMHhGRjBBODRGRiksCiAgICBvblByaW1hcnkgPSBDb2xvci5XaGl0ZSwKICAgIHByaW1hcnlDb250YWluZXIgPSBDb2xvcigweEZGMEIzRDczKSwKICAgIG9uUHJpbWFyeUNvbnRhaW5lciA9IENvbG9yKDB4RkZEOUU5RkYpLAogICAgc2Vjb25kYXJ5ID0gQ29sb3IoMHhGRkFFQUVCMiksCiAgICBvblNlY29uZGFyeSA9IENvbG9yKDB4RkYxQzFDMUUpLAogICAgc2Vjb25kYXJ5Q29udGFpbmVyID0gQ29sb3IoMHhGRjJDMkMyRSksCiAgICBvblNlY29uZGFyeUNvbnRhaW5lciA9IENvbG9yKDB4RkZGMkYyRjcpLAogICAgYmFja2dyb3VuZCA9IENvbG9yKDB4RkYwMDAwMDApLAogICAgb25CYWNrZ3JvdW5kID0gQ29sb3IoMHhGRkYyRjJGNyksCiAgICBzdXJmYWNlID0gQ29sb3IoMHhGRjFDMUMxRSksCiAgICBvblN1cmZhY2UgPSBDb2xvcigweEZGRjJGMkY3KSwKICAgIHN1cmZhY2VWYXJpYW50ID0gQ29sb3IoMHhGRjJDMkMyRSksCiAgICBvblN1cmZhY2VWYXJpYW50ID0gQ29sb3IoMHhGRkQxRDFENiksCiAgICBvdXRsaW5lID0gQ29sb3IoMHhGRjM4MzgzQSksCiAgICBvdXRsaW5lVmFyaWFudCA9IENvbG9yKDB4RkYyQzJDMkUpLAogICAgZXJyb3IgPSBDb2xvcigweEZGRkY0NTNBKSwKICAgIG9uRXJyb3IgPSBDb2xvci5XaGl0ZSwKICAgIHRlcnRpYXJ5ID0gQ29sb3IoMHhGRjMwRDE1OCksCiAgICBvblRlcnRpYXJ5ID0gQ29sb3IuQmxhY2sKKQoKLyoqIEJpZywgc29mdCBpT1Mtc3R5bGUgY29ybmVyczogY2FyZHMgbGFuZCBhdCAxNuKAkzIwZHAsIHNoZWV0cy9kaWFsb2dzIGxhcmdlci4gKi8KcHJpdmF0ZSB2YWwgQXBwU2hhcGVzID0gU2hhcGVzKAogICAgZXh0cmFTbWFsbCA9IFJvdW5kZWRDb3JuZXJTaGFwZSgxMC5kcCksCiAgICBzbWFsbCA9IFJvdW5kZWRDb3JuZXJTaGFwZSgxMi5kcCksCiAgICBtZWRpdW0gPSBSb3VuZGVkQ29ybmVyU2hhcGUoMTYuZHApLAogICAgbGFyZ2UgPSBSb3VuZGVkQ29ybmVyU2hhcGUoMjAuZHApLAogICAgZXh0cmFMYXJnZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSgyOC5kcCkKKQoKcHJpdmF0ZSB2YWwgQXBwVHlwb2dyYXBoeSA9IFR5cG9ncmFwaHkoCiAgICBoZWFkbGluZVNtYWxsID0gVGV4dFN0eWxlKAogICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQsCiAgICAgICAgZm9udFNpemUgPSAyNC5zcCwKICAgICAgICBsaW5lSGVpZ2h0ID0gMzAuc3AKICAgICksCiAgICB0aXRsZUxhcmdlID0gVGV4dFN0eWxlKAogICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LlNlbWlCb2xkLAogICAgICAgIGZvbnRTaXplID0gMjEuc3AsCiAgICAgICAgbGluZUhlaWdodCA9IDI2LnNwCiAgICApLAogICAgdGl0bGVNZWRpdW0gPSBUZXh0U3R5bGUoCiAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuU2VtaUJvbGQsCiAgICAgICAgZm9udFNpemUgPSAxNi5zcCwKICAgICAgICBsaW5lSGVpZ2h0ID0gMjEuc3AKICAgICksCiAgICB0aXRsZVNtYWxsID0gVGV4dFN0eWxlKAogICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LlNlbWlCb2xkLAogICAgICAgIGZvbnRTaXplID0gMTQuc3AsCiAgICAgICAgbGluZUhlaWdodCA9IDE5LnNwCiAgICApLAogICAgYm9keUxhcmdlID0gVGV4dFN0eWxlKAogICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0Lk5vcm1hbCwKICAgICAgICBmb250U2l6ZSA9IDE2LnNwLAogICAgICAgIGxpbmVIZWlnaHQgPSAyMi5zcAogICAgKSwKICAgIGJvZHlNZWRpdW0gPSBUZXh0U3R5bGUoCiAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTm9ybWFsLAogICAgICAgIGZvbnRTaXplID0gMTQuc3AsCiAgICAgICAgbGluZUhlaWdodCA9IDIwLnNwCiAgICApLAogICAgYm9keVNtYWxsID0gVGV4dFN0eWxlKAogICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0Lk5vcm1hbCwKICAgICAgICBmb250U2l6ZSA9IDEyLjUuc3AsCiAgICAgICAgbGluZUhlaWdodCA9IDE3LnNwCiAgICApLAogICAgbGFiZWxMYXJnZSA9IFRleHRTdHlsZSgKICAgICAgICBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5TZW1pQm9sZCwKICAgICAgICBmb250U2l6ZSA9IDE0LnNwLAogICAgICAgIGxpbmVIZWlnaHQgPSAxOS5zcAogICAgKQopCgovKiogQXBwIHNlbWFudGljIGNvbG9ycyAoaU9TIHN5c3RlbSBodWVzKS4gKi8Kb2JqZWN0IFRhc2tDb2xvcnMgewogICAgdmFsIEhpZ2hQcmlvcml0eSA9IENvbG9yKDB4RkZGRjNCMzApCiAgICB2YWwgTWVkaXVtUHJpb3JpdHkgPSBDb2xvcigweEZGRkY5NTAwKQogICAgdmFsIExvd1ByaW9yaXR5ID0gQ29sb3IoMHhGRjM0Qzc1OSkKICAgIHZhbCBPdmVyZHVlID0gQ29sb3IoMHhGRkZGM0IzMCkKfQoKQENvbXBvc2FibGUKZnVuIFRhc2tUcmFja2VyUHJvVGhlbWUoCiAgICB0aGVtZU1vZGU6IFRoZW1lTW9kZSA9IFRoZW1lTW9kZS5TWVNURU0sCiAgICBjb250ZW50OiBAQ29tcG9zYWJsZSAoKSAtPiBVbml0CikgewogICAgdmFsIGRhcmsgPSB3aGVuICh0aGVtZU1vZGUpIHsKICAgICAgICBUaGVtZU1vZGUuTElHSFQgLT4gZmFsc2UKICAgICAgICBUaGVtZU1vZGUuREFSSyAtPiB0cnVlCiAgICAgICAgVGhlbWVNb2RlLlNZU1RFTSAtPiBpc1N5c3RlbUluRGFya1RoZW1lKCkKICAgIH0KICAgIE1hdGVyaWFsVGhlbWUoCiAgICAgICAgY29sb3JTY2hlbWUgPSBpZiAoZGFyaykgRGFya0NvbG9ycyBlbHNlIExpZ2h0Q29sb3JzLAogICAgICAgIHNoYXBlcyA9IEFwcFNoYXBlcywKICAgICAgICB0eXBvZ3JhcGh5ID0gQXBwVHlwb2dyYXBoeSwKICAgICAgICBjb250ZW50ID0gY29udGVudAogICAgKQp9Cg==
+package com.tasktracker.pro.ui.theme
+
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Shapes
+import androidx.compose.material3.Typography
+import androidx.compose.material3.darkColorScheme
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.tasktracker.pro.data.ThemeMode
+
+/**
+ * iOS-inspired design language ("Apple-like"):
+ *  - iOS system palette: grouped grey background (#F2F2F7) with pure white
+ *    cards in light mode; true black background with #1C1C1E cards in dark.
+ *  - iOS accent blue (#007AFF / #0A84FF), green (#34C759), red (#FF3B30).
+ *  - Large, soft corner radii everywhere (16–28dp) and flat cards —
+ *    separation comes from the grouped background, not shadows.
+ *  - Clean system typography with semibold headings.
+ */
+private val LightColors = lightColorScheme(
+    primary = Color(0xFF007AFF),
+    onPrimary = Color.White,
+    primaryContainer = Color(0xFFD9E9FF),
+    onPrimaryContainer = Color(0xFF003E7E),
+    secondary = Color(0xFF6C6C70),
+    onSecondary = Color.White,
+    secondaryContainer = Color(0xFFE9E9EE),
+    onSecondaryContainer = Color(0xFF1C1C1E),
+    background = Color(0xFFF2F2F7),
+    onBackground = Color(0xFF1C1C1E),
+    surface = Color(0xFFFFFFFF),
+    onSurface = Color(0xFF1C1C1E),
+    surfaceVariant = Color(0xFFE9E9EE),
+    onSurfaceVariant = Color(0xFF3A3A3C),
+    outline = Color(0xFFD1D1D6),
+    outlineVariant = Color(0xFFE5E5EA),
+    error = Color(0xFFFF3B30),
+    onError = Color.White,
+    tertiary = Color(0xFF34C759),
+    onTertiary = Color.White
+)
+
+private val DarkColors = darkColorScheme(
+    primary = Color(0xFF0A84FF),
+    onPrimary = Color.White,
+    primaryContainer = Color(0xFF0B3D73),
+    onPrimaryContainer = Color(0xFFD9E9FF),
+    secondary = Color(0xFFAEAEB2),
+    onSecondary = Color(0xFF1C1C1E),
+    secondaryContainer = Color(0xFF2C2C2E),
+    onSecondaryContainer = Color(0xFFF2F2F7),
+    background = Color(0xFF000000),
+    onBackground = Color(0xFFF2F2F7),
+    surface = Color(0xFF1C1C1E),
+    onSurface = Color(0xFFF2F2F7),
+    surfaceVariant = Color(0xFF2C2C2E),
+    onSurfaceVariant = Color(0xFFD1D1D6),
+    outline = Color(0xFF38383A),
+    outlineVariant = Color(0xFF2C2C2E),
+    error = Color(0xFFFF453A),
+    onError = Color.White,
+    tertiary = Color(0xFF30D158),
+    onTertiary = Color.Black
+)
+
+/** Big, soft iOS-style corners: cards land at 16–20dp, sheets/dialogs larger. */
+private val AppShapes = Shapes(
+    extraSmall = RoundedCornerShape(10.dp),
+    small = RoundedCornerShape(12.dp),
+    medium = RoundedCornerShape(16.dp),
+    large = RoundedCornerShape(20.dp),
+    extraLarge = RoundedCornerShape(28.dp)
+)
+
+private val AppTypography = Typography(
+    headlineSmall = TextStyle(
+        fontWeight = FontWeight.Bold,
+        fontSize = 24.sp,
+        lineHeight = 30.sp
+    ),
+    titleLarge = TextStyle(
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 21.sp,
+        lineHeight = 26.sp
+    ),
+    titleMedium = TextStyle(
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 16.sp,
+        lineHeight = 21.sp
+    ),
+    titleSmall = TextStyle(
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 14.sp,
+        lineHeight = 19.sp
+    ),
+    bodyLarge = TextStyle(
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp,
+        lineHeight = 22.sp
+    ),
+    bodyMedium = TextStyle(
+        fontWeight = FontWeight.Normal,
+        fontSize = 14.sp,
+        lineHeight = 20.sp
+    ),
+    bodySmall = TextStyle(
+        fontWeight = FontWeight.Normal,
+        fontSize = 12.5.sp,
+        lineHeight = 17.sp
+    ),
+    labelLarge = TextStyle(
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 14.sp,
+        lineHeight = 19.sp
+    )
+)
+
+/** App semantic colors (iOS system hues). */
+object TaskColors {
+    val HighPriority = Color(0xFFFF3B30)
+    val MediumPriority = Color(0xFFFF9500)
+    val LowPriority = Color(0xFF34C759)
+    val Overdue = Color(0xFFFF3B30)
+}
+
+@Composable
+fun TaskTrackerProTheme(
+    themeMode: ThemeMode = ThemeMode.SYSTEM,
+    content: @Composable () -> Unit
+) {
+    val dark = when (themeMode) {
+        ThemeMode.LIGHT -> false
+        ThemeMode.DARK -> true
+        ThemeMode.SYSTEM -> isSystemInDarkTheme()
+    }
+    MaterialTheme(
+        colorScheme = if (dark) DarkColors else LightColors,
+        shapes = AppShapes,
+        typography = AppTypography,
+        content = content
+    )
+}
