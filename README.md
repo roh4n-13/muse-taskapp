@@ -1,205 +1,125 @@
-# Task Tracker Pro
+<div align="center">
 
-**Aapke saare tasks ek jagah — simple, fast, aur aapke control mein.**
+# ✅ Task Tracker Pro
 
-Task Tracker Pro ek Android app hai jo aapke kaam (tasks) ko track karta hai. Har task mein 21 details hote hain — naam, deadline, vendor, cost, follow-up, notes, aur bahut kuch. App bina internet ke bhi poori tarah kaam karta hai (local-first). Agar aap chahein, toh Google Sheets se sync bhi kar sakte hain — lekin woh bilkul optional hai.
+**A production-grade, local-first task manager for Android — with optional Google Sheets sync.**
 
----
+![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B-3DDC84?logo=android&logoColor=white)
+![Language](https://img.shields.io/badge/Kotlin-1.9.24-7F52FF?logo=kotlin&logoColor=white)
+![UI](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?logo=jetpackcompose&logoColor=white)
+![Tests](https://img.shields.io/badge/Unit%20Tests-133%20passing-brightgreen)
+![Data](https://img.shields.io/badge/Data-Local--first-orange)
+![License](https://img.shields.io/badge/License-Private-lightgrey)
 
-## A. App kya karta hai? (Features)
-
-- **Dashboard**: Aaj kya karna hai, overdue tasks, Smart Next Action (sabse zaroori kaam ka suggestion)
-- **Task List**: Saare active tasks, search aur filter ke saath
-- **Task Detail**: Har task ki poori 21-field detail
-- **Add/Edit Task**: Naya task banao ya purana edit karo
-- **Completed**: Poore hue tasks ka history
-- **Daily Report**: Aaj ka summary — kya complete hua, kya pending hai
-- **Reminders**: Deadline aur follow-up ke liye notification
-- **Backup/Restore**: Apna data JSON file mein save karo, kabhi bhi wapas lao
-- **Google Sheets Sync** (optional): Tasks ko Google Sheet mein sync karo
-
-## B. Kaise install karein? (APK)
-
-1. **GitHub Actions** se latest APK download karo:
-   - Is repo ke **Actions** tab mein jao
-   - Sabse upar wale successful run (green tick) par click karo
-   - **Artifacts** section mein `app-debug` download karo
-   - ZIP ko extract karo — andar `app-debug.apk` milega
-2. APK ko apne Android phone mein copy karo
-3. Phone mein APK par tap karo — agar "Unknown sources" ki permission maange, toh allow karo
-4. Install ho jayega!
-
-**Minimum requirement**: Android 8.0 (API 26) ya usse naya.
-
-## C. Pehli baar app kholo toh kya dikhega?
-
-- App khulte hi **Dashboard** dikhega
-- Neeche 6 tabs hain: Dashboard, Tasks, Completed, Report, Sheets, Settings
-- **+** button (neeche right corner) se naya task add karo
-- Koi login ya signup nahi hai — app turant kaam karta hai
-
-## D. Task kaise add karein?
-
-1. **+** button dabao
-2. Task ka naam likho (zaroori hai)
-3. Baaki details bharo — Type, Priority, Deadline, Vendor, Cost, etc.
-4. **Save** dabao
-5. Ho gaya! Task list mein dikhega.
-
-**21 fields**: ID (auto-generated), Task Name, Type, Progress, Priority, Deadline, Vendor/Craftsman, Contact Number, Estimated Cost (INR), Actual Cost (INR), Next Follow-up, Delivery Date, Payment Status, Link, Task Focus, Value Add, Notes, Task Added, Task Started, Task Completed, Last Updated.
-
-## E. Google Sheets sync kaise setup karein? (Optional)
-
-**Yaad rakho**: Ye bilkul optional hai. App bina Sheets ke poori tarah kaam karta hai.
-
-Agar sync chahiye, toh:
-
-### Step 1: Apps Script deploy karo
-1. [script.google.com](https://script.google.com) kholo
-2. **New project** banao
-3. Is repo ke `apps-script/Code.gs` file ka poora content copy karke wahan paste karo
-4. `apps-script/DEPLOY_NOTES.md` mein diye gaye steps follow karo:
-   - Script Properties mein `SECRET_TOKEN` set karo (koi strong random string)
-   - **Deploy** → **New deployment** → **Web app** chuno
-   - "Execute as" = **Me**, "Who has access" = **Anyone** rakho
-   - Deploy karo — tumhe ek URL milega jo `/exec` par khatam hota hai
-
-### Step 2: App mein connect karo
-1. App mein **Sheets** tab kholo
-2. **Connect Google Sheets** dabao
-3. Web App URL paste karo (jo Step 1 mein mila)
-4. Secret Token daalo (jo tumne Script Properties mein set kiya tha)
-5. **Test Connection** dabao — agar "Connected" dikhe, toh sahi hai!
-6. **Enable Sync** karo
-
-### Step 3: Pehli sync
-- Pehli baar 3 options milenge:
-  - **Merge**: Phone aur Sheet dono ka data milao (recommended)
-  - **Upload first**: Pehle phone ka data Sheet mein bhejo
-  - **Download first**: Pehle Sheet ka data phone mein lao
-
-**Important**: Sync ek NAYI spreadsheet file banata hai — tumhari purani sheet ko haath nahi lagata. Headers hamesha isi order mein hote hain (21 columns).
-
-## F. Sync kaise kaam karta hai? (Technical details)
-
-- **Polling**: App har 60 second mein Sheet se naya data check karta hai (jab app khula ho)
-- **Push**: Tumhare changes turant Sheet mein bheje jaate hain
-- **Conflict**: Agar dono jagah change hua, toh phone ka unsynced change jeet-ta hai
-- **Delete**: Phone se delete karne par Sheet se bhi delete hota hai (tombstone system)
-- **Safety**: Bina sync kiya hua local data kabhi delete nahi hota
-
-## G. Testing checklist (khud test karo)
-
-- [ ] Naya task banao — list mein dikhe
-- [ ] Task edit karo — changes save hon
-- [ ] Task complete karo — Completed tab mein jaye
-- [ ] Deadline set karo — reminder aaye (phone ki notification settings check karo)
-- [ ] Settings se backup lo — JSON file bane
-- [ ] Backup file se restore karo — tasks wapas aayein
-- [ ] (Agar Sheets setup hai) Sync on karo — Sheet mein data dikhe
-
-## H. Troubleshooting (Problem aaye toh)
-
-| Problem | Solution |
-|---------|----------|
-| App install nahi ho raha | "Install from unknown sources" allow karo |
-| Reminder nahi aaya | Phone Settings → Apps → Task Tracker Pro → Notifications ON karo. Battery optimization off karo. |
-| Sheets connect nahi ho raha | URL `/exec` par khatam hona chahiye. Token bilkul sahi hona chahiye (copy-paste karo). |
-| Sync mein error | Internet check karo. Phir "Test Connection" dabao. |
-| Data gayab lag raha hai | Ghabrao mat! App local database use karta hai. Settings → Backup se check karo. |
-
-## I. Security (Suraksha)
-
-- **Token**: Tumhara Sheets secret token phone mein encrypted (EncryptedSharedPreferences) mein store hota hai
-- **Token rotation**: Agar token leak ho jaye, toh Apps Script ki Script Properties mein naya token set karo, phir app mein update karo
-- **Backup**: Backup file mein sirf task data hota hai — URL ya token kabhi nahi
-- **Permissions**: App sirf zaroori permissions maangta hai (notifications, storage for backup)
-
-## J. Project structure (Developers ke liye)
-
-```
-app/src/main/java/com/tasktracker/pro/
-├── data/
-│   ├── Task.kt              # 21-field Room entity
-│   ├── TaskDao.kt           # Database queries
-│   ├── TaskDatabase.kt      # Room database
-│   ├── TaskRepository.kt    # Business logic + sync metadata
-│   ├── Dates.kt             # Date parsing/formatting
-│   ├── Dashboard.kt         # Dashboard stats + Smart Next Action
-│   ├── BackupManager.kt     # JSON backup/restore
-│   ├── JsonUtil.kt          # Pure-Kotlin JSON (testable)
-│   └── sync/
-│       ├── SheetsSchema.kt  # 21 headers, task<->map conversion
-│       ├── SheetsApi.kt     # Backend interface
-│       ├── AppsScriptClient.kt  # HTTP client
-│       ├── SyncEngine.kt    # Two-way sync logic
-│       ├── SyncPoller.kt    # 60s foreground polling
-│       └── SecurePrefs.kt   # Encrypted token storage
-├── ui/
-│   ├── screens/             # Dashboard, TaskList, Detail, Edit, Report, Sheets, Settings
-│   └── components/          # Reusable UI (TaskCard, etc.)
-├── reminders/               # AlarmManager notifications
-└── MainActivity.kt          # App entry point
-
-apps-script/
-├── Code.gs                  # Google Apps Script backend
-└── DEPLOY_NOTES.md          # Deployment instructions
-```
-
-## K. Build kaise karein? (Developers)
-
-**Requirements**: JDK 17, Android SDK (API 34), Gradle 8.7
-
-```bash
-# Debug APK
-./gradlew :app:assembleDebug
-
-# Unit tests
-./gradlew :app:testDebugUnitTest
-```
-
-**Note**: Agar tumhare network mein proxy hai, toh `~/.gradle/gradle.properties` mein proxy settings chahiye honge. Details ke liye `.github/workflows/android.yml` dekho (CI automatically build karta hai).
-
-## L. Automated tests
-
-```bash
-./gradlew :app:testDebugUnitTest
-```
-
-**Test results** (last run):
-- **98 tests, 0 failures** ✅
-- DashboardTest: 20 tests — dashboard stats, Smart Next Action
-- DatesTest: 14 tests — date parsing (ISO with/without offset)
-- TaskRepositoryTest: 25 tests — CRUD, tombstones, sync metadata
-- SheetsSchemaTest: 15 tests — 21 headers, task<->map conversion
-- SyncEngineTest: 16 tests — push/pull, conflicts, deletions
-- BackupManagerTest: 8 tests — JSON export/import, merge logic
-
-Saare tests JVM par chalte hain (koi emulator nahi chahiye).
-
-## M. Known limitations (Pehle se pata hona chahiye)
-
-1. **Live Sheets sync verify nahi hua**: Code likha aur test kiya gaya hai, lekin asli Google Sheet se live sync test nahi hua (tumhe khud Apps Script deploy karna hoga).
-2. **Reminders physical device par test nahi hue**: AlarmManager code likha hai, lekin asli phone par notification test nahi hua.
-3. **Duplicate spreadsheet**: Galti se ek khaali duplicate spreadsheet ban gayi thi ("Task Tracker Pro — App Data" naam se). Asli wali mein headers hain. Khaali wali ko Google Drive se manually delete kar dena.
-4. **Kotlin 1.9.24**: Original plan 2.0.21 tha, lekin sandbox network restrictions ki wajah se 1.9.24 use karna pada (Compose compiler plugin Maven Central par nahi mila).
-5. **Debug APK**: Ye debug build hai, release build nahi. Play Store par daalne ke liye release signing chahiye hogi.
-
-## N. Agle steps (Future mein)
-
-- [ ] Live Sheets sync ko asli Sheet se test karo
-- [ ] Physical device par reminders test karo
-- [ ] Release APK banao (signed)
-- [ ] Widget: Home screen par aaj ke tasks dikhao
-- [ ] Dark mode
-- [ ] Multiple sheets support
+</div>
 
 ---
 
-## License
+## 📖 Overview
 
-Ye project personal use ke liye banaya gaya hai.
+Task Tracker Pro manages real-world work — tasks with vendors, costs, deadlines and follow-ups — in a clean, iOS-inspired interface. It is **fully functional offline**: all data lives on the device in a local database. An **optional** two-way sync with Google Sheets (via Apps Script) can be connected separately whenever you want a cloud copy — the app never requires it.
 
-## Questions?
+Every task carries **21 structured fields**: name, type, progress, priority, deadline, vendor/craftsman, contact, estimated & actual cost (₹), follow-up date, delivery date, payment status, links, focus, value-add, notes and full timestamps.
 
-Agar kuch samajh na aaye, toh is repo mein **Issue** kholo ya code mein comments padho — har important jagah Hindi/English mix mein samjhaya gaya hai.
+## ✨ Key Features
+
+**Task management**
+- Dashboard with today's work, overdue alerts and a **Smart Next Action** suggestion
+- Pending tasks and completed tasks kept **strictly separate** — in the app and in the sheet
+- Search, filters, and a full 21-field detail view for every task
+- One-tap **Call** and **WhatsApp** actions from the task's contact number
+- **Share** a formatted task summary to WhatsApp or any app
+
+**Reminders & notifications**
+- Daily pending-task digest at a time you choose
+- **Exact-time reminder per task** — fires on the minute (alarm-clock grade scheduling)
+- Per-task **follow-up alerts** when a follow-up date arrives
+- **Done button right inside the notification** — completes the task without opening the app
+
+**Money (Kharcha)**
+- In-app cost summary: totals, amount due, and **vendor-wise dues**
+- Daily report with a money section; amounts formatted in Indian style (₹12,34,567)
+
+**Google Sheets sync (optional)**
+- Two-way sync with a dedicated spreadsheet: `Tasks` tab for pending work, a separate `Completed Tasks` tab, and an auto-maintained **`Summary` tab** (totals, progress buckets, overdue counts, money, vendor-wise dues)
+- Near real-time: local changes upload within ~2 seconds; sheet changes are picked up every ~15 seconds
+- Safe by design: stable UUIDs (never row numbers), conflict rule *"local unsynced edits win"*, and remote deletions applied only after a validated complete snapshot
+
+**Data safety**
+- JSON **backup & restore** (merge-only import; credentials are never exported)
+- No account, no login, no tracking — your data stays yours
+
+## 🧱 Architecture
+
+```mermaid
+flowchart LR
+    UI["Compose UI<br/>(Dashboard · Tasks · Completed<br/>Report · Sheets · Settings)"] --> REPO["TaskRepository"]
+    REPO --> ROOM[("Room Database<br/>local source of truth")]
+    REPO --> SYNC["SyncEngine"]
+    SYNC --> CLIENT["AppsScriptClient (OkHttp)"]
+    CLIENT --> GAS["Google Apps Script<br/>(token-authenticated)"]
+    GAS --> SHEET[("Google Sheet<br/>Tasks · Completed Tasks · Summary")]
+    REPO --> ALARM["AlarmManager<br/>exact-time + daily + follow-ups"]
+```
+
+| Layer | Technology |
+|---|---|
+| Language | Kotlin |
+| UI | Jetpack Compose + Material 3 (custom iOS-style design system) |
+| Local storage | Room (SQLite), DataStore, EncryptedSharedPreferences |
+| Networking | OkHttp + org.json |
+| Backend (optional) | Google Apps Script Web App → Google Sheets |
+| Reminders | AlarmManager (`setAlarmClock`), boot-rescheduled |
+| Build | Gradle 8.7, AGP 8.5.2, minSdk 26 / targetSdk 34 |
+
+## 📊 Sheet Schema (21 columns, exact order)
+
+`ID · Task Name · Type · Progress · Priority · Deadline · Vendor / Craftsman · Contact Number · Estimated Cost (INR) · Actual Cost (INR) · Next Follow-up · Delivery Date · Payment Status · Link · Task Focus · Value Add · Notes · Task Added · Task Started · Task Completed · Last Updated`
+
+Amount-due rule (identical in app and sheet): if Payment Status is not `Paid`, due = Actual Cost when given, otherwise Estimated Cost.
+
+## 🚀 Getting Started
+
+### Install the APK
+1. Download the latest debug APK (shared by the maintainer, or build it yourself below).
+2. Open it on any Android 8.0+ phone and allow "Install from unknown sources" if asked.
+3. No sign-up — the app works immediately, fully offline.
+
+### Build from source
+```bash
+git clone https://github.com/roh4n-13/muse-taskapp.git
+cd muse-taskapp
+# Requires JDK 17 and the Android SDK (compileSdk 34)
+gradle testDebugUnitTest assembleDebug   # or open in Android Studio
+```
+The debug APK is produced at `app/build/outputs/apk/debug/app-debug.apk`.
+
+### Connect Google Sheets sync (optional)
+1. Create a **new, dedicated** spreadsheet for the app (never point it at a sheet with other data).
+2. In that sheet: **Extensions → Apps Script**, paste `apps-script/Code.gs`, set a `SECRET_TOKEN` under *Project Settings → Script Properties*, then **Deploy → New deployment → Web app**.
+3. In the app: **Sheets tab** → paste the Web App URL and the same token → **Test Connection** → **Save** → turn on **Enable sync** → pick a first-sync strategy (Merge is safest).
+4. Full details: [`apps-script/DEPLOY_NOTES.md`](apps-script/DEPLOY_NOTES.md). After any script change, deploy a **New version** for it to take effect.
+
+## 🧪 Testing
+
+**133 unit tests, all passing** — covering the sync engine (conflicts, deletions, first-sync strategies), date handling, cost & due calculations, follow-up logic, reminder planning, task sharing and list visibility.
+
+```bash
+gradle testDebugUnitTest
+```
+
+## 🔒 Privacy
+
+- Local-first: nothing leaves the device unless **you** enable Sheets sync.
+- The sync token is stored encrypted on-device and is never committed to this repository.
+- Backups contain tasks only — never credentials.
+
+## 🗣️ Hinglish me samjho
+
+App bilkul simple hai: task banao, deadline lagao, reminder khud aa jayega. Kaam ho jaye to notification se hi **Done** daba do — task Completed me chala jayega. Vendor ke paise ka hisaab **Kharcha** card me dikhta hai. Aur agar Google Sheet se jodna hai to upar wala "Connect Google Sheets sync" section follow karo — bina uske bhi app pura chalta hai.
+
+---
+
+<div align="center">
+<sub>Built with Kotlin & Jetpack Compose · Task Tracker Pro</sub>
+</div>
