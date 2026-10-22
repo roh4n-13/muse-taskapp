@@ -1,1 +1,94 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlCmltcG9ydCBqYXZhLnRpbWUuT2Zmc2V0RGF0ZVRpbWUKaW1wb3J0IGphdmEudGltZS5mb3JtYXQuRGF0ZVRpbWVGb3JtYXR0ZXIKaW1wb3J0IGphdmEudGltZS5mb3JtYXQuRGF0ZVRpbWVQYXJzZUV4Y2VwdGlvbgoKLyoqIENlbnRyYWwgZGF0ZS90aW1lIGhlbHBlcnMuIEFsbCBjb21wYXJpc29ucyB1c2UgdGhlIGRldmljZSBkZWZhdWx0IHpvbmUuICovCm9iamVjdCBEYXRlcyB7CiAgICBwcml2YXRlIHZhbCBEQVRFID0gRGF0ZVRpbWVGb3JtYXR0ZXIub2ZQYXR0ZXJuKCJ5eXl5LU1NLWRkIikKICAgIHByaXZhdGUgdmFsIERBVEVfVElNRSA9IERhdGVUaW1lRm9ybWF0dGVyLklTT19PRkZTRVRfREFURV9USU1FCiAgICAvKiogV3JpdGUgZm9ybWF0OiBubyBvZmZzZXQsIGV4YWN0bHkgd2hhdCB0aGUgQXBwcyBTY3JpcHQgYmFja2VuZCB2YWxpZGF0ZXMuICovCiAgICBwcml2YXRlIHZhbCBEQVRFX1RJTUVfV1JJVEUgPSBEYXRlVGltZUZvcm1hdHRlci5vZlBhdHRlcm4oInl5eXktTU0tZGQnVCdISDptbTpzcyIpCgogICAgZnVuIHRvZGF5KCk6IExvY2FsRGF0ZSA9IExvY2FsRGF0ZS5ub3coKQoKICAgIGZ1biB0b2RheVN0cmluZygpOiBTdHJpbmcgPSB0b2RheSgpLmZvcm1hdChEQVRFKQoKICAgIGZ1biBub3dTdHJpbmcoKTogU3RyaW5nID0gamF2YS50aW1lLkxvY2FsRGF0ZVRpbWUubm93KCkuZm9ybWF0KERBVEVfVElNRV9XUklURSkKCiAgICAvKiogUGFyc2VzICJ5eXl5LU1NLWRkIiwgcmV0dXJucyBudWxsIHdoZW4gYmxhbmsvaW52YWxpZCDigJQgbmV2ZXIgdGhyb3dzLiAqLwogICAgZnVuIHBhcnNlRGF0ZSh2YWx1ZTogU3RyaW5nKTogTG9jYWxEYXRlPyB7CiAgICAgICAgaWYgKHZhbHVlLmlzQmxhbmsoKSkgcmV0dXJuIG51bGwKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgTG9jYWxEYXRlLnBhcnNlKHZhbHVlLnRyaW0oKSwgREFURSkKICAgICAgICB9IGNhdGNoIChlOiBEYXRlVGltZVBhcnNlRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9CgogICAgLyoqIFBhcnNlcyBJU08gb2Zmc2V0IGRhdGUtdGltZSwgZmFsbGluZyBiYWNrIHRvIGEgcGxhaW4gbG9jYWwgZGF0ZS10aW1lCiAgICAgKiAgKGFzc3VtZWQgaW4gdGhlIGRldmljZSB6b25lIOKAlCB0aGUgQXBwcyBTY3JpcHQgYmFja2VuZCB3cml0ZXMgdGltZXN0YW1wcwogICAgICogIHdpdGhvdXQgYW4gb2Zmc2V0KS4gUmV0dXJucyBudWxsIHdoZW4gYmxhbmsvaW52YWxpZCDigJQgbmV2ZXIgdGhyb3dzLiAqLwogICAgZnVuIHBhcnNlRGF0ZVRpbWUodmFsdWU6IFN0cmluZyk6IE9mZnNldERhdGVUaW1lPyB7CiAgICAgICAgdmFsIHYgPSB2YWx1ZS50cmltKCkKICAgICAgICBpZiAodi5pc0JsYW5rKCkpIHJldHVybiBudWxsCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgcmV0dXJuIE9mZnNldERhdGVUaW1lLnBhcnNlKHYsIERBVEVfVElNRSkKICAgICAgICB9IGNhdGNoIChlOiBEYXRlVGltZVBhcnNlRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIC8vIGZhbGwgdGhyb3VnaCB0byBsb2NhbCBmb3JtYXQKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIGphdmEudGltZS5Mb2NhbERhdGVUaW1lLnBhcnNlKHYsIERhdGVUaW1lRm9ybWF0dGVyLklTT19MT0NBTF9EQVRFX1RJTUUpCiAgICAgICAgICAgICAgICAuYXRab25lKGphdmEudGltZS5ab25lSWQuc3lzdGVtRGVmYXVsdCgpKQogICAgICAgICAgICAgICAgLnRvT2Zmc2V0RGF0ZVRpbWUoKQogICAgICAgIH0gY2F0Y2ggKGU6IERhdGVUaW1lUGFyc2VFeGNlcHRpb24pIHsKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KCiAgICAvKiogVHJ1ZSB3aGVuIHRoZSBkZWFkbGluZSBpcyBhIHZhbGlkIGRhdGUgYmVmb3JlIHRvZGF5LiAqLwogICAgZnVuIGlzT3ZlcmR1ZShkZWFkbGluZTogU3RyaW5nLCB0b2RheTogTG9jYWxEYXRlID0gdG9kYXkoKSk6IEJvb2xlYW4gewogICAgICAgIHZhbCBkID0gcGFyc2VEYXRlKGRlYWRsaW5lKSA/OiByZXR1cm4gZmFsc2UKICAgICAgICByZXR1cm4gZC5pc0JlZm9yZSh0b2RheSkKICAgIH0KCiAgICBmdW4gaXNUb2RheShkZWFkbGluZTogU3RyaW5nLCB0b2RheTogTG9jYWxEYXRlID0gdG9kYXkoKSk6IEJvb2xlYW4gPQogICAgICAgIHBhcnNlRGF0ZShkZWFkbGluZSkgPT0gdG9kYXkKCiAgICBmdW4gaXNVcGNvbWluZyhkZWFkbGluZTogU3RyaW5nLCB0b2RheTogTG9jYWxEYXRlID0gdG9kYXkoKSwgZGF5c0FoZWFkOiBMb25nID0gNyk6IEJvb2xlYW4gewogICAgICAgIHZhbCBkID0gcGFyc2VEYXRlKGRlYWRsaW5lKSA/OiByZXR1cm4gZmFsc2UKICAgICAgICByZXR1cm4gIWQuaXNCZWZvcmUodG9kYXkpICYmICFkLmlzQWZ0ZXIodG9kYXkucGx1c0RheXMoZGF5c0FoZWFkKSkKICAgIH0KCiAgICAvKiogQ29tcGFyZXMgdHdvICJMYXN0IFVwZGF0ZWQiIHZhbHVlczsgaW52YWxpZC9ibGFuayBzb3J0cyBhcyBvbGRlc3QuICovCiAgICBmdW4gY29tcGFyZUxhc3RVcGRhdGVkKGE6IFN0cmluZywgYjogU3RyaW5nKTogSW50IHsKICAgICAgICB2YWwgYWkgPSBwYXJzZURhdGVUaW1lKGEpCiAgICAgICAgdmFsIGJpID0gcGFyc2VEYXRlVGltZShiKQogICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgYWkgPT0gbnVsbCAmJiBiaSA9PSBudWxsIC0+IDAKICAgICAgICAgICAgYWkgPT0gbnVsbCAtPiAtMQogICAgICAgICAgICBiaSA9PSBudWxsIC0+IDEKICAgICAgICAgICAgZWxzZSAtPiBhaS5jb21wYXJlVG8oYmkpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBmb3JtYXREYXRlRm9yRGlzcGxheSh2YWx1ZTogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgZCA9IHBhcnNlRGF0ZSh2YWx1ZSkgPzogcmV0dXJuIHZhbHVlCiAgICAgICAgcmV0dXJuIGQuZm9ybWF0KERhdGVUaW1lRm9ybWF0dGVyLm9mUGF0dGVybigiZGQgTU1NIHl5eXkiKSkKICAgIH0KCiAgICAvKiogRXBvY2ggbWlsbGlzIGZvciBhICJ5eXl5LU1NLWRkJ1QnSEg6bW06c3MiIHJlbWluZGVyIHZhbHVlLCBvciBudWxsLiAqLwogICAgZnVuIHJlbWluZGVyVG9NaWxsaXModmFsdWU6IFN0cmluZyk6IExvbmc/ID0KICAgICAgICBwYXJzZURhdGVUaW1lKHZhbHVlKT8udG9JbnN0YW50KCk/LnRvRXBvY2hNaWxsaSgpCgogICAgLyoqICIyMiBPY3QgMjAyNiwgNjozMCBQTSIgc3R5bGUgZGlzcGxheSBmb3IgYSByZW1pbmRlciB2YWx1ZS4gKi8KICAgIGZ1biBmb3JtYXRSZW1pbmRlckZvckRpc3BsYXkodmFsdWU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGR0ID0gcGFyc2VEYXRlVGltZSh2YWx1ZSkgPzogcmV0dXJuIHZhbHVlCiAgICAgICAgdmFsIGxvY2FsID0gZHQudG9Mb2NhbERhdGVUaW1lKCkKICAgICAgICB2YWwgZGF0ZSA9IGxvY2FsLnRvTG9jYWxEYXRlKCkuZm9ybWF0KERhdGVUaW1lRm9ybWF0dGVyLm9mUGF0dGVybigiZGQgTU1NIHl5eXkiKSkKICAgICAgICB2YWwgdGltZSA9IGxvY2FsLnRvTG9jYWxUaW1lKCkuZm9ybWF0KERhdGVUaW1lRm9ybWF0dGVyLm9mUGF0dGVybigiaDptbSBhIikpCiAgICAgICAgcmV0dXJuICIkZGF0ZSwgJHRpbWUiCiAgICB9Cn0K
+package com.tasktracker.pro.data
+
+import java.time.LocalDate
+import java.time.OffsetDateTime
+import java.time.format.DateTimeFormatter
+import java.time.format.DateTimeParseException
+
+/** Central date/time helpers. All comparisons use the device default zone. */
+object Dates {
+    private val DATE = DateTimeFormatter.ofPattern("yyyy-MM-dd")
+    private val DATE_TIME = DateTimeFormatter.ISO_OFFSET_DATE_TIME
+    /** Write format: no offset, exactly what the Apps Script backend validates. */
+    private val DATE_TIME_WRITE = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss")
+
+    fun today(): LocalDate = LocalDate.now()
+
+    fun todayString(): String = today().format(DATE)
+
+    fun nowString(): String = java.time.LocalDateTime.now().format(DATE_TIME_WRITE)
+
+    /** Parses "yyyy-MM-dd", returns null when blank/invalid — never throws. */
+    fun parseDate(value: String): LocalDate? {
+        if (value.isBlank()) return null
+        return try {
+            LocalDate.parse(value.trim(), DATE)
+        } catch (e: DateTimeParseException) {
+            null
+        }
+    }
+
+    /** Parses ISO offset date-time, falling back to a plain local date-time
+     *  (assumed in the device zone — the Apps Script backend writes timestamps
+     *  without an offset). Returns null when blank/invalid — never throws. */
+    fun parseDateTime(value: String): OffsetDateTime? {
+        val v = value.trim()
+        if (v.isBlank()) return null
+        try {
+            return OffsetDateTime.parse(v, DATE_TIME)
+        } catch (e: DateTimeParseException) {
+            // fall through to local format
+        }
+        return try {
+            java.time.LocalDateTime.parse(v, DateTimeFormatter.ISO_LOCAL_DATE_TIME)
+                .atZone(java.time.ZoneId.systemDefault())
+                .toOffsetDateTime()
+        } catch (e: DateTimeParseException) {
+            null
+        }
+    }
+
+    /** True when the deadline is a valid date before today. */
+    fun isOverdue(deadline: String, today: LocalDate = today()): Boolean {
+        val d = parseDate(deadline) ?: return false
+        return d.isBefore(today)
+    }
+
+    fun isToday(deadline: String, today: LocalDate = today()): Boolean =
+        parseDate(deadline) == today
+
+    fun isUpcoming(deadline: String, today: LocalDate = today(), daysAhead: Long = 7): Boolean {
+        val d = parseDate(deadline) ?: return false
+        return !d.isBefore(today) && !d.isAfter(today.plusDays(daysAhead))
+    }
+
+    /** Compares two "Last Updated" values; invalid/blank sorts as oldest. */
+    fun compareLastUpdated(a: String, b: String): Int {
+        val ai = parseDateTime(a)
+        val bi = parseDateTime(b)
+        return when {
+            ai == null && bi == null -> 0
+            ai == null -> -1
+            bi == null -> 1
+            else -> ai.compareTo(bi)
+        }
+    }
+
+    fun formatDateForDisplay(value: String): String {
+        val d = parseDate(value) ?: return value
+        return d.format(DateTimeFormatter.ofPattern("dd MMM yyyy"))
+    }
+
+    /** Epoch millis for a "yyyy-MM-dd'T'HH:mm:ss" reminder value, or null. */
+    fun reminderToMillis(value: String): Long? =
+        parseDateTime(value)?.toInstant()?.toEpochMilli()
+
+    /** "22 Oct 2026, 6:30 PM" style display for a reminder value. */
+    fun formatReminderForDisplay(value: String): String {
+        val dt = parseDateTime(value) ?: return value
+        val local = dt.toLocalDateTime()
+        val date = local.toLocalDate().format(DateTimeFormatter.ofPattern("dd MMM yyyy"))
+        val time = local.toLocalTime().format(DateTimeFormatter.ofPattern("h:mm a"))
+        return "$date, $time"
+    }
+}
