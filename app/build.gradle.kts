@@ -1,8 +1,22 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
 }
+
+// Release signing credentials live in keystore.properties at the project
+// root (git-ignored, never committed). Without that file the release
+// build stays unsigned; with it, release APKs are signed with the
+// project's release keystore (release/tasktracker-release.jks).
+val keystoreProps = Properties()
+val keystorePropsFile = rootProject.file("keystore.properties")
+if (keystorePropsFile.exists()) {
+    keystoreProps.load(FileInputStream(keystorePropsFile))
+}
+val hasReleaseKey = keystoreProps.getProperty("storeFile") != null
 
 android {
     namespace = "com.tasktracker.pro"
@@ -17,8 +31,22 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        if (hasReleaseKey) {
+            create("release") {
+                storeFile = rootProject.file(keystoreProps.getProperty("storeFile"))
+                storePassword = keystoreProps.getProperty("storePassword")
+                keyAlias = keystoreProps.getProperty("keyAlias")
+                keyPassword = keystoreProps.getProperty("keyPassword")
+            }
+        }
+    }
+
     buildTypes {
         release {
+            if (hasReleaseKey) {
+                signingConfig = signingConfigs.getByName("release")
+            }
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
