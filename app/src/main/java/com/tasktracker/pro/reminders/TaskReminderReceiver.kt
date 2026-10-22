@@ -1,1 +1,93 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLnJlbWluZGVycwoKaW1wb3J0IGFuZHJvaWQuTWFuaWZlc3QKaW1wb3J0IGFuZHJvaWQuYXBwLlBlbmRpbmdJbnRlbnQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Ccm9hZGNhc3RSZWNlaXZlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5wbS5QYWNrYWdlTWFuYWdlcgppbXBvcnQgYW5kcm9pZHguY29yZS5hcHAuTm90aWZpY2F0aW9uQ29tcGF0CmltcG9ydCBhbmRyb2lkeC5jb3JlLmFwcC5Ob3RpZmljYXRpb25NYW5hZ2VyQ29tcGF0CmltcG9ydCBhbmRyb2lkeC5jb3JlLmNvbnRlbnQuQ29udGV4dENvbXBhdAppbXBvcnQgY29tLnRhc2t0cmFja2VyLnByby5UYXNrVHJhY2tlckFwcAppbXBvcnQgY29tLnRhc2t0cmFja2VyLnByby5hcHBDb250YWluZXIKaW1wb3J0IGNvbS50YXNrdHJhY2tlci5wcm8uZGF0YS5EYXRlcwppbXBvcnQgY29tLnRhc2t0cmFja2VyLnByby5kYXRhLlJlbWluZGVyUGxhbm5lcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5TdXBlcnZpc29ySm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBrb3RsaW4ubWF0aC5hYnMKCi8qKgogKiBGaXJlcyBvbmUgdGFzaydzIGV4YWN0LXRpbWUgcmVtaW5kZXIuIFJlLXJlYWRzIHRoZSB0YXNrIGZyb20gdGhlIGRhdGFiYXNlCiAqIGJlZm9yZSBub3RpZnlpbmcsIHNvIGEgdGFzayB0aGF0IHdhcyBjb21wbGV0ZWQsIGRlbGV0ZWQsIG9yIGhhZCBpdHMKICogcmVtaW5kZXIgbW92ZWQgbmV2ZXIgcHJvZHVjZXMgYSBzdGFsZSBhbGVydC4gVGhlIG5vdGlmaWNhdGlvbiBjYXJyaWVzIGEKICogIkRvbmUiIGFjdGlvbiAoc2VlIFRhc2tBY3Rpb25SZWNlaXZlcikgdG8gY29tcGxldGUgdGhlIHRhc2sgaW4gcGxhY2UuCiAqLwpjbGFzcyBUYXNrUmVtaW5kZXJSZWNlaXZlciA6IEJyb2FkY2FzdFJlY2VpdmVyKCkgewogICAgb3ZlcnJpZGUgZnVuIG9uUmVjZWl2ZShjb250ZXh0OiBDb250ZXh0LCBpbnRlbnQ6IEludGVudCkgewogICAgICAgIGlmIChpbnRlbnQuYWN0aW9uICE9IFJlbWluZGVyU2NoZWR1bGVyLkFDVElPTl9UQVNLX1JFTUlOREVSKSByZXR1cm4KICAgICAgICB2YWwgdGFza0lkID0gaW50ZW50LmdldFN0cmluZ0V4dHJhKFJlbWluZGVyU2NoZWR1bGVyLkVYVFJBX1RBU0tfSUQpID86IHJldHVybgogICAgICAgIHZhbCBzY2hlZHVsZWRGb3IgPSBpbnRlbnQuZ2V0TG9uZ0V4dHJhKFJlbWluZGVyU2NoZWR1bGVyLkVYVFJBX1RSSUdHRVJfQVQsIDBMKQogICAgICAgIHZhbCBwZW5kaW5nID0gZ29Bc3luYygpCiAgICAgICAgQ29yb3V0aW5lU2NvcGUoU3VwZXJ2aXNvckpvYigpICsgRGlzcGF0Y2hlcnMuSU8pLmxhdW5jaCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgY29udGFpbmVyID0gY29udGV4dC5hcHBDb250YWluZXIoKQogICAgICAgICAgICAgICAgdmFsIHRhc2sgPSBjb250YWluZXIucmVwb3NpdG9yeS5nZXRCeUlkKHRhc2tJZCkKICAgICAgICAgICAgICAgIC8vIFRoZSBhbGFybSBoYXMgZmlyZWQgZWl0aGVyIHdheSDigJQgZHJvcCBpdHMgYm9va2tlZXBpbmcuCiAgICAgICAgICAgICAgICBjb250YWluZXIudGFza1JlbWluZGVycy5mb3JnZXQodGFza0lkKQogICAgICAgICAgICAgICAgaWYgKHRhc2sgPT0gbnVsbCB8fCB0YXNrLmRlbGV0ZWQgfHwgdGFzay5pc0NvbXBsZXRlZCkgcmV0dXJuQGxhdW5jaAogICAgICAgICAgICAgICAgLy8gU3RhbGUgYWxhcm0gKHJlbWluZGVyIHdhcyBlZGl0ZWQgYWZ0ZXIgdGhpcyBhbGFybSB3YXMgc2V0KT8KICAgICAgICAgICAgICAgIHZhbCBjdXJyZW50ID0gRGF0ZXMucmVtaW5kZXJUb01pbGxpcyh0YXNrLnJlbWluZGVyQXQpID86IHJldHVybkBsYXVuY2gKICAgICAgICAgICAgICAgIGlmIChhYnMoY3VycmVudCAtIHNjaGVkdWxlZEZvcikgPiBTVEFMRV9UT0xFUkFOQ0VfTVMpIHJldHVybkBsYXVuY2gKCiAgICAgICAgICAgICAgICBpZiAoQ29udGV4dENvbXBhdC5jaGVja1NlbGZQZXJtaXNzaW9uKAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LCBNYW5pZmVzdC5wZXJtaXNzaW9uLlBPU1RfTk9USUZJQ0FUSU9OUwogICAgICAgICAgICAgICAgICAgICkgIT0gUGFja2FnZU1hbmFnZXIuUEVSTUlTU0lPTl9HUkFOVEVECiAgICAgICAgICAgICAgICApIHJldHVybkBsYXVuY2gKCiAgICAgICAgICAgICAgICB2YWwgbm90aWZpY2F0aW9uSWQgPSBSZW1pbmRlclBsYW5uZXIubm90aWZpY2F0aW9uSWRGb3IodGFza0lkKQogICAgICAgICAgICAgICAgdmFsIG9wZW5JbnRlbnQgPSBjb250ZXh0LnBhY2thZ2VNYW5hZ2VyCiAgICAgICAgICAgICAgICAgICAgLmdldExhdW5jaEludGVudEZvclBhY2thZ2UoY29udGV4dC5wYWNrYWdlTmFtZSkKICAgICAgICAgICAgICAgIHZhbCBjb250ZW50UGkgPSBQZW5kaW5nSW50ZW50LmdldEFjdGl2aXR5KAogICAgICAgICAgICAgICAgICAgIGNvbnRleHQsIG5vdGlmaWNhdGlvbklkLCBvcGVuSW50ZW50LAogICAgICAgICAgICAgICAgICAgIFBlbmRpbmdJbnRlbnQuRkxBR19VUERBVEVfQ1VSUkVOVCBvciBQZW5kaW5nSW50ZW50LkZMQUdfSU1NVVRBQkxFCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB2YWwgZG9uZUludGVudCA9IEludGVudChjb250ZXh0LCBUYXNrQWN0aW9uUmVjZWl2ZXI6OmNsYXNzLmphdmEpLmFwcGx5IHsKICAgICAgICAgICAgICAgICAgICBhY3Rpb24gPSBUYXNrQWN0aW9uUmVjZWl2ZXIuQUNUSU9OX1RBU0tfRE9ORQogICAgICAgICAgICAgICAgICAgIHB1dEV4dHJhKFRhc2tBY3Rpb25SZWNlaXZlci5FWFRSQV9UQVNLX0lELCB0YXNrSWQpCiAgICAgICAgICAgICAgICAgICAgcHV0RXh0cmEoVGFza0FjdGlvblJlY2VpdmVyLkVYVFJBX05PVElGSUNBVElPTl9JRCwgbm90aWZpY2F0aW9uSWQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YWwgZG9uZVBpID0gUGVuZGluZ0ludGVudC5nZXRCcm9hZGNhc3QoCiAgICAgICAgICAgICAgICAgICAgY29udGV4dCwgbm90aWZpY2F0aW9uSWQsIGRvbmVJbnRlbnQsCiAgICAgICAgICAgICAgICAgICAgUGVuZGluZ0ludGVudC5GTEFHX1VQREFURV9DVVJSRU5UIG9yIFBlbmRpbmdJbnRlbnQuRkxBR19JTU1VVEFCTEUKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHZhbCB0ZXh0ID0gYnVpbGRTdHJpbmcgewogICAgICAgICAgICAgICAgICAgIGFwcGVuZCgiVGltZSB0byBkbyB0aGlzIHRhc2siKQogICAgICAgICAgICAgICAgICAgIGlmICh0YXNrLnZlbmRvci5pc05vdEJsYW5rKCkpIGFwcGVuZCgiIOKAlCAke3Rhc2sudmVuZG9yfSIpCiAgICAgICAgICAgICAgICAgICAgaWYgKHRhc2suZGVhZGxpbmUuaXNOb3RCbGFuaygpKSBhcHBlbmQoIiAoZGVhZGxpbmUgJHt0YXNrLmRlYWRsaW5lfSkiKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZCgiLiIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YWwgbm90aWZpY2F0aW9uID0gTm90aWZpY2F0aW9uQ29tcGF0LkJ1aWxkZXIoY29udGV4dCwgVGFza1RyYWNrZXJBcHAuQ0hBTk5FTF9SRU1JTkRFUlMpCiAgICAgICAgICAgICAgICAgICAgLnNldFNtYWxsSWNvbihhbmRyb2lkLlIuZHJhd2FibGUuaWNfZGlhbG9nX2luZm8pCiAgICAgICAgICAgICAgICAgICAgLnNldENvbnRlbnRUaXRsZSgi4o+wICR7dGFzay50YXNrTmFtZX0iKQogICAgICAgICAgICAgICAgICAgIC5zZXRDb250ZW50VGV4dCh0ZXh0KQogICAgICAgICAgICAgICAgICAgIC5zZXRTdHlsZShOb3RpZmljYXRpb25Db21wYXQuQmlnVGV4dFN0eWxlKCkuYmlnVGV4dCh0ZXh0KSkKICAgICAgICAgICAgICAgICAgICAuc2V0Q29udGVudEludGVudChjb250ZW50UGkpCiAgICAgICAgICAgICAgICAgICAgLmFkZEFjdGlvbigwLCAiRG9uZSIsIGRvbmVQaSkKICAgICAgICAgICAgICAgICAgICAuc2V0QXV0b0NhbmNlbCh0cnVlKQogICAgICAgICAgICAgICAgICAgIC5idWlsZCgpCiAgICAgICAgICAgICAgICBOb3RpZmljYXRpb25NYW5hZ2VyQ29tcGF0LmZyb20oY29udGV4dCkubm90aWZ5KG5vdGlmaWNhdGlvbklkLCBub3RpZmljYXRpb24pCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgLy8gTmV2ZXIgY3Jhc2ggb24gYSBicm9hZGNhc3QuCiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICBwZW5kaW5nLmZpbmlzaCgpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgU1RBTEVfVE9MRVJBTkNFX01TID0gNjBfMDAwTAogICAgfQp9Cg==
+package com.tasktracker.pro.reminders
+
+import android.Manifest
+import android.app.PendingIntent
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageManager
+import androidx.core.app.NotificationCompat
+import androidx.core.app.NotificationManagerCompat
+import androidx.core.content.ContextCompat
+import com.tasktracker.pro.TaskTrackerApp
+import com.tasktracker.pro.appContainer
+import com.tasktracker.pro.data.Dates
+import com.tasktracker.pro.data.ReminderPlanner
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.launch
+import kotlin.math.abs
+
+/**
+ * Fires one task's exact-time reminder. Re-reads the task from the database
+ * before notifying, so a task that was completed, deleted, or had its
+ * reminder moved never produces a stale alert. The notification carries a
+ * "Done" action (see TaskActionReceiver) to complete the task in place.
+ */
+class TaskReminderReceiver : BroadcastReceiver() {
+    override fun onReceive(context: Context, intent: Intent) {
+        if (intent.action != ReminderScheduler.ACTION_TASK_REMINDER) return
+        val taskId = intent.getStringExtra(ReminderScheduler.EXTRA_TASK_ID) ?: return
+        val scheduledFor = intent.getLongExtra(ReminderScheduler.EXTRA_TRIGGER_AT, 0L)
+        val pending = goAsync()
+        CoroutineScope(SupervisorJob() + Dispatchers.IO).launch {
+            try {
+                val container = context.appContainer()
+                val task = container.repository.getById(taskId)
+                // The alarm has fired either way — drop its bookkeeping.
+                container.taskReminders.forget(taskId)
+                if (task == null || task.deleted || task.isCompleted) return@launch
+                // Stale alarm (reminder was edited after this alarm was set)?
+                val current = Dates.reminderToMillis(task.reminderAt) ?: return@launch
+                if (abs(current - scheduledFor) > STALE_TOLERANCE_MS) return@launch
+
+                if (ContextCompat.checkSelfPermission(
+                        context, Manifest.permission.POST_NOTIFICATIONS
+                    ) != PackageManager.PERMISSION_GRANTED
+                ) return@launch
+
+                val notificationId = ReminderPlanner.notificationIdFor(taskId)
+                val openIntent = context.packageManager
+                    .getLaunchIntentForPackage(context.packageName)
+                val contentPi = PendingIntent.getActivity(
+                    context, notificationId, openIntent,
+                    PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+                )
+                val doneIntent = Intent(context, TaskActionReceiver::class.java).apply {
+                    action = TaskActionReceiver.ACTION_TASK_DONE
+                    putExtra(TaskActionReceiver.EXTRA_TASK_ID, taskId)
+                    putExtra(TaskActionReceiver.EXTRA_NOTIFICATION_ID, notificationId)
+                }
+                val donePi = PendingIntent.getBroadcast(
+                    context, notificationId, doneIntent,
+                    PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+                )
+                val text = buildString {
+                    append("Time to do this task")
+                    if (task.vendor.isNotBlank()) append(" — ${task.vendor}")
+                    if (task.deadline.isNotBlank()) append(" (deadline ${task.deadline})")
+                    append(".")
+                }
+                val notification = NotificationCompat.Builder(context, TaskTrackerApp.CHANNEL_REMINDERS)
+                    .setSmallIcon(android.R.drawable.ic_dialog_info)
+                    .setContentTitle("⏰ ${task.taskName}")
+                    .setContentText(text)
+                    .setStyle(NotificationCompat.BigTextStyle().bigText(text))
+                    .setContentIntent(contentPi)
+                    .addAction(0, "Done", donePi)
+                    .setAutoCancel(true)
+                    .build()
+                NotificationManagerCompat.from(context).notify(notificationId, notification)
+            } catch (e: Exception) {
+                // Never crash on a broadcast.
+            } finally {
+                pending.finish()
+            }
+        }
+    }
+
+    companion object {
+        private const val STALE_TOLERANCE_MS = 60_000L
+    }
+}
