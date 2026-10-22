@@ -1,1 +1,46 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLnJlbWluZGVycwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20udGFza3RyYWNrZXIucHJvLmRhdGEuUmVtaW5kZXJQbGFubmVyCmltcG9ydCBjb20udGFza3RyYWNrZXIucHJvLmRhdGEuVGFzawoKLyoqCiAqIEtlZXBzIEFsYXJtTWFuYWdlciBpbiBzeW5jIHdpdGggdGhlIHRhc2tzIHRoYXQgc2hvdWxkIGhhdmUgYW4gZXhhY3QtdGltZQogKiByZW1pbmRlci4gU3RyYXRlZ3k6IHJlbWVtYmVyIHRoZSBzZXQgb2YgdGFzayBJRHMgdGhhdCBjdXJyZW50bHkgaGF2ZSBhbgogKiBhbGFybSAoaW4gcGxhaW4gU2hhcmVkUHJlZmVyZW5jZXMg4oCUIElEcyBvbmx5LCBubyB0YXNrIGRhdGEpOyBvbiBldmVyeQogKiByZWZyZXNoLCBjYW5jZWwgYWxhcm1zIHdob3NlIHRhc2tzIGFyZSBubyBsb25nZXIgZWxpZ2libGUgYW5kIChyZSlzZXQKICogYWxhcm1zIGZvciB0aGUgZWxpZ2libGUgb25lcy4gU2VsZi1oZWFsaW5nOiBhbnkgZHJpZnQgKGVkaXRzLCBjb21wbGV0ZXMsCiAqIGRlbGV0ZXMsIHJlYm9vdHMgaGFuZGxlZCBieSBCb290UmVjZWl2ZXIpIGlzIGNvcnJlY3RlZCBvbiB0aGUgbmV4dAogKiByZWZyZXNoLCB3aGljaCBydW5zIGFmdGVyIGV2ZXJ5IGxvY2FsIHRhc2sgbXV0YXRpb24gYW5kIG9uIGFwcCBzdGFydC4KICovCmNsYXNzIFRhc2tSZW1pbmRlck1hbmFnZXIoY29udGV4dDogQ29udGV4dCwgcHJpdmF0ZSB2YWwgc2NoZWR1bGVyOiBSZW1pbmRlclNjaGVkdWxlcikgewogICAgcHJpdmF0ZSB2YWwgcHJlZnMgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dAogICAgICAgIC5nZXRTaGFyZWRQcmVmZXJlbmNlcyhQUkVGU19OQU1FLCBDb250ZXh0Lk1PREVfUFJJVkFURSkKCiAgICBmdW4gc3luYyh0YXNrczogTGlzdDxUYXNrPiwgbm93TWlsbGlzOiBMb25nID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkpIHsKICAgICAgICB2YWwgcGxhbm5lZCA9IFJlbWluZGVyUGxhbm5lci5lbGlnaWJsZSh0YXNrcywgbm93TWlsbGlzKQogICAgICAgIHZhbCBuZXdJZHMgPSBwbGFubmVkLm1hcCB7IGl0LnRhc2suaWQgfS50b1NldCgpCiAgICAgICAgdmFsIG9sZElkcyA9IHByZWZzLmdldFN0cmluZ1NldChLRVlfSURTLCBlbXB0eVNldCgpKSA/OiBlbXB0eVNldCgpCiAgICAgICAgZm9yIChnb25lIGluIG9sZElkcyAtIG5ld0lkcykgewogICAgICAgICAgICBzY2hlZHVsZXIuY2FuY2VsVGFza1JlbWluZGVyKGdvbmUpCiAgICAgICAgfQogICAgICAgIGZvciAocCBpbiBwbGFubmVkKSB7CiAgICAgICAgICAgIHNjaGVkdWxlci5zY2hlZHVsZVRhc2tSZW1pbmRlcihwLnRhc2suaWQsIHAudGFzay50YXNrTmFtZSwgcC50cmlnZ2VyQXRNaWxsaXMpCiAgICAgICAgfQogICAgICAgIHByZWZzLmVkaXQoKS5wdXRTdHJpbmdTZXQoS0VZX0lEUywgbmV3SWRzKS5hcHBseSgpCiAgICB9CgogICAgLyoqIERyb3BzIGEgdGFzaydzIGFsYXJtICsgYm9va2tlZXBpbmcgKGUuZy4gcmlnaHQgYWZ0ZXIgaXRzIHJlbWluZGVyIGZpcmVzKS4gKi8KICAgIGZ1biBmb3JnZXQodGFza0lkOiBTdHJpbmcpIHsKICAgICAgICBzY2hlZHVsZXIuY2FuY2VsVGFza1JlbWluZGVyKHRhc2tJZCkKICAgICAgICB2YWwgb2xkID0gcHJlZnMuZ2V0U3RyaW5nU2V0KEtFWV9JRFMsIGVtcHR5U2V0KCkpID86IGVtcHR5U2V0KCkKICAgICAgICBpZiAodGFza0lkIGluIG9sZCkgewogICAgICAgICAgICBwcmVmcy5lZGl0KCkucHV0U3RyaW5nU2V0KEtFWV9JRFMsIG9sZCAtIHRhc2tJZCkuYXBwbHkoKQogICAgICAgIH0KICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBQUkVGU19OQU1FID0gInRhc2tfcmVtaW5kZXJfYWxhcm1zIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9JRFMgPSAic2NoZWR1bGVkX2lkcyIKICAgIH0KfQo=
+package com.tasktracker.pro.reminders
+
+import android.content.Context
+import com.tasktracker.pro.data.ReminderPlanner
+import com.tasktracker.pro.data.Task
+
+/**
+ * Keeps AlarmManager in sync with the tasks that should have an exact-time
+ * reminder. Strategy: remember the set of task IDs that currently have an
+ * alarm (in plain SharedPreferences — IDs only, no task data); on every
+ * refresh, cancel alarms whose tasks are no longer eligible and (re)set
+ * alarms for the eligible ones. Self-healing: any drift (edits, completes,
+ * deletes, reboots handled by BootReceiver) is corrected on the next
+ * refresh, which runs after every local task mutation and on app start.
+ */
+class TaskReminderManager(context: Context, private val scheduler: ReminderScheduler) {
+    private val prefs = context.applicationContext
+        .getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+
+    fun sync(tasks: List<Task>, nowMillis: Long = System.currentTimeMillis()) {
+        val planned = ReminderPlanner.eligible(tasks, nowMillis)
+        val newIds = planned.map { it.task.id }.toSet()
+        val oldIds = prefs.getStringSet(KEY_IDS, emptySet()) ?: emptySet()
+        for (gone in oldIds - newIds) {
+            scheduler.cancelTaskReminder(gone)
+        }
+        for (p in planned) {
+            scheduler.scheduleTaskReminder(p.task.id, p.task.taskName, p.triggerAtMillis)
+        }
+        prefs.edit().putStringSet(KEY_IDS, newIds).apply()
+    }
+
+    /** Drops a task's alarm + bookkeeping (e.g. right after its reminder fires). */
+    fun forget(taskId: String) {
+        scheduler.cancelTaskReminder(taskId)
+        val old = prefs.getStringSet(KEY_IDS, emptySet()) ?: emptySet()
+        if (taskId in old) {
+            prefs.edit().putStringSet(KEY_IDS, old - taskId).apply()
+        }
+    }
+
+    companion object {
+        private const val PREFS_NAME = "task_reminder_alarms"
+        private const val KEY_IDS = "scheduled_ids"
+    }
+}
