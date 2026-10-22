@@ -1,1 +1,74 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCmltcG9ydCBhbmRyb2lkeC5yb29tLkVudGl0eQppbXBvcnQgYW5kcm9pZHgucm9vbS5QcmltYXJ5S2V5CgovKioKICogU2luZ2xlIHRhc2suIFRoZSAyMSBkYXRhIGNvbHVtbnMgbWFwIDE6MSB0byB0aGUgR29vZ2xlIFNoZWV0IGhlYWRlcnMKICogKHNlZSBzeW5jLlNoZWV0c1NjaGVtYS5IRUFERVJTKSBpbiB0aGUgZXhhY3Qgc2FtZSBvcmRlci4KICoKICogRGF0ZXMgYXJlICJ5eXl5LU1NLWRkIiBvciAiIiB3aGVuIHVuc2V0LgogKiBUaW1lc3RhbXBzICh0YXNrQWRkZWQvdGFza1N0YXJ0ZWQvdGFza0NvbXBsZXRlZC9sYXN0VXBkYXRlZCkgYXJlIElTTy04NjAxCiAqIG9mZnNldCBkYXRlLXRpbWVzLCBlLmcuICIyMDI2LTEwLTIwVDE0OjMwOjAwKzA1OjMwIiwgb3IgIiIgd2hlbiB1bnNldC4KICovCkBFbnRpdHkodGFibGVOYW1lID0gInRhc2tzIikKZGF0YSBjbGFzcyBUYXNrKAogICAgQFByaW1hcnlLZXkgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgdGFza05hbWU6IFN0cmluZywKICAgIHZhbCB0eXBlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBwcm9ncmVzczogU3RyaW5nID0gUFJPR1JFU1NfTk9UX1NUQVJURUQsCiAgICB2YWwgcHJpb3JpdHk6IFN0cmluZyA9ICIiLAogICAgdmFsIGRlYWRsaW5lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB2ZW5kb3I6IFN0cmluZyA9ICIiLAogICAgdmFsIGNvbnRhY3ROdW1iZXI6IFN0cmluZyA9ICIiLAogICAgdmFsIGVzdGltYXRlZENvc3RJbnI6IFN0cmluZyA9ICIiLAogICAgdmFsIGFjdHVhbENvc3RJbnI6IFN0cmluZyA9ICIiLAogICAgdmFsIG5leHRGb2xsb3dVcDogU3RyaW5nID0gIiIsCiAgICB2YWwgZGVsaXZlcnlEYXRlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBwYXltZW50U3RhdHVzOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBsaW5rOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB0YXNrRm9jdXM6IFN0cmluZyA9ICIiLAogICAgdmFsIHZhbHVlQWRkOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBub3RlczogU3RyaW5nID0gIiIsCiAgICB2YWwgdGFza0FkZGVkOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB0YXNrU3RhcnRlZDogU3RyaW5nID0gIiIsCiAgICB2YWwgdGFza0NvbXBsZXRlZDogU3RyaW5nID0gIiIsCiAgICB2YWwgbGFzdFVwZGF0ZWQ6IFN0cmluZyA9ICIiLAogICAgLy8gLS0tIGxvY2FsIHN5bmMgbWV0YWRhdGEgKG5ldmVyIHNlbnQgdG8gdGhlIHNoZWV0IGFzIGNvbHVtbnMpIC0tLQogICAgLyoqIFNvZnQtZGVsZXRlIHRvbWJzdG9uZTogdHJ1ZSBvbmNlIHRoZSB1c2VyIGRlbGV0ZXMgdGhlIHRhc2sgbG9jYWxseS4gKi8KICAgIHZhbCBkZWxldGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICAvKioKICAgICAqIEV4YWN0LXRpbWUgcmVtaW5kZXIgZm9yIFRISVMgdGFzaywgbG9jYWwgb25seSDigJQgbmV2ZXIgYSBzaGVldCBjb2x1bW4KICAgICAqICh0aGUgc2hlZXQgc2NoZW1hIGlzIGZpeGVkIGF0IDIxIGNvbHVtbnMpLiBGb3JtYXQKICAgICAqICJ5eXl5LU1NLWRkJ1QnSEg6bW06c3MiIGluIHRoZSBkZXZpY2Ugem9uZSwgIiIgd2hlbiB1bnNldC4KICAgICAqIEEgbm90aWZpY2F0aW9uIGZpcmVzIGF0IGV4YWN0bHkgdGhpcyB0aW1lIHdoaWxlIHRoZSB0YXNrIGlzIHBlbmRpbmcuCiAgICAgKi8KICAgIHZhbCByZW1pbmRlckF0OiBTdHJpbmcgPSAiIiwKICAgIC8qKiBTWU5DRUQgfCBQRU5ESU5HIHwgRVJST1IgKi8KICAgIHZhbCBzeW5jU3RhdGU6IFN0cmluZyA9IFNZTkNfU1RBVEVfU1lOQ0VELAogICAgLyoqIExPQ0FMID0gY3JlYXRlZCBsb2NhbGx5IGFuZCBuZXZlciBzdWNjZXNzZnVsbHkgc3luY2VkOyBSRU1PVEUgPSBzeW5jZWQgYXQgbGVhc3Qgb25jZS4gKi8KICAgIHZhbCBvcmlnaW46IFN0cmluZyA9IE9SSUdJTl9MT0NBTCwKICAgIC8qKiBMYXN0IHN5bmMgZXJyb3IgbWVzc2FnZSwgZm9yIGhvbmVzdCBzdGF0dXMgZGlzcGxheS4gKi8KICAgIHZhbCBsYXN0U3luY0Vycm9yOiBTdHJpbmcgPSAiIgopIHsKICAgIHZhbCBpc0NvbXBsZXRlZDogQm9vbGVhbiBnZXQoKSA9IHByb2dyZXNzID09IFBST0dSRVNTX0NPTVBMRVRFRAoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGNvbnN0IHZhbCBQUk9HUkVTU19OT1RfU1RBUlRFRCA9ICJOb3QgU3RhcnRlZCIKICAgICAgICBjb25zdCB2YWwgUFJPR1JFU1NfSU5fUFJPR1JFU1MgPSAiSW4gUHJvZ3Jlc3MiCiAgICAgICAgY29uc3QgdmFsIFBST0dSRVNTX0NPTVBMRVRFRCA9ICJDb21wbGV0ZWQiCiAgICAgICAgdmFsIFBST0dSRVNTX1ZBTFVFUyA9IGxpc3RPZihQUk9HUkVTU19OT1RfU1RBUlRFRCwgUFJPR1JFU1NfSU5fUFJPR1JFU1MsIFBST0dSRVNTX0NPTVBMRVRFRCkKCiAgICAgICAgY29uc3QgdmFsIFBSSU9SSVRZX0xPVyA9ICJMb3ciCiAgICAgICAgY29uc3QgdmFsIFBSSU9SSVRZX01FRElVTSA9ICJNZWRpdW0iCiAgICAgICAgY29uc3QgdmFsIFBSSU9SSVRZX0hJR0ggPSAiSGlnaCIKICAgICAgICB2YWwgUFJJT1JJVFlfVkFMVUVTID0gbGlzdE9mKCIiLCBQUklPUklUWV9MT1csIFBSSU9SSVRZX01FRElVTSwgUFJJT1JJVFlfSElHSCkKCiAgICAgICAgY29uc3QgdmFsIFNZTkNfU1RBVEVfU1lOQ0VEID0gIlNZTkNFRCIKICAgICAgICBjb25zdCB2YWwgU1lOQ19TVEFURV9QRU5ESU5HID0gIlBFTkRJTkciCiAgICAgICAgY29uc3QgdmFsIFNZTkNfU1RBVEVfRVJST1IgPSAiRVJST1IiCgogICAgICAgIGNvbnN0IHZhbCBPUklHSU5fTE9DQUwgPSAiTE9DQUwiCiAgICAgICAgY29uc3QgdmFsIE9SSUdJTl9SRU1PVEUgPSAiUkVNT1RFIgogICAgfQp9Cg==
+package com.tasktracker.pro.data
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+/**
+ * Single task. The 21 data columns map 1:1 to the Google Sheet headers
+ * (see sync.SheetsSchema.HEADERS) in the exact same order.
+ *
+ * Dates are "yyyy-MM-dd" or "" when unset.
+ * Timestamps (taskAdded/taskStarted/taskCompleted/lastUpdated) are ISO-8601
+ * offset date-times, e.g. "2026-10-20T14:30:00+05:30", or "" when unset.
+ */
+@Entity(tableName = "tasks")
+data class Task(
+    @PrimaryKey val id: String,
+    val taskName: String,
+    val type: String = "",
+    val progress: String = PROGRESS_NOT_STARTED,
+    val priority: String = "",
+    val deadline: String = "",
+    val vendor: String = "",
+    val contactNumber: String = "",
+    val estimatedCostInr: String = "",
+    val actualCostInr: String = "",
+    val nextFollowUp: String = "",
+    val deliveryDate: String = "",
+    val paymentStatus: String = "",
+    val link: String = "",
+    val taskFocus: String = "",
+    val valueAdd: String = "",
+    val notes: String = "",
+    val taskAdded: String = "",
+    val taskStarted: String = "",
+    val taskCompleted: String = "",
+    val lastUpdated: String = "",
+    // --- local sync metadata (never sent to the sheet as columns) ---
+    /** Soft-delete tombstone: true once the user deletes the task locally. */
+    val deleted: Boolean = false,
+    /**
+     * Exact-time reminder for THIS task, local only — never a sheet column
+     * (the sheet schema is fixed at 21 columns). Format
+     * "yyyy-MM-dd'T'HH:mm:ss" in the device zone, "" when unset.
+     * A notification fires at exactly this time while the task is pending.
+     */
+    val reminderAt: String = "",
+    /** SYNCED | PENDING | ERROR */
+    val syncState: String = SYNC_STATE_SYNCED,
+    /** LOCAL = created locally and never successfully synced; REMOTE = synced at least once. */
+    val origin: String = ORIGIN_LOCAL,
+    /** Last sync error message, for honest status display. */
+    val lastSyncError: String = ""
+) {
+    val isCompleted: Boolean get() = progress == PROGRESS_COMPLETED
+
+    companion object {
+        const val PROGRESS_NOT_STARTED = "Not Started"
+        const val PROGRESS_IN_PROGRESS = "In Progress"
+        const val PROGRESS_COMPLETED = "Completed"
+        val PROGRESS_VALUES = listOf(PROGRESS_NOT_STARTED, PROGRESS_IN_PROGRESS, PROGRESS_COMPLETED)
+
+        const val PRIORITY_LOW = "Low"
+        const val PRIORITY_MEDIUM = "Medium"
+        const val PRIORITY_HIGH = "High"
+        val PRIORITY_VALUES = listOf("", PRIORITY_LOW, PRIORITY_MEDIUM, PRIORITY_HIGH)
+
+        const val SYNC_STATE_SYNCED = "SYNCED"
+        const val SYNC_STATE_PENDING = "PENDING"
+        const val SYNC_STATE_ERROR = "ERROR"
+
+        const val ORIGIN_LOCAL = "LOCAL"
+        const val ORIGIN_REMOTE = "REMOTE"
+    }
+}
