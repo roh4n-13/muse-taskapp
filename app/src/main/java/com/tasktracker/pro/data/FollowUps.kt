@@ -1,1 +1,33 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlCgovKioKICogUHVyZSBsb2dpYyBmb3IgZm9sbG93LXVwIGFsZXJ0czogd2hpY2ggdGFza3MgbmVlZCBhIGZvbGxvdy11cCBudWRnZSB0b2RheS4KICogQSB0YXNrIHF1YWxpZmllcyB3aGVuIGl0IGlzIG5vdCBjb21wbGV0ZWQsIG5vdCBkZWxldGVkLCBoYXMgYSB2YWxpZAogKiAiTmV4dCBGb2xsb3ctdXAiIGRhdGUsIGFuZCB0aGF0IGRhdGUgaXMgdG9kYXkgb3IgYWxyZWFkeSBwYXN0IChhbiBvdmVyZHVlCiAqIGZvbGxvdy11cCBrZWVwcyBuYWdnaW5nIHVudGlsIHRoZSB0YXNrIGlzIGNvbXBsZXRlZCBvciB0aGUgZGF0ZSBtb3ZlcykuCiAqLwpvYmplY3QgRm9sbG93VXBzIHsKCiAgICAvKiogRHVlIGZvbGxvdy11cHMsIG9sZGVzdCBmb2xsb3ctdXAgZGF0ZSBmaXJzdCwgdGhlbiBieSB0YXNrIG5hbWUuICovCiAgICBmdW4gZHVlRm9sbG93VXBzKHRhc2tzOiBMaXN0PFRhc2s+LCB0b2RheTogTG9jYWxEYXRlID0gRGF0ZXMudG9kYXkoKSk6IExpc3Q8VGFzaz4gPQogICAgICAgIHRhc2tzCiAgICAgICAgICAgIC5maWx0ZXIgeyAhaXQuZGVsZXRlZCAmJiAhaXQuaXNDb21wbGV0ZWQgfQogICAgICAgICAgICAubWFwTm90TnVsbCB7IHRhc2sgLT4gRGF0ZXMucGFyc2VEYXRlKHRhc2submV4dEZvbGxvd1VwKT8ubGV0IHsgZGF0ZSAtPiB0YXNrIHRvIGRhdGUgfSB9CiAgICAgICAgICAgIC5maWx0ZXIgeyAoXywgZGF0ZSkgLT4gIWRhdGUuaXNBZnRlcih0b2RheSkgfQogICAgICAgICAgICAuc29ydGVkV2l0aChjb21wYXJlQnkoeyBpdC5zZWNvbmQgfSwgeyBpdC5maXJzdC50YXNrTmFtZS5sb3dlcmNhc2UoKSB9KSkKICAgICAgICAgICAgLm1hcCB7IGl0LmZpcnN0IH0KCiAgICAvKiogU2hvcnQgbm90aWZpY2F0aW9uIGJvZHkgZm9yIG9uZSBkdWUgZm9sbG93LXVwLiAqLwogICAgZnVuIG5vdGlmaWNhdGlvblRleHQodGFzazogVGFzaywgdG9kYXk6IExvY2FsRGF0ZSA9IERhdGVzLnRvZGF5KCkpOiBTdHJpbmcgewogICAgICAgIHZhbCBkYXRlID0gRGF0ZXMucGFyc2VEYXRlKHRhc2submV4dEZvbGxvd1VwKQogICAgICAgIHZhbCB3aGVuUGFydCA9IHdoZW4gewogICAgICAgICAgICBkYXRlID09IG51bGwgLT4gIkZvbGxvdy11cCBkdWUiCiAgICAgICAgICAgIGRhdGUuaXNCZWZvcmUodG9kYXkpIC0+ICJGb2xsb3ctdXAgb3ZlcmR1ZSAod2FzICR7RGF0ZXMuZm9ybWF0RGF0ZUZvckRpc3BsYXkodGFzay5uZXh0Rm9sbG93VXApfSkiCiAgICAgICAgICAgIGVsc2UgLT4gIkZvbGxvdy11cCBkdWUgdG9kYXkiCiAgICAgICAgfQogICAgICAgIHZhbCB3aG8gPSB0YXNrLnZlbmRvci50cmltKCkKICAgICAgICByZXR1cm4gaWYgKHdoby5pc05vdEVtcHR5KCkpICIkd2hlblBhcnQg4oCUICR3aG8iIGVsc2Ugd2hlblBhcnQKICAgIH0KfQo=
+package com.tasktracker.pro.data
+
+import java.time.LocalDate
+
+/**
+ * Pure logic for follow-up alerts: which tasks need a follow-up nudge today.
+ * A task qualifies when it is not completed, not deleted, has a valid
+ * "Next Follow-up" date, and that date is today or already past (an overdue
+ * follow-up keeps nagging until the task is completed or the date moves).
+ */
+object FollowUps {
+
+    /** Due follow-ups, oldest follow-up date first, then by task name. */
+    fun dueFollowUps(tasks: List<Task>, today: LocalDate = Dates.today()): List<Task> =
+        tasks
+            .filter { !it.deleted && !it.isCompleted }
+            .mapNotNull { task -> Dates.parseDate(task.nextFollowUp)?.let { date -> task to date } }
+            .filter { (_, date) -> !date.isAfter(today) }
+            .sortedWith(compareBy({ it.second }, { it.first.taskName.lowercase() }))
+            .map { it.first }
+
+    /** Short notification body for one due follow-up. */
+    fun notificationText(task: Task, today: LocalDate = Dates.today()): String {
+        val date = Dates.parseDate(task.nextFollowUp)
+        val whenPart = when {
+            date == null -> "Follow-up due"
+            date.isBefore(today) -> "Follow-up overdue (was ${Dates.formatDateForDisplay(task.nextFollowUp)})"
+            else -> "Follow-up due today"
+        }
+        val who = task.vendor.trim()
+        return if (who.isNotEmpty()) "$whenPart — $who" else whenPart
+    }
+}
