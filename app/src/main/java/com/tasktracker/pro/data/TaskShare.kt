@@ -1,1 +1,35 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCi8qKgogKiBCdWlsZHMgdGhlIHBsYWluLXRleHQgdmVyc2lvbiBvZiBhIHRhc2sgdXNlZCBieSBTaGFyZSAvIFdoYXRzQXBwIHNoYXJlLgogKiBPbmx5IGZpZWxkcyB0aGF0IGFjdHVhbGx5IGhhdmUgYSB2YWx1ZSBhcmUgaW5jbHVkZWQsIHNvIHRoZSBtZXNzYWdlIHN0YXlzCiAqIHNob3J0IGFuZCByZWFkYWJsZSBpbiBhIGNoYXQuCiAqLwpvYmplY3QgVGFza1NoYXJlIHsKCiAgICBmdW4gZm9ybWF0KHRhc2s6IFRhc2spOiBTdHJpbmcgewogICAgICAgIHZhbCBsaW5lcyA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgbGluZXMuYWRkKCLwn5OMIFRhc2s6ICR7dGFzay50YXNrTmFtZX0iKQogICAgICAgIGZ1biBhZGQobGFiZWw6IFN0cmluZywgdmFsdWU6IFN0cmluZykgewogICAgICAgICAgICBpZiAodmFsdWUuaXNOb3RCbGFuaygpKSBsaW5lcy5hZGQoIiRsYWJlbDogJHZhbHVlIikKICAgICAgICB9CiAgICAgICAgYWRkKCJQcm9ncmVzcyIsIHRhc2sucHJvZ3Jlc3MpCiAgICAgICAgYWRkKCJQcmlvcml0eSIsIHRhc2sucHJpb3JpdHkpCiAgICAgICAgYWRkKCJEZWFkbGluZSIsIHRhc2suZGVhZGxpbmUpCiAgICAgICAgYWRkKCJWZW5kb3IiLCB0YXNrLnZlbmRvcikKICAgICAgICBhZGQoIkNvbnRhY3QiLCB0YXNrLmNvbnRhY3ROdW1iZXIpCiAgICAgICAgaWYgKHRhc2suZXN0aW1hdGVkQ29zdEluci5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgYWRkKCJFc3RpbWF0ZWQgQ29zdCIsICLigrkke3Rhc2suZXN0aW1hdGVkQ29zdElucn0iKQogICAgICAgIH0KICAgICAgICBpZiAodGFzay5hY3R1YWxDb3N0SW5yLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICBhZGQoIkFjdHVhbCBDb3N0IiwgIuKCuSR7dGFzay5hY3R1YWxDb3N0SW5yfSIpCiAgICAgICAgfQogICAgICAgIGFkZCgiUGF5bWVudCBTdGF0dXMiLCB0YXNrLnBheW1lbnRTdGF0dXMpCiAgICAgICAgYWRkKCJOZXh0IEZvbGxvdy11cCIsIHRhc2submV4dEZvbGxvd1VwKQogICAgICAgIGFkZCgiRGVsaXZlcnkgRGF0ZSIsIHRhc2suZGVsaXZlcnlEYXRlKQogICAgICAgIGFkZCgiTGluayIsIHRhc2subGluaykKICAgICAgICBhZGQoIk5vdGVzIiwgdGFzay5ub3RlcykKICAgICAgICBsaW5lcy5hZGQoIuKAlCBTZW50IGZyb20gVGFzayBUcmFja2VyIFBybyIpCiAgICAgICAgcmV0dXJuIGxpbmVzLmpvaW5Ub1N0cmluZygiXG4iKQogICAgfQp9Cg==
+package com.tasktracker.pro.data
+
+/**
+ * Builds the plain-text version of a task used by Share / WhatsApp share.
+ * Only fields that actually have a value are included, so the message stays
+ * short and readable in a chat.
+ */
+object TaskShare {
+
+    fun format(task: Task): String {
+        val lines = mutableListOf<String>()
+        lines.add("📌 Task: ${task.taskName}")
+        fun add(label: String, value: String) {
+            if (value.isNotBlank()) lines.add("$label: $value")
+        }
+        add("Progress", task.progress)
+        add("Priority", task.priority)
+        add("Deadline", task.deadline)
+        add("Vendor", task.vendor)
+        add("Contact", task.contactNumber)
+        if (task.estimatedCostInr.isNotBlank()) {
+            add("Estimated Cost", "₹${task.estimatedCostInr}")
+        }
+        if (task.actualCostInr.isNotBlank()) {
+            add("Actual Cost", "₹${task.actualCostInr}")
+        }
+        add("Payment Status", task.paymentStatus)
+        add("Next Follow-up", task.nextFollowUp)
+        add("Delivery Date", task.deliveryDate)
+        add("Link", task.link)
+        add("Notes", task.notes)
+        lines.add("— Sent from Task Tracker Pro")
+        return lines.joinToString("\n")
+    }
+}
