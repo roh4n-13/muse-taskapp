@@ -1,1 +1,119 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLnVpLnNjcmVlbnMKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkFycmFuZ2VtZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlDb2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5Lml0ZW1zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5BbGVydERpYWxvZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuU25hY2tiYXJIb3N0U3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlNuYWNrYmFyUmVzdWx0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0QnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDb250ZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250V2VpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5jb21wb3NlLmNvbGxlY3RBc1N0YXRlV2l0aExpZmVjeWNsZQppbXBvcnQgYW5kcm9pZHgubmF2aWdhdGlvbi5OYXZDb250cm9sbGVyCmltcG9ydCBjb20udGFza3RyYWNrZXIucHJvLmFwcENvbnRhaW5lcgppbXBvcnQgY29tLnRhc2t0cmFja2VyLnByby5kYXRhLlRhc2sKaW1wb3J0IGNvbS50YXNrdHJhY2tlci5wcm8udWkuY29tcG9uZW50cy5UYXNrQ2FyZAppbXBvcnQgY29tLnRhc2t0cmFja2VyLnByby51aS5uYXZpZ2F0aW9uLlJvdXRlcwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKQENvbXBvc2FibGUKZnVuIENvbXBsZXRlZFNjcmVlbihuYXZDb250cm9sbGVyOiBOYXZDb250cm9sbGVyLCBzbmFja2Jhckhvc3RTdGF0ZTogU25hY2tiYXJIb3N0U3RhdGUpIHsKICAgIHZhbCByZXBvID0gTG9jYWxDb250ZXh0LmN1cnJlbnQuYXBwQ29udGFpbmVyKCkucmVwb3NpdG9yeQogICAgdmFsIHNjb3BlID0gcmVtZW1iZXJDb3JvdXRpbmVTY29wZSgpCiAgICB2YWwgY29tcGxldGVkIGJ5IHJlcG8ub2JzZXJ2ZUNvbXBsZXRlZCgpLmNvbGxlY3RBc1N0YXRlV2l0aExpZmVjeWNsZShpbml0aWFsVmFsdWUgPSBlbXB0eUxpc3QoKSkKICAgIHZhciBwZW5kaW5nRGVsZXRlIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2Y8VGFzaz8+KG51bGwpIH0KCiAgICB2YWwgdG9EZWxldGUgPSBwZW5kaW5nRGVsZXRlCiAgICBpZiAodG9EZWxldGUgIT0gbnVsbCkgewogICAgICAgIEFsZXJ0RGlhbG9nKAogICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0geyBwZW5kaW5nRGVsZXRlID0gbnVsbCB9LAogICAgICAgICAgICB0aXRsZSA9IHsgVGV4dCgiRGVsZXRlIHRhc2s/IikgfSwKICAgICAgICAgICAgdGV4dCA9IHsgVGV4dCgiXCIke3RvRGVsZXRlLnRhc2tOYW1lfVwiIHdpbGwgYmUgZGVsZXRlZC4iKSB9LAogICAgICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgICAgICBwZW5kaW5nRGVsZXRlID0gbnVsbAogICAgICAgICAgICAgICAgICAgICAgICBzY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVwby5kZWxldGVUYXNrKHRvRGVsZXRlLmlkKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHIgPSBzbmFja2Jhckhvc3RTdGF0ZS5zaG93U25hY2tiYXIoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlRhc2sgZGVsZXRlZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWN0aW9uTGFiZWwgPSAiVW5kbyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChyID09IFNuYWNrYmFyUmVzdWx0LkFjdGlvblBlcmZvcm1lZCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlcG8ucmVzdG9yZVRhc2sodG9EZWxldGUuaWQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICBUZXh0KCJEZWxldGUiLCBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGRpc21pc3NCdXR0b24gPSB7CiAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSB7IHBlbmRpbmdEZWxldGUgPSBudWxsIH0pIHsgVGV4dCgiQ2FuY2VsIikgfQogICAgICAgICAgICB9CiAgICAgICAgKQogICAgfQoKICAgIENvbHVtbigKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4U2l6ZSgpCiAgICAgICAgICAgIC5wYWRkaW5nKDE2LmRwKQogICAgKSB7CiAgICAgICAgVGV4dCgKICAgICAgICAgICAgIkNvbXBsZXRlZCIsCiAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmhlYWRsaW5lU21hbGwsCiAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQKICAgICAgICApCiAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgxMi5kcCkpCiAgICAgICAgaWYgKGNvbXBsZXRlZC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgQ29sdW1uKAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgIC5maWxsTWF4U2l6ZSgpCiAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcoMzIuZHApLAogICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJIb3Jpem9udGFsbHksCiAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuQ2VudGVyCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgVGV4dCgiTm8gY29tcGxldGVkIHRhc2tzIHlldC4iLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZU1lZGl1bSkKICAgICAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoNC5kcCkpCiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICJGaW5pc2hlZCB0YXNrcyB3aWxsIHNob3cgdXAgaGVyZS4iLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnNlY29uZGFyeQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgTGF6eUNvbHVtbigKICAgICAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSgxMC5kcCksCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBpdGVtcyhjb21wbGV0ZWQsIGtleSA9IHsgaXQuaWQgfSkgeyB0YXNrIC0+CiAgICAgICAgICAgICAgICAgICAgVGFza0NhcmQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRhc2sgPSB0YXNrLAogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0geyBuYXZDb250cm9sbGVyLm5hdmlnYXRlKFJvdXRlcy50YXNrRGV0YWlsKHRhc2suaWQpKSB9LAogICAgICAgICAgICAgICAgICAgICAgICBvblRvZ2dsZUNvbXBsZXRlID0gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGUubGF1bmNoIHsgcmVwby5yZW9wZW5UYXNrKHRhc2suaWQpIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgb25EZWxldGUgPSB7IHBlbmRpbmdEZWxldGUgPSB0YXNrIH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.tasktracker.pro.ui.screens
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.material3.SnackbarResult
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.navigation.NavController
+import com.tasktracker.pro.appContainer
+import com.tasktracker.pro.data.Task
+import com.tasktracker.pro.ui.components.TaskCard
+import com.tasktracker.pro.ui.navigation.Routes
+import kotlinx.coroutines.launch
+
+@Composable
+fun CompletedScreen(navController: NavController, snackbarHostState: SnackbarHostState) {
+    val repo = LocalContext.current.appContainer().repository
+    val scope = rememberCoroutineScope()
+    val completed by repo.observeCompleted().collectAsStateWithLifecycle(initialValue = emptyList())
+    var pendingDelete by remember { mutableStateOf<Task?>(null) }
+
+    val toDelete = pendingDelete
+    if (toDelete != null) {
+        AlertDialog(
+            onDismissRequest = { pendingDelete = null },
+            title = { Text("Delete task?") },
+            text = { Text("\"${toDelete.taskName}\" will be deleted.") },
+            confirmButton = {
+                TextButton(
+                    onClick = {
+                        pendingDelete = null
+                        scope.launch {
+                            repo.deleteTask(toDelete.id)
+                            val r = snackbarHostState.showSnackbar(
+                                "Task deleted",
+                                actionLabel = "Undo"
+                            )
+                            if (r == SnackbarResult.ActionPerformed) {
+                                repo.restoreTask(toDelete.id)
+                            }
+                        }
+                    }
+                ) {
+                    Text("Delete", color = MaterialTheme.colorScheme.error)
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { pendingDelete = null }) { Text("Cancel") }
+            }
+        )
+    }
+
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp)
+    ) {
+        Text(
+            "Completed",
+            style = MaterialTheme.typography.headlineSmall,
+            fontWeight = FontWeight.Bold
+        )
+        Spacer(Modifier.height(12.dp))
+        if (completed.isEmpty()) {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(32.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center
+            ) {
+                Text("No completed tasks yet.", style = MaterialTheme.typography.titleMedium)
+                Spacer(Modifier.height(4.dp))
+                Text(
+                    "Finished tasks will show up here.",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.secondary
+                )
+            }
+        } else {
+            LazyColumn(
+                verticalArrangement = Arrangement.spacedBy(10.dp),
+                modifier = Modifier.fillMaxSize()
+            ) {
+                items(completed, key = { it.id }) { task ->
+                    TaskCard(
+                        task = task,
+                        onClick = { navController.navigate(Routes.taskDetail(task.id)) },
+                        onToggleComplete = {
+                            scope.launch { repo.reopenTask(task.id) }
+                        },
+                        onDelete = { pendingDelete = task }
+                    )
+                }
+            }
+        }
+    }
+}
