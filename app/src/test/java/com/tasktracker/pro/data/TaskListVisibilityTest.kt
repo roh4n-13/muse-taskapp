@@ -1,1 +1,39 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgVGFza0xpc3RWaXNpYmlsaXR5VGVzdCB7CgogICAgcHJpdmF0ZSBmdW4gdGFzayhpZDogU3RyaW5nLCBwcm9ncmVzczogU3RyaW5nID0gVGFzay5QUk9HUkVTU19OT1RfU1RBUlRFRCwgZGVsZXRlZDogQm9vbGVhbiA9IGZhbHNlKSA9CiAgICAgICAgVGFzayhpZCA9IGlkLCB0YXNrTmFtZSA9ICJUYXNrICRpZCIsIHByb2dyZXNzID0gcHJvZ3Jlc3MsIGRlbGV0ZWQgPSBkZWxldGVkKQoKICAgIEBUZXN0CiAgICBmdW4gY29tcGxldGVkVGFza3NBcmVOb3RJblRoZVRhc2tMaXN0KCkgewogICAgICAgIHZhbCB2aXNpYmxlID0gRGFzaGJvYXJkLnRhc2tMaXN0VmlzaWJsZSgKICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgdGFzaygicGVuZGluZyIpLAogICAgICAgICAgICAgICAgdGFzaygiZG9pbmciLCBUYXNrLlBST0dSRVNTX0lOX1BST0dSRVNTKSwKICAgICAgICAgICAgICAgIHRhc2soImRvbmUiLCBUYXNrLlBST0dSRVNTX0NPTVBMRVRFRCkKICAgICAgICAgICAgKQogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJwZW5kaW5nIiwgImRvaW5nIiksIHZpc2libGUubWFwIHsgaXQuaWQgfSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGRlbGV0ZWRUYXNrc0FyZU5vdEluVGhlVGFza0xpc3QoKSB7CiAgICAgICAgdmFsIHZpc2libGUgPSBEYXNoYm9hcmQudGFza0xpc3RWaXNpYmxlKAogICAgICAgICAgICBsaXN0T2YodGFzaygiYSIpLCB0YXNrKCJiIiwgZGVsZXRlZCA9IHRydWUpKQogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJhIiksIHZpc2libGUubWFwIHsgaXQuaWQgfSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGFsbENvbXBsZXRlZE1lYW5zRW1wdHlMaXN0KCkgewogICAgICAgIHZhbCB2aXNpYmxlID0gRGFzaGJvYXJkLnRhc2tMaXN0VmlzaWJsZSgKICAgICAgICAgICAgbGlzdE9mKHRhc2soImEiLCBUYXNrLlBST0dSRVNTX0NPTVBMRVRFRCksIHRhc2soImIiLCBUYXNrLlBST0dSRVNTX0NPTVBMRVRFRCkpCiAgICAgICAgKQogICAgICAgIGFzc2VydFRydWUodmlzaWJsZS5pc0VtcHR5KCkpCiAgICB9Cn0K
+package com.tasktracker.pro.data
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class TaskListVisibilityTest {
+
+    private fun task(id: String, progress: String = Task.PROGRESS_NOT_STARTED, deleted: Boolean = false) =
+        Task(id = id, taskName = "Task $id", progress = progress, deleted = deleted)
+
+    @Test
+    fun completedTasksAreNotInTheTaskList() {
+        val visible = Dashboard.taskListVisible(
+            listOf(
+                task("pending"),
+                task("doing", Task.PROGRESS_IN_PROGRESS),
+                task("done", Task.PROGRESS_COMPLETED)
+            )
+        )
+        assertEquals(listOf("pending", "doing"), visible.map { it.id })
+    }
+
+    @Test
+    fun deletedTasksAreNotInTheTaskList() {
+        val visible = Dashboard.taskListVisible(
+            listOf(task("a"), task("b", deleted = true))
+        )
+        assertEquals(listOf("a"), visible.map { it.id })
+    }
+
+    @Test
+    fun allCompletedMeansEmptyList() {
+        val visible = Dashboard.taskListVisible(
+            listOf(task("a", Task.PROGRESS_COMPLETED), task("b", Task.PROGRESS_COMPLETED))
+        )
+        assertTrue(visible.isEmpty())
+    }
+}
