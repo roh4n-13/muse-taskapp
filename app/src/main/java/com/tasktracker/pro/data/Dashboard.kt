@@ -1,1 +1,236 @@
-cGFja2FnZSBjb20udGFza3RyYWNrZXIucHJvLmRhdGEKCmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlCgovKioKICogUHVyZSBkb21haW4gbG9naWM6IGRhc2hib2FyZCBzdGF0aXN0aWNzLCBTbWFydCBOZXh0IEFjdGlvbiwgZGFpbHkgcmVwb3J0LAogKiBzZWFyY2gvZmlsdGVyL3NvcnQuIE5vIEFuZHJvaWQgZGVwZW5kZW5jaWVzIOKAlCBmdWxseSB1bml0LXRlc3RhYmxlLgogKi8Kb2JqZWN0IERhc2hib2FyZCB7CgogICAgZGF0YSBjbGFzcyBTdGF0cygKICAgICAgICB2YWwgdG90YWw6IEludCwKICAgICAgICB2YWwgcGVuZGluZzogSW50LAogICAgICAgIHZhbCBjb21wbGV0ZWQ6IEludCwKICAgICAgICB2YWwgb3ZlcmR1ZTogSW50LAogICAgICAgIHZhbCBkdWVUb2RheTogSW50LAogICAgICAgIC8qKiAwLi4xMDAsIHNhZmUgd2hlbiB0aGVyZSBhcmUgbm8gdGFza3MuICovCiAgICAgICAgdmFsIGNvbXBsZXRpb25QY3Q6IEludCwKICAgICAgICB2YWwgdXBjb21pbmc6IEludCwKICAgICAgICB2YWwgaGlnaFByaW9yaXR5UGVuZGluZzogSW50LAogICAgICAgIHZhbCBuZWVkc0F0dGVudGlvbjogSW50CiAgICApCgogICAgZnVuIGNvbXB1dGVTdGF0cyh0YXNrczogTGlzdDxUYXNrPiwgdG9kYXk6IExvY2FsRGF0ZSA9IERhdGVzLnRvZGF5KCkpOiBTdGF0cyB7CiAgICAgICAgdmFsIGFjdGl2ZSA9IHRhc2tzLmZpbHRlciB7ICFpdC5kZWxldGVkIH0KICAgICAgICB2YWwgY29tcGxldGVkID0gYWN0aXZlLmZpbHRlciB7IGl0LmlzQ29tcGxldGVkIH0KICAgICAgICB2YWwgcGVuZGluZyA9IGFjdGl2ZS5maWx0ZXIgeyAhaXQuaXNDb21wbGV0ZWQgfQogICAgICAgIHZhbCBvdmVyZHVlID0gcGVuZGluZy5maWx0ZXIgeyBEYXRlcy5pc092ZXJkdWUoaXQuZGVhZGxpbmUsIHRvZGF5KSB9CiAgICAgICAgdmFsIGR1ZVRvZGF5ID0gcGVuZGluZy5maWx0ZXIgeyBEYXRlcy5pc1RvZGF5KGl0LmRlYWRsaW5lLCB0b2RheSkgfQogICAgICAgIHZhbCB1cGNvbWluZyA9IHBlbmRpbmcuZmlsdGVyIHsgRGF0ZXMuaXNVcGNvbWluZyhpdC5kZWFkbGluZSwgdG9kYXkpICYmICFEYXRlcy5pc1RvZGF5KGl0LmRlYWRsaW5lLCB0b2RheSkgfQogICAgICAgIHZhbCBoaWdoUHJpb3JpdHkgPSBwZW5kaW5nLmZpbHRlciB7IGl0LnByaW9yaXR5ID09IFRhc2suUFJJT1JJVFlfSElHSCB9CiAgICAgICAgdmFsIG5lZWRzQXR0ZW50aW9uID0gcGVuZGluZy5maWx0ZXIgewogICAgICAgICAgICBEYXRlcy5pc092ZXJkdWUoaXQuZGVhZGxpbmUsIHRvZGF5KSB8fCBpdC5wcmlvcml0eSA9PSBUYXNrLlBSSU9SSVRZX0hJR0gKICAgICAgICB9CiAgICAgICAgdmFsIHBjdCA9IGlmIChhY3RpdmUuaXNFbXB0eSgpKSAwIGVsc2UgKGNvbXBsZXRlZC5zaXplICogMTAwIC8gYWN0aXZlLnNpemUpCiAgICAgICAgcmV0dXJuIFN0YXRzKAogICAgICAgICAgICB0b3RhbCA9IGFjdGl2ZS5zaXplLAogICAgICAgICAgICBwZW5kaW5nID0gcGVuZGluZy5zaXplLAogICAgICAgICAgICBjb21wbGV0ZWQgPSBjb21wbGV0ZWQuc2l6ZSwKICAgICAgICAgICAgb3ZlcmR1ZSA9IG92ZXJkdWUuc2l6ZSwKICAgICAgICAgICAgZHVlVG9kYXkgPSBkdWVUb2RheS5zaXplLAogICAgICAgICAgICBjb21wbGV0aW9uUGN0ID0gcGN0LAogICAgICAgICAgICB1cGNvbWluZyA9IHVwY29taW5nLnNpemUsCiAgICAgICAgICAgIGhpZ2hQcmlvcml0eVBlbmRpbmcgPSBoaWdoUHJpb3JpdHkuc2l6ZSwKICAgICAgICAgICAgbmVlZHNBdHRlbnRpb24gPSBuZWVkc0F0dGVudGlvbi5zaXplCiAgICAgICAgKQogICAgfQoKICAgIGRhdGEgY2xhc3MgTmV4dEFjdGlvbih2YWwgdGFzazogVGFzaywgdmFsIHJlYXNvbjogU3RyaW5nKQoKICAgIC8qKgogICAgICogRGV0ZXJtaW5pc3RpYyBydWxlLWJhc2VkIHJlY29tbWVuZGF0aW9uLiBQcmlvcml0eSBvcmRlcjoKICAgICAqIG92ZXJkdWUg4oaSIGhpZ2gtcHJpb3JpdHkgZHVlIHNvb24g4oaSIGR1ZSB0b2RheSDihpIgdXBjb21pbmcg4oaSIGFueSBvdGhlciBwZW5kaW5nLgogICAgICogTmV2ZXIgcmVjb21tZW5kcyBjb21wbGV0ZWQgb3IgZGVsZXRlZCB0YXNrcy4gTnVsbCB3aGVuIG5vdGhpbmcgaXMgcGVuZGluZy4KICAgICAqLwogICAgZnVuIHBpY2tOZXh0QWN0aW9uKHRhc2tzOiBMaXN0PFRhc2s+LCB0b2RheTogTG9jYWxEYXRlID0gRGF0ZXMudG9kYXkoKSk6IE5leHRBY3Rpb24/IHsKICAgICAgICB2YWwgcGVuZGluZyA9IHRhc2tzLmZpbHRlciB7ICFpdC5kZWxldGVkICYmICFpdC5pc0NvbXBsZXRlZCB9CiAgICAgICAgaWYgKHBlbmRpbmcuaXNFbXB0eSgpKSByZXR1cm4gbnVsbAoKICAgICAgICBmdW4gZWFybGllc3REZWFkbGluZShsaXN0OiBMaXN0PFRhc2s+KTogVGFzaz8gPQogICAgICAgICAgICBsaXN0Lm1pbldpdGhPck51bGwoCiAgICAgICAgICAgICAgICBjb21wYXJlQnkoeyBEYXRlcy5wYXJzZURhdGUoaXQuZGVhZGxpbmUpID86IExvY2FsRGF0ZS5NQVggfSwgeyBpdC50YXNrTmFtZSB9KQogICAgICAgICAgICApCgogICAgICAgIGVhcmxpZXN0RGVhZGxpbmUocGVuZGluZy5maWx0ZXIgeyBEYXRlcy5pc092ZXJkdWUoaXQuZGVhZGxpbmUsIHRvZGF5KSB9KT8ubGV0IHsKICAgICAgICAgICAgcmV0dXJuIE5leHRBY3Rpb24oaXQsICJUaGlzIHRhc2sgaXMgb3ZlcmR1ZSIgKyBwcmlvcml0eVN1ZmZpeChpdCkpCiAgICAgICAgfQogICAgICAgIGVhcmxpZXN0RGVhZGxpbmUoCiAgICAgICAgICAgIHBlbmRpbmcuZmlsdGVyIHsKICAgICAgICAgICAgICAgIGl0LnByaW9yaXR5ID09IFRhc2suUFJJT1JJVFlfSElHSCAmJiBEYXRlcy5pc1VwY29taW5nKGl0LmRlYWRsaW5lLCB0b2RheSkKICAgICAgICAgICAgfQogICAgICAgICk/LmxldCB7CiAgICAgICAgICAgIHJldHVybiBOZXh0QWN0aW9uKGl0LCAiSGlnaCBwcmlvcml0eSBhbmQgZHVlIHNvb24iICsgZHVlU3VmZml4KGl0LCB0b2RheSkpCiAgICAgICAgfQogICAgICAgIGVhcmxpZXN0RGVhZGxpbmUocGVuZGluZy5maWx0ZXIgeyBEYXRlcy5pc1RvZGF5KGl0LmRlYWRsaW5lLCB0b2RheSkgfSk/LmxldCB7CiAgICAgICAgICAgIHJldHVybiBOZXh0QWN0aW9uKGl0LCAiRHVlIHRvZGF5IiArIHByaW9yaXR5U3VmZml4KGl0KSkKICAgICAgICB9CiAgICAgICAgZWFybGllc3REZWFkbGluZShwZW5kaW5nLmZpbHRlciB7IERhdGVzLmlzVXBjb21pbmcoaXQuZGVhZGxpbmUsIHRvZGF5KSB9KT8ubGV0IHsKICAgICAgICAgICAgcmV0dXJuIE5leHRBY3Rpb24oaXQsICJDb21pbmcgdXAgc29vbiIgKyBkdWVTdWZmaXgoaXQsIHRvZGF5KSkKICAgICAgICB9CiAgICAgICAgZWFybGllc3REZWFkbGluZShwZW5kaW5nKT8ubGV0IHsKICAgICAgICAgICAgcmV0dXJuIE5leHRBY3Rpb24oaXQsICJPbGRlc3QgcGVuZGluZyB0YXNrIGJ5IGRlYWRsaW5lIiArIHByaW9yaXR5U3VmZml4KGl0KSkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIG51bGwKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwcmlvcml0eVN1ZmZpeCh0OiBUYXNrKTogU3RyaW5nID0KICAgICAgICBpZiAodC5wcmlvcml0eSA9PSBUYXNrLlBSSU9SSVRZX0hJR0gpICIgYW5kIG1hcmtlZCBIaWdoIFByaW9yaXR5LiIgZWxzZSAiLiIKCiAgICBwcml2YXRlIGZ1biBkdWVTdWZmaXgodDogVGFzaywgdG9kYXk6IExvY2FsRGF0ZSk6IFN0cmluZyB7CiAgICAgICAgdmFsIGQgPSBEYXRlcy5wYXJzZURhdGUodC5kZWFkbGluZSkgPzogcmV0dXJuICIuIgogICAgICAgIHJldHVybiAiIChkdWUgJHtEYXRlcy5mb3JtYXREYXRlRm9yRGlzcGxheSh0LmRlYWRsaW5lKX0pLiIKICAgIH0KCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tIHRhc2sgbGlzdCB2aXNpYmlsaXR5IC0tLS0tLS0tLS0tLS0tLS0KCiAgICAvKioKICAgICAqIFdoYXQgdGhlIG1haW4gVGFza3MgbGlzdCBzaG93czogcGVuZGluZyB3b3JrIG9ubHkuIENvbXBsZXRlZCB0YXNrcwogICAgICogbGl2ZSBleGNsdXNpdmVseSBpbiB0aGUgQ29tcGxldGVkIHZpZXcg4oCUIHRoZSBzYW1lIHNlcGFyYXRpb24gdGhlCiAgICAgKiBHb29nbGUgU2hlZXQgdXNlcyAoVGFza3MgdGFiIHZzIENvbXBsZXRlZCBUYXNrcyB0YWIpLgogICAgICovCiAgICBmdW4gdGFza0xpc3RWaXNpYmxlKHRhc2tzOiBMaXN0PFRhc2s+KTogTGlzdDxUYXNrPiA9CiAgICAgICAgdGFza3MuZmlsdGVyIHsgIWl0LmRlbGV0ZWQgJiYgIWl0LmlzQ29tcGxldGVkIH0KCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tIHNlYXJjaCAvIGZpbHRlciAvIHNvcnQgLS0tLS0tLS0tLS0tLS0tLQoKICAgIGVudW0gY2xhc3MgVGFza0ZpbHRlciB7IEFMTCwgUEVORElORywgQ09NUExFVEVELCBPVkVSRFVFLCBUT0RBWSwgVVBDT01JTkcsIEhJR0hfUFJJT1JJVFkgfQogICAgZW51bSBjbGFzcyBUYXNrU29ydCB7IERFQURMSU5FX0FTQywgUkVDRU5UTFlfVVBEQVRFRCwgTkFNRV9BU0MsIFBSSU9SSVRZX0ZJUlNUIH0KCiAgICBmdW4gZmlsdGVyQW5kU29ydCgKICAgICAgICB0YXNrczogTGlzdDxUYXNrPiwKICAgICAgICBxdWVyeTogU3RyaW5nID0gIiIsCiAgICAgICAgZmlsdGVyOiBUYXNrRmlsdGVyID0gVGFza0ZpbHRlci5BTEwsCiAgICAgICAgc29ydDogVGFza1NvcnQgPSBUYXNrU29ydC5ERUFETElORV9BU0MsCiAgICAgICAgdG9kYXk6IExvY2FsRGF0ZSA9IERhdGVzLnRvZGF5KCkKICAgICk6IExpc3Q8VGFzaz4gewogICAgICAgIHZhciBsaXN0ID0gdGFza3MuZmlsdGVyIHsgIWl0LmRlbGV0ZWQgfQogICAgICAgIGlmIChxdWVyeS5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgdmFsIHEgPSBxdWVyeS50cmltKCkubG93ZXJjYXNlKCkKICAgICAgICAgICAgbGlzdCA9IGxpc3QuZmlsdGVyIHsKICAgICAgICAgICAgICAgIGl0LnRhc2tOYW1lLmxvd2VyY2FzZSgpLmNvbnRhaW5zKHEpIHx8CiAgICAgICAgICAgICAgICAgICAgaXQubm90ZXMubG93ZXJjYXNlKCkuY29udGFpbnMocSkgfHwKICAgICAgICAgICAgICAgICAgICBpdC52ZW5kb3IubG93ZXJjYXNlKCkuY29udGFpbnMocSkgfHwKICAgICAgICAgICAgICAgICAgICBpdC50YXNrRm9jdXMubG93ZXJjYXNlKCkuY29udGFpbnMocSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBsaXN0ID0gd2hlbiAoZmlsdGVyKSB7CiAgICAgICAgICAgIFRhc2tGaWx0ZXIuQUxMIC0+IGxpc3QKICAgICAgICAgICAgVGFza0ZpbHRlci5QRU5ESU5HIC0+IGxpc3QuZmlsdGVyIHsgIWl0LmlzQ29tcGxldGVkIH0KICAgICAgICAgICAgVGFza0ZpbHRlci5DT01QTEVURUQgLT4gbGlzdC5maWx0ZXIgeyBpdC5pc0NvbXBsZXRlZCB9CiAgICAgICAgICAgIFRhc2tGaWx0ZXIuT1ZFUkRVRSAtPiBsaXN0LmZpbHRlciB7ICFpdC5pc0NvbXBsZXRlZCAmJiBEYXRlcy5pc092ZXJkdWUoaXQuZGVhZGxpbmUsIHRvZGF5KSB9CiAgICAgICAgICAgIFRhc2tGaWx0ZXIuVE9EQVkgLT4gbGlzdC5maWx0ZXIgeyAhaXQuaXNDb21wbGV0ZWQgJiYgRGF0ZXMuaXNUb2RheShpdC5kZWFkbGluZSwgdG9kYXkpIH0KICAgICAgICAgICAgVGFza0ZpbHRlci5VUENPTUlORyAtPiBsaXN0LmZpbHRlciB7ICFpdC5pc0NvbXBsZXRlZCAmJiBEYXRlcy5pc1VwY29taW5nKGl0LmRlYWRsaW5lLCB0b2RheSkgfQogICAgICAgICAgICBUYXNrRmlsdGVyLkhJR0hfUFJJT1JJVFkgLT4gbGlzdC5maWx0ZXIgeyAhaXQuaXNDb21wbGV0ZWQgJiYgaXQucHJpb3JpdHkgPT0gVGFzay5QUklPUklUWV9ISUdIIH0KICAgICAgICB9CiAgICAgICAgdmFsIHByaW9yaXR5UmFuayA9IG1hcE9mKFRhc2suUFJJT1JJVFlfSElHSCB0byAwLCBUYXNrLlBSSU9SSVRZX01FRElVTSB0byAxLCBUYXNrLlBSSU9SSVRZX0xPVyB0byAyLCAiIiB0byAzKQogICAgICAgIGxpc3QgPSB3aGVuIChzb3J0KSB7CiAgICAgICAgICAgIFRhc2tTb3J0LkRFQURMSU5FX0FTQyAtPiBsaXN0LnNvcnRlZFdpdGgoCiAgICAgICAgICAgICAgICBjb21wYXJlQnkoeyBEYXRlcy5wYXJzZURhdGUoaXQuZGVhZGxpbmUpID86IExvY2FsRGF0ZS5NQVggfSwgeyBpdC50YXNrTmFtZSB9KQogICAgICAgICAgICApCiAgICAgICAgICAgIFRhc2tTb3J0LlJFQ0VOVExZX1VQREFURUQgLT4gbGlzdC5zb3J0ZWRXaXRoIHsgYSwgYiAtPgogICAgICAgICAgICAgICAgLURhdGVzLmNvbXBhcmVMYXN0VXBkYXRlZChhLmxhc3RVcGRhdGVkLCBiLmxhc3RVcGRhdGVkKQogICAgICAgICAgICB9CiAgICAgICAgICAgIFRhc2tTb3J0Lk5BTUVfQVNDIC0+IGxpc3Quc29ydGVkQnkgeyBpdC50YXNrTmFtZS5sb3dlcmNhc2UoKSB9CiAgICAgICAgICAgIFRhc2tTb3J0LlBSSU9SSVRZX0ZJUlNUIC0+IGxpc3Quc29ydGVkV2l0aCgKICAgICAgICAgICAgICAgIGNvbXBhcmVCeSh7IHByaW9yaXR5UmFua1tpdC5wcmlvcml0eV0gPzogMyB9LAogICAgICAgICAgICAgICAgICAgIHsgRGF0ZXMucGFyc2VEYXRlKGl0LmRlYWRsaW5lKSA/OiBMb2NhbERhdGUuTUFYIH0pCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGxpc3QKICAgIH0KCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tIGRhaWx5IHJlcG9ydCAtLS0tLS0tLS0tLS0tLS0tCgogICAgZGF0YSBjbGFzcyBEYWlseVJlcG9ydCgKICAgICAgICB2YWwgZGF0ZTogTG9jYWxEYXRlLAogICAgICAgIHZhbCBzdGF0czogU3RhdHMsCiAgICAgICAgdmFsIGNvbXBsZXRlZFRvZGF5OiBMaXN0PFRhc2s+LAogICAgICAgIHZhbCBwZW5kaW5nSW1wb3J0YW50OiBMaXN0PFRhc2s+LAogICAgICAgIHZhbCBvdmVyZHVlOiBMaXN0PFRhc2s+LAogICAgICAgIHZhbCBkdWVUb2RheTogTGlzdDxUYXNrPiwKICAgICAgICB2YWwgY29zdHM6IENvc3RzLkNvc3RTdW1tYXJ5CiAgICApCgogICAgZnVuIGJ1aWxkRGFpbHlSZXBvcnQodGFza3M6IExpc3Q8VGFzaz4sIGRhdGU6IExvY2FsRGF0ZSA9IERhdGVzLnRvZGF5KCkpOiBEYWlseVJlcG9ydCB7CiAgICAgICAgdmFsIHN0YXRzID0gY29tcHV0ZVN0YXRzKHRhc2tzLCBkYXRlKQogICAgICAgIHZhbCBhY3RpdmUgPSB0YXNrcy5maWx0ZXIgeyAhaXQuZGVsZXRlZCB9CiAgICAgICAgdmFsIGNvbXBsZXRlZFRvZGF5ID0gYWN0aXZlLmZpbHRlciB7CiAgICAgICAgICAgIGl0LmlzQ29tcGxldGVkICYmIERhdGVzLnBhcnNlRGF0ZVRpbWUoaXQudGFza0NvbXBsZXRlZCk/LnRvTG9jYWxEYXRlKCkgPT0gZGF0ZQogICAgICAgIH0KICAgICAgICB2YWwgcGVuZGluZ0ltcG9ydGFudCA9IGFjdGl2ZQogICAgICAgICAgICAuZmlsdGVyIHsgIWl0LmlzQ29tcGxldGVkICYmIChpdC5wcmlvcml0eSA9PSBUYXNrLlBSSU9SSVRZX0hJR0ggfHwgRGF0ZXMuaXNPdmVyZHVlKGl0LmRlYWRsaW5lLCBkYXRlKSkgfQogICAgICAgICAgICAuc29ydGVkV2l0aChjb21wYXJlQnkoeyBEYXRlcy5wYXJzZURhdGUoaXQuZGVhZGxpbmUpID86IExvY2FsRGF0ZS5NQVggfSkpCiAgICAgICAgICAgIC50YWtlKDEwKQogICAgICAgIHZhbCBvdmVyZHVlID0gYWN0aXZlLmZpbHRlciB7ICFpdC5pc0NvbXBsZXRlZCAmJiBEYXRlcy5pc092ZXJkdWUoaXQuZGVhZGxpbmUsIGRhdGUpIH0KICAgICAgICB2YWwgZHVlVG9kYXkgPSBhY3RpdmUuZmlsdGVyIHsgIWl0LmlzQ29tcGxldGVkICYmIERhdGVzLmlzVG9kYXkoaXQuZGVhZGxpbmUsIGRhdGUpIH0KICAgICAgICByZXR1cm4gRGFpbHlSZXBvcnQoZGF0ZSwgc3RhdHMsIGNvbXBsZXRlZFRvZGF5LCBwZW5kaW5nSW1wb3J0YW50LCBvdmVyZHVlLCBkdWVUb2RheSwgQ29zdHMuc3VtbWFyaXplKHRhc2tzKSkKICAgIH0KCiAgICBmdW4gZm9ybWF0RGFpbHlSZXBvcnQocmVwb3J0OiBEYWlseVJlcG9ydCwgYXBwTmFtZTogU3RyaW5nID0gIlRhc2sgVHJhY2tlciBQcm8iKTogU3RyaW5nIHsKICAgICAgICB2YWwgcyA9IHJlcG9ydC5zdGF0cwogICAgICAgIHZhbCBzYiA9IFN0cmluZ0J1aWxkZXIoKQogICAgICAgIHNiLmFwcGVuZExpbmUoIiRhcHBOYW1lIOKAlCBEYWlseSBSZXBvcnQiKQogICAgICAgIHNiLmFwcGVuZExpbmUocmVwb3J0LmRhdGUuZm9ybWF0KGphdmEudGltZS5mb3JtYXQuRGF0ZVRpbWVGb3JtYXR0ZXIub2ZQYXR0ZXJuKCJFRUVFLCBkZCBNTU0geXl5eSIpKSkKICAgICAgICBzYi5hcHBlbmRMaW5lKCLilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAiKQogICAgICAgIHNiLmFwcGVuZExpbmUoIlRvdGFsOiAke3MudG90YWx9IHwgQ29tcGxldGVkOiAke3MuY29tcGxldGVkfSB8IFBlbmRpbmc6ICR7cy5wZW5kaW5nfSIpCiAgICAgICAgc2IuYXBwZW5kTGluZSgiT3ZlcmR1ZTogJHtzLm92ZXJkdWV9IHwgRHVlIHRvZGF5OiAke3MuZHVlVG9kYXl9IHwgRG9uZTogJHtzLmNvbXBsZXRpb25QY3R9JSIpCiAgICAgICAgaWYgKHJlcG9ydC5jb21wbGV0ZWRUb2RheS5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgc2IuYXBwZW5kTGluZSgpCiAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIuKchSBDb21wbGV0ZWQgdG9kYXk6IikKICAgICAgICAgICAgcmVwb3J0LmNvbXBsZXRlZFRvZGF5LmZvckVhY2ggeyBzYi5hcHBlbmRMaW5lKCLigKIgJHtpdC50YXNrTmFtZX0iKSB9CiAgICAgICAgfQogICAgICAgIGlmIChyZXBvcnQub3ZlcmR1ZS5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgc2IuYXBwZW5kTGluZSgpCiAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIuKaoO+4jyBPdmVyZHVlOiIpCiAgICAgICAgICAgIHJlcG9ydC5vdmVyZHVlLmZvckVhY2ggeyBzYi5hcHBlbmRMaW5lKCLigKIgJHtpdC50YXNrTmFtZX0gKHdhcyBkdWUgJHtpdC5kZWFkbGluZX0pIikgfQogICAgICAgIH0KICAgICAgICBpZiAocmVwb3J0LmR1ZVRvZGF5LmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBzYi5hcHBlbmRMaW5lKCkKICAgICAgICAgICAgc2IuYXBwZW5kTGluZSgi8J+TjCBEdWUgdG9kYXk6IikKICAgICAgICAgICAgcmVwb3J0LmR1ZVRvZGF5LmZvckVhY2ggeyBzYi5hcHBlbmRMaW5lKCLigKIgJHtpdC50YXNrTmFtZX0iKSB9CiAgICAgICAgfQogICAgICAgIGlmIChyZXBvcnQucGVuZGluZ0ltcG9ydGFudC5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgc2IuYXBwZW5kTGluZSgpCiAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIvCflKUgTmVlZHMgYXR0ZW50aW9uOiIpCiAgICAgICAgICAgIHJlcG9ydC5wZW5kaW5nSW1wb3J0YW50LmZvckVhY2ggeyBzYi5hcHBlbmRMaW5lKCLigKIgJHtpdC50YXNrTmFtZX0iKSB9CiAgICAgICAgfQogICAgICAgIGlmIChyZXBvcnQuY29zdHMuaGFzTW9uZXkpIHsKICAgICAgICAgICAgdmFsIGMgPSByZXBvcnQuY29zdHMKICAgICAgICAgICAgc2IuYXBwZW5kTGluZSgpCiAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIvCfkrAgS2hhcmNoYSAoTW9uZXkpOiIpCiAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIuKAoiBFc3RpbWF0ZWQgdG90YWw6ICR7Q29zdHMuZm9ybWF0SW5yKGMudG90YWxFc3RpbWF0ZWRJbnIpfSIpCiAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIuKAoiBBY3R1YWwgdG90YWw6ICR7Q29zdHMuZm9ybWF0SW5yKGMudG90YWxBY3R1YWxJbnIpfSIpCiAgICAgICAgICAgIGlmIChjLmFtb3VudER1ZUluciA+IDApIHsKICAgICAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIuKAoiBBbW91bnQgZHVlOiAke0Nvc3RzLmZvcm1hdElucihjLmFtb3VudER1ZUlucil9ICgke2MucGVuZGluZ1BheW1lbnRUYXNrc30gdGFzayhzKSBwZW5kaW5nIHBheW1lbnQpIikKICAgICAgICAgICAgICAgIGMudmVuZG9yRHVlcy50YWtlKDUpLmZvckVhY2ggeyB2IC0+CiAgICAgICAgICAgICAgICAgICAgc2IuYXBwZW5kTGluZSgiICDigJMgJHt2LnZlbmRvcn06ICR7Q29zdHMuZm9ybWF0SW5yKHYuZHVlSW5yKX0gKCR7di5wZW5kaW5nVGFza3N9IHRhc2socykpIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIuKAoiBBbW91bnQgZHVlOiDigrkwIOKAlCBhbGwgcGF5bWVudHMgY2xlYXIg8J+OiSIpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgaWYgKHMudG90YWwgPT0gMCkgc2IuYXBwZW5kTGluZSgiXG5ObyB0YXNrcyB5ZXQuIEFkZCB5b3VyIGZpcnN0IHRhc2sgdG8gZ2V0IHN0YXJ0ZWQhIikKICAgICAgICBzYi5hcHBlbmRMaW5lKCkKICAgICAgICBzYi5hcHBlbmQoc3VtbWFyeUxpbmUocykpCiAgICAgICAgcmV0dXJuIHNiLnRvU3RyaW5nKCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBzdW1tYXJ5TGluZShzOiBTdGF0cyk6IFN0cmluZyA9IHdoZW4gewogICAgICAgIHMudG90YWwgPT0gMCAtPiAiQSBmcmVzaCBzdGFydCDigJQgZXZlcnkgZmluaXNoZWQgdGFzayBiZWdpbnMgd2l0aCBvbmUgdGFwLiIKICAgICAgICBzLm92ZXJkdWUgPiAwIC0+ICJGb2N1cyBvbiB0aGUgJHtzLm92ZXJkdWV9IG92ZXJkdWUgdGFzayhzKSBmaXJzdCDigJQgc21hbGwgd2lucyBidWlsZCBtb21lbnR1bS4iCiAgICAgICAgcy5wZW5kaW5nID09IDAgLT4gIkFsbCBjbGVhciEgRXZlcnl0aGluZyBpcyBkb25lLiDwn46JIgogICAgICAgIHMuY29tcGxldGlvblBjdCA+PSA3NSAtPiAiU3Ryb25nIHByb2dyZXNzIGF0ICR7cy5jb21wbGV0aW9uUGN0fSUg4oCUIGZpbmlzaCB0aGUgbGFzdCBmZXcuIgogICAgICAgIGVsc2UgLT4gIiR7cy5wZW5kaW5nfSB0YXNrKHMpIHBlbmRpbmcuIFBpY2sgb25lIGFuZCBzdGFydC4iCiAgICB9Cn0K
+package com.tasktracker.pro.data
+
+import java.time.LocalDate
+
+/**
+ * Pure domain logic: dashboard statistics, Smart Next Action, daily report,
+ * search/filter/sort. No Android dependencies — fully unit-testable.
+ */
+object Dashboard {
+
+    data class Stats(
+        val total: Int,
+        val pending: Int,
+        val completed: Int,
+        val overdue: Int,
+        val dueToday: Int,
+        /** 0..100, safe when there are no tasks. */
+        val completionPct: Int,
+        val upcoming: Int,
+        val highPriorityPending: Int,
+        val needsAttention: Int
+    )
+
+    fun computeStats(tasks: List<Task>, today: LocalDate = Dates.today()): Stats {
+        val active = tasks.filter { !it.deleted }
+        val completed = active.filter { it.isCompleted }
+        val pending = active.filter { !it.isCompleted }
+        val overdue = pending.filter { Dates.isOverdue(it.deadline, today) }
+        val dueToday = pending.filter { Dates.isToday(it.deadline, today) }
+        val upcoming = pending.filter { Dates.isUpcoming(it.deadline, today) && !Dates.isToday(it.deadline, today) }
+        val highPriority = pending.filter { it.priority == Task.PRIORITY_HIGH }
+        val needsAttention = pending.filter {
+            Dates.isOverdue(it.deadline, today) || it.priority == Task.PRIORITY_HIGH
+        }
+        val pct = if (active.isEmpty()) 0 else (completed.size * 100 / active.size)
+        return Stats(
+            total = active.size,
+            pending = pending.size,
+            completed = completed.size,
+            overdue = overdue.size,
+            dueToday = dueToday.size,
+            completionPct = pct,
+            upcoming = upcoming.size,
+            highPriorityPending = highPriority.size,
+            needsAttention = needsAttention.size
+        )
+    }
+
+    data class NextAction(val task: Task, val reason: String)
+
+    /**
+     * Deterministic rule-based recommendation. Priority order:
+     * overdue → high-priority due soon → due today → upcoming → any other pending.
+     * Never recommends completed or deleted tasks. Null when nothing is pending.
+     */
+    fun pickNextAction(tasks: List<Task>, today: LocalDate = Dates.today()): NextAction? {
+        val pending = tasks.filter { !it.deleted && !it.isCompleted }
+        if (pending.isEmpty()) return null
+
+        fun earliestDeadline(list: List<Task>): Task? =
+            list.minWithOrNull(
+                compareBy({ Dates.parseDate(it.deadline) ?: LocalDate.MAX }, { it.taskName })
+            )
+
+        earliestDeadline(pending.filter { Dates.isOverdue(it.deadline, today) })?.let {
+            return NextAction(it, "This task is overdue" + prioritySuffix(it))
+        }
+        earliestDeadline(
+            pending.filter {
+                it.priority == Task.PRIORITY_HIGH && Dates.isUpcoming(it.deadline, today)
+            }
+        )?.let {
+            return NextAction(it, "High priority and due soon" + dueSuffix(it, today))
+        }
+        earliestDeadline(pending.filter { Dates.isToday(it.deadline, today) })?.let {
+            return NextAction(it, "Due today" + prioritySuffix(it))
+        }
+        earliestDeadline(pending.filter { Dates.isUpcoming(it.deadline, today) })?.let {
+            return NextAction(it, "Coming up soon" + dueSuffix(it, today))
+        }
+        earliestDeadline(pending)?.let {
+            return NextAction(it, "Oldest pending task by deadline" + prioritySuffix(it))
+        }
+        return null
+    }
+
+    private fun prioritySuffix(t: Task): String =
+        if (t.priority == Task.PRIORITY_HIGH) " and marked High Priority." else "."
+
+    private fun dueSuffix(t: Task, today: LocalDate): String {
+        val d = Dates.parseDate(t.deadline) ?: return "."
+        return " (due ${Dates.formatDateForDisplay(t.deadline)})."
+    }
+
+    // ---------------- task list visibility ----------------
+
+    /**
+     * What the main Tasks list shows: pending work only. Completed tasks
+     * live exclusively in the Completed view — the same separation the
+     * Google Sheet uses (Tasks tab vs Completed Tasks tab).
+     */
+    fun taskListVisible(tasks: List<Task>): List<Task> =
+        tasks.filter { !it.deleted && !it.isCompleted }
+
+    // ---------------- search / filter / sort ----------------
+
+    enum class TaskFilter { ALL, PENDING, COMPLETED, OVERDUE, TODAY, UPCOMING, HIGH_PRIORITY }
+    enum class TaskSort { DEADLINE_ASC, RECENTLY_UPDATED, NAME_ASC, PRIORITY_FIRST }
+
+    fun filterAndSort(
+        tasks: List<Task>,
+        query: String = "",
+        filter: TaskFilter = TaskFilter.ALL,
+        sort: TaskSort = TaskSort.DEADLINE_ASC,
+        today: LocalDate = Dates.today()
+    ): List<Task> {
+        var list = tasks.filter { !it.deleted }
+        if (query.isNotBlank()) {
+            val q = query.trim().lowercase()
+            list = list.filter {
+                it.taskName.lowercase().contains(q) ||
+                    it.notes.lowercase().contains(q) ||
+                    it.vendor.lowercase().contains(q) ||
+                    it.taskFocus.lowercase().contains(q)
+            }
+        }
+        list = when (filter) {
+            TaskFilter.ALL -> list
+            TaskFilter.PENDING -> list.filter { !it.isCompleted }
+            TaskFilter.COMPLETED -> list.filter { it.isCompleted }
+            TaskFilter.OVERDUE -> list.filter { !it.isCompleted && Dates.isOverdue(it.deadline, today) }
+            TaskFilter.TODAY -> list.filter { !it.isCompleted && Dates.isToday(it.deadline, today) }
+            TaskFilter.UPCOMING -> list.filter { !it.isCompleted && Dates.isUpcoming(it.deadline, today) }
+            TaskFilter.HIGH_PRIORITY -> list.filter { !it.isCompleted && it.priority == Task.PRIORITY_HIGH }
+        }
+        val priorityRank = mapOf(Task.PRIORITY_HIGH to 0, Task.PRIORITY_MEDIUM to 1, Task.PRIORITY_LOW to 2, "" to 3)
+        list = when (sort) {
+            TaskSort.DEADLINE_ASC -> list.sortedWith(
+                compareBy({ Dates.parseDate(it.deadline) ?: LocalDate.MAX }, { it.taskName })
+            )
+            TaskSort.RECENTLY_UPDATED -> list.sortedWith { a, b ->
+                -Dates.compareLastUpdated(a.lastUpdated, b.lastUpdated)
+            }
+            TaskSort.NAME_ASC -> list.sortedBy { it.taskName.lowercase() }
+            TaskSort.PRIORITY_FIRST -> list.sortedWith(
+                compareBy({ priorityRank[it.priority] ?: 3 },
+                    { Dates.parseDate(it.deadline) ?: LocalDate.MAX })
+            )
+        }
+        return list
+    }
+
+    // ---------------- daily report ----------------
+
+    data class DailyReport(
+        val date: LocalDate,
+        val stats: Stats,
+        val completedToday: List<Task>,
+        val pendingImportant: List<Task>,
+        val overdue: List<Task>,
+        val dueToday: List<Task>,
+        val costs: Costs.CostSummary
+    )
+
+    fun buildDailyReport(tasks: List<Task>, date: LocalDate = Dates.today()): DailyReport {
+        val stats = computeStats(tasks, date)
+        val active = tasks.filter { !it.deleted }
+        val completedToday = active.filter {
+            it.isCompleted && Dates.parseDateTime(it.taskCompleted)?.toLocalDate() == date
+        }
+        val pendingImportant = active
+            .filter { !it.isCompleted && (it.priority == Task.PRIORITY_HIGH || Dates.isOverdue(it.deadline, date)) }
+            .sortedWith(compareBy({ Dates.parseDate(it.deadline) ?: LocalDate.MAX }))
+            .take(10)
+        val overdue = active.filter { !it.isCompleted && Dates.isOverdue(it.deadline, date) }
+        val dueToday = active.filter { !it.isCompleted && Dates.isToday(it.deadline, date) }
+        return DailyReport(date, stats, completedToday, pendingImportant, overdue, dueToday, Costs.summarize(tasks))
+    }
+
+    fun formatDailyReport(report: DailyReport, appName: String = "Task Tracker Pro"): String {
+        val s = report.stats
+        val sb = StringBuilder()
+        sb.appendLine("$appName — Daily Report")
+        sb.appendLine(report.date.format(java.time.format.DateTimeFormatter.ofPattern("EEEE, dd MMM yyyy")))
+        sb.appendLine("────────────────────")
+        sb.appendLine("Total: ${s.total} | Completed: ${s.completed} | Pending: ${s.pending}")
+        sb.appendLine("Overdue: ${s.overdue} | Due today: ${s.dueToday} | Done: ${s.completionPct}%")
+        if (report.completedToday.isNotEmpty()) {
+            sb.appendLine()
+            sb.appendLine("✅ Completed today:")
+            report.completedToday.forEach { sb.appendLine("• ${it.taskName}") }
+        }
+        if (report.overdue.isNotEmpty()) {
+            sb.appendLine()
+            sb.appendLine("⚠️ Overdue:")
+            report.overdue.forEach { sb.appendLine("• ${it.taskName} (was due ${it.deadline})") }
+        }
+        if (report.dueToday.isNotEmpty()) {
+            sb.appendLine()
+            sb.appendLine("📌 Due today:")
+            report.dueToday.forEach { sb.appendLine("• ${it.taskName}") }
+        }
+        if (report.pendingImportant.isNotEmpty()) {
+            sb.appendLine()
+            sb.appendLine("🔥 Needs attention:")
+            report.pendingImportant.forEach { sb.appendLine("• ${it.taskName}") }
+        }
+        if (report.costs.hasMoney) {
+            val c = report.costs
+            sb.appendLine()
+            sb.appendLine("💰 Kharcha (Money):")
+            sb.appendLine("• Estimated total: ${Costs.formatInr(c.totalEstimatedInr)}")
+            sb.appendLine("• Actual total: ${Costs.formatInr(c.totalActualInr)}")
+            if (c.amountDueInr > 0) {
+                sb.appendLine("• Amount due: ${Costs.formatInr(c.amountDueInr)} (${c.pendingPaymentTasks} task(s) pending payment)")
+                c.vendorDues.take(5).forEach { v ->
+                    sb.appendLine("  – ${v.vendor}: ${Costs.formatInr(v.dueInr)} (${v.pendingTasks} task(s))")
+                }
+            } else {
+                sb.appendLine("• Amount due: ₹0 — all payments clear 🎉")
+            }
+        }
+        if (s.total == 0) sb.appendLine("\nNo tasks yet. Add your first task to get started!")
+        sb.appendLine()
+        sb.append(summaryLine(s))
+        return sb.toString()
+    }
+
+    private fun summaryLine(s: Stats): String = when {
+        s.total == 0 -> "A fresh start — every finished task begins with one tap."
+        s.overdue > 0 -> "Focus on the ${s.overdue} overdue task(s) first — small wins build momentum."
+        s.pending == 0 -> "All clear! Everything is done. 🎉"
+        s.completionPct >= 75 -> "Strong progress at ${s.completionPct}% — finish the last few."
+        else -> "${s.pending} task(s) pending. Pick one and start."
+    }
+}
